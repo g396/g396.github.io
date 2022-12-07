@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Android</title>
+      <link>https://razl-dazl.github.io/tags/android/</link>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://razl-dazl.github.io/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>音ゲー</title>
       <link>https://razl-dazl.github.io/tags/%E9%9F%B3%E3%82%B2%E3%83%BC/</link>
       <pubDate>Wed, 16 Nov 2022 15:30:00 +0900</pubDate>
@@ -49,29 +58,11 @@
     </item>
     
     <item>
-      <title>JUnit</title>
-      <link>https://razl-dazl.github.io/tags/junit/</link>
-      <pubDate>Mon, 27 Jun 2022 19:00:00 +0900</pubDate>
-      
-      <guid>https://razl-dazl.github.io/tags/junit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Kotlin</title>
       <link>https://razl-dazl.github.io/tags/kotlin/</link>
       <pubDate>Mon, 27 Jun 2022 19:00:00 +0900</pubDate>
       
       <guid>https://razl-dazl.github.io/tags/kotlin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>macOS</title>
-      <link>https://razl-dazl.github.io/tags/macos/</link>
-      <pubDate>Fri, 18 Feb 2022 00:00:30 +0900</pubDate>
-      
-      <guid>https://razl-dazl.github.io/tags/macos/</guid>
       <description></description>
     </item>
     
@@ -112,47 +103,11 @@
     </item>
     
     <item>
-      <title>Exiftool</title>
-      <link>https://razl-dazl.github.io/tags/exiftool/</link>
+      <title>others</title>
+      <link>https://razl-dazl.github.io/tags/others/</link>
       <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/tags/exiftool/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Android</title>
-      <link>https://razl-dazl.github.io/tags/android/</link>
-      <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://razl-dazl.github.io/tags/android/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Syncthing</title>
-      <link>https://razl-dazl.github.io/tags/syncthing/</link>
-      <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://razl-dazl.github.io/tags/syncthing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nextbit robin</title>
-      <link>https://razl-dazl.github.io/tags/nextbit-robin/</link>
-      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://razl-dazl.github.io/tags/nextbit-robin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xperia</title>
-      <link>https://razl-dazl.github.io/tags/xperia/</link>
-      <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://razl-dazl.github.io/tags/xperia/</guid>
+      <guid>https://razl-dazl.github.io/tags/others/</guid>
       <description></description>
     </item>
     

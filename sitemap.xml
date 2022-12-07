@@ -28,6 +28,11 @@
   </url>
   
   <url>
+    <loc>https://razl-dazl.github.io/tags/android/</loc>
+    <lastmod>2022-12-06T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://razl-dazl.github.io/posts/2022/12/github-pages-from-android/</loc>
     <lastmod>2022-12-06T00:00:00+09:00</lastmod>
   </url>
@@ -68,11 +73,6 @@
   </url>
   
   <url>
-    <loc>https://razl-dazl.github.io/tags/junit/</loc>
-    <lastmod>2022-06-27T19:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://razl-dazl.github.io/posts/2022/06/kclass/</loc>
     <lastmod>2022-06-27T19:00:00+09:00</lastmod>
   </url>
@@ -84,11 +84,6 @@
   
   <url>
     <loc>https://razl-dazl.github.io/posts/2022/02/mac-fusion-drive/</loc>
-    <lastmod>2022-02-18T00:00:30+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://razl-dazl.github.io/tags/macos/</loc>
     <lastmod>2022-02-18T00:00:30+09:00</lastmod>
   </url>
   
@@ -148,23 +143,13 @@
   </url>
   
   <url>
-    <loc>https://razl-dazl.github.io/tags/exiftool/</loc>
-    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://razl-dazl.github.io/posts/2020/12/exiftool/</loc>
     <lastmod>2020-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://razl-dazl.github.io/tags/android/</loc>
-    <lastmod>2020-08-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://razl-dazl.github.io/tags/syncthing/</loc>
-    <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+    <loc>https://razl-dazl.github.io/tags/others/</loc>
+    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -178,18 +163,8 @@
   </url>
   
   <url>
-    <loc>https://razl-dazl.github.io/tags/nextbit-robin/</loc>
-    <lastmod>2019-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://razl-dazl.github.io/posts/2019/03/nextbit-robin-pie/</loc>
     <lastmod>2019-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://razl-dazl.github.io/tags/xperia/</loc>
-    <lastmod>2019-02-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>

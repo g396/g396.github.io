@@ -31,6 +31,16 @@
     </item>
     
     <item>
+      <title>macOSで音源付きの録画を行う</title>
+      <link>https://razl-dazl.github.io/posts/2022/02/mac-rec/</link>
+      <pubDate>Sat, 05 Feb 2022 21:00:00 +0900</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2022/02/mac-rec/</guid>
+      <description>&lt;p&gt;Macで画面を録画する際に、音も含めて行う方法についてのメモです&lt;/p&gt;
+&lt;p&gt;ググっても情報が古いものが出てきたりするのですが、今回はM1搭載Mac miniで動作確認済みです&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>macOS同士のデュアルブート</title>
       <link>https://razl-dazl.github.io/posts/2021/09/mac-dualboot/</link>
       <pubDate>Wed, 08 Sep 2021 00:00:00 +0000</pubDate>
