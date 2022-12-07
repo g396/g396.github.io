@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Razl-Dazl</title>
+    <link>https://razl-dazl.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on Razl-Dazl</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>razl-dazl.github.io</copyright>
+    <lastBuildDate>Wed, 07 Dec 2022 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://razl-dazl.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugoでの画像サイズ調整</title>
+      <link>https://razl-dazl.github.io/posts/2022/12/hugo-image-size/</link>
+      <pubDate>Wed, 07 Dec 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2022/12/hugo-image-size/</guid>
+      <description>&lt;p&gt;基本的な要素の割にかなり悩んだやつです&lt;/p&gt;
+&lt;p&gt;Markdownの記法では画像サイズの指定が出来ないので解決策を考える必要がありました&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Android端末からGitHub Pagesを更新してみる</title>
+      <link>https://razl-dazl.github.io/posts/2022/12/github-pages-from-android/</link>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2022/12/github-pages-from-android/</guid>
+      <description>&lt;p&gt;TermuxでHugoが動くことに気づいたので、じゃあ理論上GitHub Pagesの更新もできるかと思って試してみました&lt;/p&gt;
+&lt;p&gt;ちなみに、この記事も実際にAndroid端末上から更新しています&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;まあ後からPCで修正しましたけど&lt;/del&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>HugoでPage Bundleに準じた構成にしたら画像が表示されなくて困った</title>
+      <link>https://razl-dazl.github.io/posts/2022/11/hugo-page-bundle/</link>
+      <pubDate>Sun, 27 Nov 2022 22:30:00 +0900</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2022/11/hugo-page-bundle/</guid>
+      <description>&lt;p&gt;記事更新のモチベを上げる為、ファイルの階層構造を整理してPage Bundleに準ずるように変更しました&lt;/p&gt;
+&lt;p&gt;その後、記事内の画像が何故かリンク切れになってしまい表示されなくなりました&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugoで文章を中央に寄せる方法</title>
+      <link>https://razl-dazl.github.io/posts/2021/12/hugo-text-centering/</link>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 +0900</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2021/12/hugo-text-centering/</guid>
+      <description>&lt;p&gt;結局Hugoでサイトを生成することにしたのですが、文章を中央揃えにする際に少し手間取ったので、メモを残しておきます&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

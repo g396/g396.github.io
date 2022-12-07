@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>VRChatの不具合はIPv6を無効にすれば全部消える説 - Razl-Dazl</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="VRChatの不具合はIPv6を無効にすれば全部消える説" />
+<meta property="og:description" content="VRChatの動作があまりにも不安定で狂いそうになったのですがタイトルの通りの対処法ですべて直ったという話です
+・・・と、方法に関しては一言で済ませることができるのですが、経緯やエラーのケースについても書いておこうかなと思います" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://razl-dazl.github.io/posts/2022/08/vrchat-ipv6/" />
+<meta property="og:image" content="https://razl-dazl.github.io/posts/2022/08/vrchat-ipv6/thumbnail.jpg"/>
+<meta property="article:published_time" content="2022-08-02T15:00:00+09:00" />
+<meta property="article:modified_time" content="2022-08-02T15:00:00+09:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://razl-dazl.github.io/posts/2022/08/vrchat-ipv6/thumbnail.jpg"/>
+<meta name="twitter:title" content="VRChatの不具合はIPv6を無効にすれば全部消える説"/>
+<meta name="twitter:description" content="VRChatの動作があまりにも不安定で狂いそうになったのですがタイトルの通りの対処法ですべて直ったという話です
+・・・と、方法に関しては一言で済ませることができるのですが、経緯やエラーのケースについても書いておこうかなと思います"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Raleway:wght@100;200&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://razl-dazl.github.io/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://razl-dazl.github.io/css/main.css" />
+
+	
+	<script src="https://razl-dazl.github.io/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	
+	<h1 class="site-title"><a href="https://razl-dazl.github.io/">Razl-Dazl</a></h1>
+	<div class="site-description"><nav class="nav social">
+			<ul class="flat"></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">home</a>
+			</li>
+			
+			<li>
+				<a href="/tags/">tags</a>
+			</li>
+			
+			<li>
+				<a href="/posts/">all posts</a>
+			</li>
+			
+			<li>
+				<a href="/about/">about</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			
+			<div class="eyecatch">
+				<img src="thumbnail.jpg">
+				
+				<div class = "eyecatch-credit">Copyright © 2022 VRChat Inc.</div>
+				
+			</div>
+			
+			<h1 class="title">VRChatの不具合はIPv6を無効にすれば全部消える説</h1>
+			<div class="meta">Posted at &mdash; Aug 2, 2022</div>
+		</div>
+
+		<div class="markdown">
+			<p>VRChatの動作があまりにも不安定で狂いそうになったのですがタイトルの通りの対処法ですべて直ったという話です</p>
+<p>・・・と、方法に関しては一言で済ませることができるのですが、経緯やエラーのケースについても書いておこうかなと思います</p>
+<hr>
+<h2 id="経緯">経緯</h2>
+<p>ログインの時に正しいパスワードを入力してもエラーが起きるくらい、VRCの動作が不安定という地獄</p>
+<p>↓</p>
+<p>遅延を減らすために一時的に有線接続にしてみる</p>
+<p>↓</p>
+<p>何故かGoogleすら開けなくなる</p>
+<p>↓</p>
+<p>コマンドプロンプトで<code>arp -a</code>したらルータは見えていた</p>
+<p>↓</p>
+<p>ブラウザで192.168.1.1にアクセスしてルータの設定をいじってみる</p>
+<p>↓</p>
+<p>IPv6を無効にするよう設定にしたらちゃんとGoogleにつながるようになる、VRCの不安定さも嘘のように改善する</p>
+<p>・・・という感じでした。意味不明</p>
+<hr>
+<h2 id="不安定な時に発生していたエラーたち">不安定な時に発生していたエラーたち</h2>
+<h3 id="パスワードとか合っているのに認証に失敗する">パスワードとか合っているのに認証に失敗する</h3>
+<p><img src="1.jpg" alt=""></p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">Disconnected
+Your authentication failed.
+</code></pre></div><p>と出る。IDもパスワードも合ってるのに。何故か出る</p>
+<p>Disconnectedと出てるので接続自体が失敗している説</p>
+<h3 id="anti-cheat-error">Anti-cheat Error</h3>
+<p><img src="2.jpg" alt=""></p>
+<p>SteamとFirefoxしか起動してないのにお前チートしてるだろと言われる</p>
+<p>そんなこと言ってるとVRCアンチになるぞ！！！</p>
+<h3 id="ワールドの読み込みに失敗する">ワールドの読み込みに失敗する</h3>
+<p><img src="3.jpg" alt=""></p>
+<p>ざぁこ♡</p>
+<h3 id="ワールドに入ろうとした時プライベートインスタンスを作ろうとした時に失敗する">ワールドに入ろうとした時・プライベートインスタンスを作ろうとした時に失敗する</h3>
+<p><img src="4.jpg" alt=""></p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">Can&#39;t travel
+You&#39;re not allowed to travel to that location.
+</code></pre></div><p>といった文章が出る。最初おま国されてるのかと思った</p>
+<h3 id="上記のその2">上記のその2</h3>
+<p><img src="5.jpg" alt=""></p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">Content Unavailable
+You cannot enter this world as it has not been published for this platform.
+</code></pre></div><p>といった文章が出る。</p>
+<p>以上のような様々なエラーが降り掛かってきたので心が折れそうになったのですが、<strong>IPv6を無効にしてからは全て発生しなくなりました</strong></p>
+<p>ですので、動作の不安定さに悩まされいている人はルータの設定を見直してみると良いかと思われます・・・</p>
+<p>ラーメン</p>
+		</div>
+
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/tags/vrchat">VRChat</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+		</div>
+		</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> razl-dazl.github.io |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+
+</body>
+</html>

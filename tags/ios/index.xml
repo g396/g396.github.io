@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iOS on Razl-Dazl</title>
+    <link>https://razl-dazl.github.io/tags/ios/</link>
+    <description>Recent content in iOS on Razl-Dazl</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>razl-dazl.github.io</copyright>
+    <lastBuildDate>Thu, 29 Apr 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://razl-dazl.github.io/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>iSHからiCloud Drive上のファイルにアクセスする</title>
+      <link>https://razl-dazl.github.io/posts/2021/04/ish-icloud/</link>
+      <pubDate>Thu, 29 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2021/04/ish-icloud/</guid>
+      <description>&lt;p&gt;iOS用のシェルといえばiSHですが、iCloud Driveのファイルにも簡単にアクセスできるみたいですね&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;mount -t ios . /mnt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

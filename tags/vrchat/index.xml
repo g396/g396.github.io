@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VRChat on Razl-Dazl</title>
+    <link>https://razl-dazl.github.io/tags/vrchat/</link>
+    <description>Recent content in VRChat on Razl-Dazl</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>razl-dazl.github.io</copyright>
+    <lastBuildDate>Tue, 02 Aug 2022 15:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://razl-dazl.github.io/tags/vrchat/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VRChatの不具合はIPv6を無効にすれば全部消える説</title>
+      <link>https://razl-dazl.github.io/posts/2022/08/vrchat-ipv6/</link>
+      <pubDate>Tue, 02 Aug 2022 15:00:00 +0900</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2022/08/vrchat-ipv6/</guid>
+      <description>&lt;p&gt;VRChatの動作があまりにも不安定で狂いそうになったのですがタイトルの通りの対処法ですべて直ったという話です&lt;/p&gt;
+&lt;p&gt;・・・と、方法に関しては一言で済ませることができるのですが、経緯やエラーのケースについても書いておこうかなと思います&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Razl-Dazl</title>
+    <link>https://razl-dazl.github.io/</link>
+    <description>Recent content on Razl-Dazl</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>razl-dazl.github.io</copyright>
+    <lastBuildDate>Wed, 07 Dec 2022 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://razl-dazl.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugoでの画像サイズ調整</title>
+      <link>https://razl-dazl.github.io/posts/2022/12/hugo-image-size/</link>
+      <pubDate>Wed, 07 Dec 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2022/12/hugo-image-size/</guid>
+      <description>&lt;p&gt;基本的な要素の割にかなり悩んだやつです&lt;/p&gt;
+&lt;p&gt;Markdownの記法では画像サイズの指定が出来ないので解決策を考える必要がありました&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Android端末からGitHub Pagesを更新してみる</title>
+      <link>https://razl-dazl.github.io/posts/2022/12/github-pages-from-android/</link>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2022/12/github-pages-from-android/</guid>
+      <description>&lt;p&gt;TermuxでHugoが動くことに気づいたので、じゃあ理論上GitHub Pagesの更新もできるかと思って試してみました&lt;/p&gt;
+&lt;p&gt;ちなみに、この記事も実際にAndroid端末上から更新しています&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;まあ後からPCで修正しましたけど&lt;/del&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>HugoでPage Bundleに準じた構成にしたら画像が表示されなくて困った</title>
+      <link>https://razl-dazl.github.io/posts/2022/11/hugo-page-bundle/</link>
+      <pubDate>Sun, 27 Nov 2022 22:30:00 +0900</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2022/11/hugo-page-bundle/</guid>
+      <description>&lt;p&gt;記事更新のモチベを上げる為、ファイルの階層構造を整理してPage Bundleに準ずるように変更しました&lt;/p&gt;
+&lt;p&gt;その後、記事内の画像が何故かリンク切れになってしまい表示されなくなりました&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>DIVAのアケコンのバネを交換した</title>
+      <link>https://razl-dazl.github.io/posts/2022/11/diva-controller/</link>
+      <pubDate>Wed, 16 Nov 2022 15:30:00 +0900</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2022/11/diva-controller/</guid>
+      <description>&lt;p&gt;最近Steam版Project DIVAにハマっています&lt;/p&gt;
+&lt;p&gt;とあるツテでHORIのアケコンを手に入れることができたので少し弄ってみました&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>VRChatの不具合はIPv6を無効にすれば全部消える説</title>
+      <link>https://razl-dazl.github.io/posts/2022/08/vrchat-ipv6/</link>
+      <pubDate>Tue, 02 Aug 2022 15:00:00 +0900</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2022/08/vrchat-ipv6/</guid>
+      <description>&lt;p&gt;VRChatの動作があまりにも不安定で狂いそうになったのですがタイトルの通りの対処法ですべて直ったという話です&lt;/p&gt;
+&lt;p&gt;・・・と、方法に関しては一言で済ませることができるのですが、経緯やエラーのケースについても書いておこうかなと思います&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mac miniを壁や机に固定すると便利って話</title>
+      <link>https://razl-dazl.github.io/posts/2022/07/mac-mini/</link>
+      <pubDate>Fri, 08 Jul 2022 05:30:00 +0900</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2022/07/mac-mini/</guid>
+      <description>&lt;p&gt;まあ既にMac miniは手放してしまっているのですが・・・&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>KClassを使ってメソッドを呼び出してみる</title>
+      <link>https://razl-dazl.github.io/posts/2022/06/kclass/</link>
+      <pubDate>Mon, 27 Jun 2022 19:00:00 +0900</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2022/06/kclass/</guid>
+      <description>&lt;p&gt;最近JUnit5を使うことが多いのですがメソッドの呼び出しがややこしく毎回つまづいてしまうので、自分の中で少し整理してみました&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fusion Drive搭載iMacでパーティションを切っていた場合の初期化手順</title>
+      <link>https://razl-dazl.github.io/posts/2022/02/mac-fusion-drive/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:30 +0900</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2022/02/mac-fusion-drive/</guid>
+      <description>&lt;p&gt;iMacのパーティションを切ってLinuxを起動できるようにしていたのですが、Fusion Driveを搭載しているせいで初期化手順がややこしかったです&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>macOSで音源付きの録画を行う</title>
+      <link>https://razl-dazl.github.io/posts/2022/02/mac-rec/</link>
+      <pubDate>Sat, 05 Feb 2022 21:00:00 +0900</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2022/02/mac-rec/</guid>
+      <description>&lt;p&gt;Macで画面を録画する際に、音も含めて行う方法についてのメモです&lt;/p&gt;
+&lt;p&gt;ググっても情報が古いものが出てきたりするのですが、今回はM1搭載Mac miniで動作確認済みです&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugoで文章を中央に寄せる方法</title>
+      <link>https://razl-dazl.github.io/posts/2021/12/hugo-text-centering/</link>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 +0900</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2021/12/hugo-text-centering/</guid>
+      <description>&lt;p&gt;結局Hugoでサイトを生成することにしたのですが、文章を中央揃えにする際に少し手間取ったので、メモを残しておきます&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Jekyll環境をDockerで構築したよ</title>
+      <link>https://razl-dazl.github.io/posts/2021/12/jekyll-docker-compose/</link>
+      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2021/12/jekyll-docker-compose/</guid>
+      <description>&lt;p&gt;&lt;del&gt;※このサイトはJekyllで生成しているのですが&lt;/del&gt;、作成した記事のプレビューを見るにはRubyが必要なので少し厄介です&lt;/p&gt;
+&lt;p&gt;PCを初期化したり買い換える度にrbenv入れて〜とかやるのは少しだるい&lt;/p&gt;
+&lt;p&gt;環境を汚すのはあまり好きじゃないのでDockerを使って環境を作ることにしました&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>macOS同士のデュアルブート</title>
+      <link>https://razl-dazl.github.io/posts/2021/09/mac-dualboot/</link>
+      <pubDate>Wed, 08 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2021/09/mac-dualboot/</guid>
+      <description>&lt;p&gt;実は今更ながら無印MacBookを購入しました&lt;/p&gt;
+&lt;p&gt;Big Surにアプデして使っていたんですけども、所用で32bitアプリを使用したくなったのでMojaveをインストールすることに&amp;hellip;&lt;/p&gt;
+&lt;p&gt;折角なのでBig Surの環境を維持しつつMojave環境を導入、つまりデュアルブート可能にしたいと思います&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>iSHからiCloud Drive上のファイルにアクセスする</title>
+      <link>https://razl-dazl.github.io/posts/2021/04/ish-icloud/</link>
+      <pubDate>Thu, 29 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2021/04/ish-icloud/</guid>
+      <description>&lt;p&gt;iOS用のシェルといえばiSHですが、iCloud Driveのファイルにも簡単にアクセスできるみたいですね&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;mount -t ios . /mnt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Big Surを再インストールしたらpythonが動かなくなった</title>
+      <link>https://razl-dazl.github.io/posts/2021/03/mac-bigsur-python/</link>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2021/03/mac-bigsur-python/</guid>
+      <description>&lt;p&gt;事の発端:何故かアプデに失敗&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>M1 MacでBig Surでもフォルダの表示名は英語に変更できる</title>
+      <link>https://razl-dazl.github.io/posts/2021/03/mac-folder-name/</link>
+      <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2021/03/mac-folder-name/</guid>
+      <description>&lt;p&gt;ええとですね&lt;/p&gt;
+&lt;p&gt;Macのこのあたりのフォルダ名が日本語である事にすごくムカつくんですよ…&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Exiftoolで写真のファイル名から撮影日を取得する</title>
+      <link>https://razl-dazl.github.io/posts/2020/12/exiftool/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2020/12/exiftool/</guid>
+      <description>&lt;p&gt;色々な箇所に分散して保存してたスクリーンショットの山をiCloudの写真ライブラリに読みこんだ&lt;/p&gt;
+&lt;p&gt;そしたらなんと、作成日が今日と見なされて保存されてしまった&amp;hellip;ライブラリ内で時系列順に並んでくれないので死ぬほど困った&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Syncthingで外部SDカードに写真を同期させると写真アプリに何も表示されない</title>
+      <link>https://razl-dazl.github.io/posts/2020/08/syncthing-sdcard/</link>
+      <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2020/08/syncthing-sdcard/</guid>
+      <description>&lt;p&gt;ここ1年くらいSyncthingでファイルを管理しているけど、内部ストレージの好きなところを同期させられるから結構便利&lt;/p&gt;
+&lt;p&gt;折角なので大容量のSDカードを買って、一眼レフで撮った写真を管理しようと思ったけど、少し躓いたのでいろいろ試行錯誤したのでそれをメモ&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>macOSでfastbootコマンド使用時にエラーが出る場合の対処法</title>
+      <link>https://razl-dazl.github.io/posts/2019/07/macos-fastboot/</link>
+      <pubDate>Sun, 14 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2019/07/macos-fastboot/</guid>
+      <description>&lt;span style=&#34;font-size: 50%&#34;&gt;移行記事の為レイアウトが崩れる可能性有り&lt;/span&gt;
+&lt;p&gt;相変わらず2019年にもなってROM焼きをしてしまう性です&lt;/p&gt;
+&lt;p&gt;macOS Mojaveにアップグレード後、fastbootコマンドを実行時に変なエラーが出てうまく行かなくなってしまいました&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nextbit robinにAndroid 9 Pieを導入したときのメモ</title>
+      <link>https://razl-dazl.github.io/posts/2019/03/nextbit-robin-pie/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2019/03/nextbit-robin-pie/</guid>
+      <description>&lt;span style=&#34;font-size: 50%&#34;&gt;移行記事の為レイアウトが崩れる可能性有り&lt;/span&gt;
+&lt;p&gt;Essential Phone PH-1を買って優勝しようとした私ですが、PH-1は返品することにしました。(理由等別記事に書く予定)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Xperia XZ SOV34を非公式SIMロック解除した(要ROM焼き)</title>
+      <link>https://razl-dazl.github.io/posts/2019/02/sov34-unlock/</link>
+      <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2019/02/sov34-unlock/</guid>
+      <description>&lt;span style=&#34;font-size: 50%&#34;&gt;移行記事の為レイアウトが崩れる可能性有り&lt;/span&gt;
+&lt;p&gt;SOV34を自力でSIMロック解除したので要点だけメモ。(既に売ってしまいましたが覚えてるうちに記事を&amp;hellip;)
+要点だけしかまとめてないので、詳細でわからないことはググるのが早いです。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>601SOにSOV34のROMを焼く</title>
+      <link>https://razl-dazl.github.io/posts/2018/05/601so-sov34/</link>
+      <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2018/05/601so-sov34/</guid>
+      <description>&lt;span style=&#34;font-size: 50%&#34;&gt;移行記事の為レイアウトが崩れる可能性有り&lt;/span&gt;
+&lt;p&gt;Softbank版Xperia XZ(601SO)は、いつまで経ってもNougatのままですね…。&lt;/p&gt;
+&lt;p&gt;自分は呆れてしまったので、国際版ROMを焼いて使っていました…が、これだとおサイフは使えませんね。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SO-02FにeXistenZ(5.1.1)を焼いてみた</title>
+      <link>https://razl-dazl.github.io/posts/2018/03/so02f/</link>
+      <pubDate>Sat, 24 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2018/03/so02f/</guid>
+      <description>&lt;span style=&#34;font-size: 50%&#34;&gt;移行記事の為レイアウトが崩れる可能性有り&lt;/span&gt;
+&lt;p&gt;昨年6月までメイン機はXperia Z1f(SO-02F)でした。(Nexus6だけだと心許なかったので&amp;hellip;)&lt;/p&gt;
+&lt;p&gt;メイン機を601SOに変え、サブの端末も7月に新調したので、SO-02Fはお役御免&amp;hellip;となっていたのですが、たまには昔みたいにROM焼きするのもありかなと思い、ブートローダがロック(LB)されていても使えるカスタムROMを探し、焼いてみました。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>国内版XZにF8331のOreoを焼く</title>
+      <link>https://razl-dazl.github.io/posts/2018/02/f8331/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2018/02/f8331/</guid>
+      <description>&lt;span style=&#34;font-size: 50%&#34;&gt;移行記事の為レイアウトが崩れる可能性有り&lt;/span&gt;
+&lt;p&gt;というわけで。
+Softbank版Xperia XZ(601SO)にF8331のAndroid 8.0(Oreo)を入れてみたのでその時のメモを残しておきます。
+保証外の行為は自己責任で。ちなみにこちらの環境ではSoftbank版のftfを焼いて戻すことにまだ成功していませんので注意。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://razl-dazl.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/about/</guid>
+      <description>自己紹介的なやつになります
+2年半ほどテレワーク中心にSEとして働きましたが毎日出勤になってしんどくなったので辞めました
+今は無職です 惰性で生きています
+業務で使用したことのある言語は Java/Kotlin/Python　一番書いたのは多分Kotlin
+発狂BMS七段で万年中伝　最近はProject DIVAにお熱
+好きな無限級数はlog2に収束するやつ
+ちょっと昔は特殊性癖お絵かきしてたけど最近は筆を握るメンタルが死んでいる（つらい）
+うーん他に書くことがない・・・
+用のある方はmastodonまで連絡下さい</description>
+    </item>
+    
+    <item>
+      <title>Redirect</title>
+      <link>https://razl-dazl.github.io/redirect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/redirect/</guid>
+      <description>リダイレクト用ページ
+ブックマーク等されていた方  ファイルの管理方法が変わったので内部のパスも変わっています リダイレクトの設定もしているのですが多分失敗しています All Postsの方から再度探すようお願いします&amp;hellip;  旧サイトで記事を探されていた方  All Postsの方から再度探すようお願いします&amp;hellip;  </description>
+    </item>
+    
+  </channel>
+</rss>
