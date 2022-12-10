@@ -455,13 +455,12 @@ table th, table td {
     position: relative;
     width: 50%;
     margin: auto;
+    margin-bottom: 40px;
 }
 
 .eyecatch-credit {
     position:absolute;
-    bottom: 0;
     width: 100%;
     text-align: end;
-    background: rgba(0,0,0,0.3);
-    font-size: 10px;
+    font-size: 12px;
 }
