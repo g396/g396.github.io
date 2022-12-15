@@ -472,14 +472,14 @@ table th, table td {
     padding: 20px;
     border-radius: 50%;
     max-width: 128px;
-    height: 100%;
+    height: auto;
 }
 
 .about .content-wrapper .content {
     flex: auto;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .about .content-wrapper {
         display: block;
     }
@@ -487,8 +487,8 @@ table th, table td {
     .about .content-wrapper img {
         margin: auto;
         border-radius: 50%;
-        max-width: 96px;
-        height: 100%;
+        width: 128px;
+        height: auto; 
     }
     
     .about .content-wrapper p {
