@@ -1,6 +1,6 @@
 body {
     font-family: "Noto Sans JP", "Yu Gothic", sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     color: #333;
     line-height: 1.6;
     font-size: 16px;
@@ -89,10 +89,10 @@ a:hover {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: "raleway", "Noto Sans JP", "Yu Gothic Light", sans-serif;
+    font-family: "raleway", "Noto Sans JP", "Yu Gothic", sans-serif;
     line-height: 1.2;
     color: #333;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 h1 {
