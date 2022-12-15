@@ -257,19 +257,14 @@ Softbank版Xperia XZ(601SO)にF8331のAndroid 8.0(Oreo)を入れてみたので�
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://razl-dazl.github.io/about/</link>
+      <title>Author@zakuro</title>
+      <link>https://razl-dazl.github.io/author/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/about/</guid>
-      <description>自己紹介的なやつになります
-2年半ほどテレワーク中心にSEとして働きましたが毎日出勤になってしんどくなったので辞めました
-今は無職です 惰性で生きています
-業務で使用したことのある言語は Java/Kotlin/Python　一番書いたのは多分Kotlin
-発狂BMS七段で万年中伝　最近はProject DIVAにお熱
-好きな無限級数はlog2に収束するやつ
-ちょっと昔は特殊性癖お絵かきしてたけど最近は筆を握るメンタルが死んでいる（つらい）
-うーん他に書くことがない・・・
+      <guid>https://razl-dazl.github.io/author/</guid>
+      <description>SE辞めた/Kotlin/Python/Hugo/Obsidian
+好きなもの: OSS、クロスプラットフォーム
+嫌いなもの: いかがでしたかブログ、ビッグテックの囲い込み
 用のある方はmastodonまで連絡下さい</description>
     </item>
     
