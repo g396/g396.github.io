@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Hugo用MarkdownエディタとしてObsidianを使うに当たって生じた問題点 - Razl-Dazl</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Hugo用MarkdownエディタとしてObsidianを使うに当たって生じた問題点" />
+<meta property="og:description" content="個人的にObsidianが熱いので記事の執筆もObsidianでやるか～と思ったのですが・・・主に検索面で問題が生じました" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://razl-dazl.github.io/posts/2022/12/hugo-obsidian-graph/" />
+<meta property="article:published_time" content="2022-12-16T00:00:00+09:00" />
+<meta property="article:modified_time" content="2022-12-16T00:00:00+09:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Hugo用MarkdownエディタとしてObsidianを使うに当たって生じた問題点"/>
+<meta name="twitter:description" content="個人的にObsidianが熱いので記事の執筆もObsidianでやるか～と思ったのですが・・・主に検索面で問題が生じました"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Raleway:wght@100;200&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://razl-dazl.github.io/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://razl-dazl.github.io/css/main.css" /><link rel="stylesheet" type="text/css" href="https://razl-dazl.github.io/css/dark.css" media="(prefers-color-scheme: dark)" />
+
+	
+	<script src="https://razl-dazl.github.io/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	
+	<h1 class="site-title"><a href="https://razl-dazl.github.io/">Razl-Dazl</a></h1>
+	<div class="site-description"><nav class="nav social">
+			<ul class="flat"></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">home</a>
+			</li>
+			
+			<li>
+				<a href="/tags/">tags</a>
+			</li>
+			
+			<li>
+				<a href="/posts/">all posts</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			
+			<div class="eyecatch">
+				<img src="/thumbnails/obsidian.webp">
+				
+				<div class = "eyecatch-credit">© 2022 Obsidian</div>
+				
+			</div>
+			
+			<h1 class="title">Hugo用MarkdownエディタとしてObsidianを使うに当たって生じた問題点</h1>
+			<div class="meta">Posted at &mdash; Dec 16, 2022</div>
+		</div>
+
+		<div class="markdown">
+			<p>個人的にObsidianが熱いので記事の執筆もObsidianでやるか～と思ったのですが・・・主に検索面で問題が生じました</p>
+<hr>
+<h2 id="検索やグラフでファイル名しか表示されない">検索やグラフでファイル名しか表示されない</h2>
+<p>例えば記事に付けたタグで検索してみると、</p>
+<p><strong>な　ん　と　い　う　こ　と　で　し　ょ　う</strong></p>
+<p><img src="1.jpg" alt=""></p>
+<p>全部indexです</p>
+<p>HugoでPage Bundleに則った構成の場合、記事のファイル名はindex.mdで統一されるのでこの様になってしまいます</p>
+<p><img src="2.jpg" alt=""></p>
+<p>Obsidian特有のグラフ表示機能もこの有様で使い物になりません</p>
+<hr>
+<h2 id="検索時にパスも表示させたい場合">検索時にパスも表示させたい場合</h2>
+<p>検索時にパスを指定するとパスも表示されるようになります</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">tag:#Hugo path:/.
+</code></pre></div><p><img src="3.jpg" alt=""></p>
+<p>メリット: 一番シンプル<br>
+デメリット: ハイライトがうざい、検索時に毎回ひと手間増えてだるい、グラフは解決できない</p>
+<p>(参考)
+<a href="https://forum.obsidian.md/t/show-path-when-searching/40303/4">https://forum.obsidian.md/t/show-path-when-searching/40303/4</a></p>
+<hr>
+<h2 id="hugoの構成を変えてみる">Hugoの構成を変えてみる</h2>
+<p>グラフの表示の方に関しては調べても解決方法が無さそうだったので、Hugoの構成を見直す他ありません</p>
+<p>ただ、Page Bundleに則った構成ではビルド時に不都合が生じてしまいます</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">content/posts/example/
+  ├ index.md
+  ├ content.jpg
+  └ thumbnail.jpg
+</code></pre></div><p>上記のような構成でビルドすると、記事のURLは</p>
+<p><code>example.com/posts/example/</code></p>
+<p>となりますが、ここでindex.mdをtitle.mdに変えてビルドすると、記事のURLは</p>
+<p><code>example.com/posts/example/title/</code></p>
+<p>となってしまい、画像の参照が上手くいかなくなってしまいます</p>
+<p>解決策を考えなければなりません</p>
+<hr>
+<h3 id="ugly-urlsの有効化">Ugly URLsの有効化</h3>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">uglyurls: true
+</code></pre></div><p>config.yml(又はtoml)でUgly URLsを有効にすると、記事は</p>
+<p><code>example.com/posts/example/title.html</code></p>
+<p>としてビルドされる為、フォルダ階層の深さが変わらなくなり画像の参照も正しくなります・・・</p>
+<p>メリット: configに一行追加するだけ<br>
+デメリット: 記事のURL全部変わる、Ugly URLsがそもそも推奨されていない</p>
+<p>デメリットがかなりデメリットなので却下しました（小泉構文）</p>
+<hr>
+<h3 id="front-matterでurlを指定する">Front MatterでURLを指定する</h3>
+<p>想定としては、記事のファイル名は親フォルダーの名前と一緒にします</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">content/posts/example/
+  ├ example.md
+  ├ content.jpg
+  └ thumbnail.jpg
+</code></pre></div><p>それぞれの記事のMarkdownファイルのFront Matterでビルド時のURLを指定します</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">url: /posts/example/
+</code></pre></div><p>こうすることでビルド時のURLは</p>
+<p><code>example.com/posts/example/</code></p>
+<p>となるので、記事のファイル名がindex.mdの時と同じようにビルドされます</p>
+<p>メリット: 記事のURLを変えずに済む</p>
+<p>デメリット: 全記事に追記する必要があるのが少し面倒くさい、Front Matterの情報量が増える</p>
+<p>現状実際にやるとしたらこちらかな（全記事に追記するのがだるいのでまだ保留中）</p>
+<p>なんかいい方法無いかなぁー</p>
+		</div>
+
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/tags/hugo">Hugo</a></li>
+								
+								<li><a href="/tags/obsidian">Obsidian</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+		</div>
+		<div class="about section">
+			
+				<h2 class="section-header">Author@zakuro</h2>
+				<div class="content-wrapper">
+					<img src ="/img/my-icon.jpg">
+					<div class="content"><p>SE辞めた/Kotlin/Python/Hugo/Obsidian</p>
+<p>好きなもの: OSS、個人サイト、クロスプラットフォーム</p>
+<p>嫌いなもの: サブスク、いかがでしたかブログ、ビッグテックの囲い込み</p>
+<p>生息地: <a href="https://mistodon.cloud/@z">mastodon</a></p>
+</div>
+				</div>
+			
+		</div>
+	</div>
+	
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> razl-dazl.github.io |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+
+</body>
+</html>

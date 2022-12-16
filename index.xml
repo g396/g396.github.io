@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io</copyright>
-    <lastBuildDate>Sat, 10 Dec 2022 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 16 Dec 2022 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://razl-dazl.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo用MarkdownエディタとしてObsidianを使うに当たって生じた問題点</title>
+      <link>https://razl-dazl.github.io/posts/2022/12/hugo-obsidian-graph/</link>
+      <pubDate>Fri, 16 Dec 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2022/12/hugo-obsidian-graph/</guid>
+      <description>&lt;p&gt;個人的にObsidianが熱いので記事の執筆もObsidianでやるか～と思ったのですが・・・主に検索面で問題が生じました&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Keybase.pubで静的Webサイトの作成を試す</title>
@@ -263,9 +272,9 @@ Softbank版Xperia XZ(601SO)にF8331のAndroid 8.0(Oreo)を入れてみたので�
       
       <guid>https://razl-dazl.github.io/author/</guid>
       <description>SE辞めた/Kotlin/Python/Hugo/Obsidian
-好きなもの: OSS、クロスプラットフォーム
-嫌いなもの: いかがでしたかブログ、ビッグテックの囲い込み
-用のある方はmastodonまで連絡下さい</description>
+好きなもの: OSS、個人サイト、クロスプラットフォーム
+嫌いなもの: サブスク、いかがでしたかブログ、ビッグテックの囲い込み
+生息地: mastodon</description>
     </item>
     
     <item>

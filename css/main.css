@@ -1,6 +1,6 @@
 body {
-    font-family: "Noto Sans JP", "Yu Gothic", sans-serif;
-    font-weight: 300;
+    font-family: Noto Sans JP, sans-serif;
+    font-weight: 200;
     color: #333;
     line-height: 1.6;
     font-size: 16px;
@@ -89,10 +89,10 @@ a:hover {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: "raleway", "Noto Sans JP", "Yu Gothic", sans-serif;
+    font-family: raleway, Noto Sans JP, sans-serif;
     line-height: 1.2;
     color: #333;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 h1 {
@@ -416,7 +416,7 @@ table th, table td {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-auto-rows: auto;
     grid-gap: 0.8em;
     padding: 0.8em;
@@ -433,7 +433,6 @@ table th, table td {
 }
 
 .grid .post {
-    border: 1px solid #ddd;
     overflow: auto;
     min-width: 0;
     padding: 1em;
@@ -446,7 +445,7 @@ table th, table td {
 
 .eyecatch {
     position: relative;
-    width: 50%;
+    max-width: 600px;
     margin: auto;
     margin-bottom: 40px;
 }
@@ -468,11 +467,11 @@ table th, table td {
 }
 
 .about .content-wrapper img {
-    flex: auto;
+    flex: initial;
     padding: 20px;
     border-radius: 50%;
-    max-width: 128px;
-    height: auto;
+    width: 128px;
+    height: 128px;
 }
 
 .about .content-wrapper .content {
