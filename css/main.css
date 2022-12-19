@@ -145,7 +145,6 @@ ul.flat {
 }
 
 ul.flat li {
-    display: inline-block;
     list-style: none;
     margin-left: 0;
 }
@@ -311,18 +310,6 @@ pre code {
 .post-tags .tags li {
     margin-bottom: 0;
     margin-top: 20px;
-}
-
-.post-tags .tags a {
-    display: inline-block;
-    border: 1px solid #a00;
-    border-radius: 4px;
-    padding: 0px 6px;
-    color: #a00;
-    line-height: 20px;
-    font-size: 12px;
-    text-decoration: none;
-    margin: 0 1px;
 }
 
 .list .posts .post .meta {
@@ -493,4 +480,25 @@ table th, table td {
     .about .content-wrapper p {
         text-align: center;
     }
+}
+
+li.tag {
+    margin: 0.25em;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 1.25em;
+    border: 1px solid #a00;
+}
+
+li.tag img {
+    height: 1.5em;
+    width: auto;
+    margin: 0.25em;
+    display: unset;
+    border-radius: 50%;
+}
+
+li.tag a {
+    font-size: 1em;
+    margin: 0.25em 0.5em 0.25em 0em;
 }

@@ -40,11 +40,6 @@ a:hover {
 	opacity: 0.8;
 }
 
-.post-tags .tags a {
-    border: 1px solid #ddd;
-	color: #ddd;
-}
-
 .site-title a {
 	color: #ddd;
 	text-decoration: none !important;
@@ -70,4 +65,9 @@ table th, table td {
 
 pre code {
   display: inline-block
+}
+
+li.tag {
+    border: none;
+	background-color: #333;
 }
