@@ -21,5 +21,16 @@
       <description>&lt;p&gt;個人的にObsidianが熱いので記事の執筆もObsidianでやるか～と思ったのですが・・・主に検索面で問題が生じました&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>Android端末からGitHub Pagesを更新してみる</title>
+      <link>https://razl-dazl.github.io/posts/2022/12/github-pages-from-android/</link>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2022/12/github-pages-from-android/</guid>
+      <description>&lt;p&gt;TermuxでHugoが動くことに気づいたので、じゃあ理論上GitHub Pagesの更新もできるかと思って試してみました&lt;/p&gt;
+&lt;p&gt;ちなみに、この記事も実際にAndroid端末上から更新しています&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;まあ後からPCで修正しましたけど&lt;/del&gt;&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
