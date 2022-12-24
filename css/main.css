@@ -269,10 +269,6 @@ pre code {
     letter-spacing: 1px;
 }
 
-.recent-posts .posts .post {
-    margin-bottom: 30px;
-}
-
 .recent-posts .posts .post .meta,
 .post .post-header .meta,
 .list .posts .post .meta {
@@ -416,27 +412,37 @@ table th, table td {
     padding: 1em;
 }
 
-@media (max-width: 750px) {
+
+/*(モバイル)トップ画面/記事一覧 */
+@media (max-width: 767px) {
     .grid {
         display: flex;
         flex-wrap: wrap;
         padding: 0;
         margin: 0 0 2em;
+        grid-gap: 0.0;
+        border-bottom: 1px solid #333;
     }
 
     .grid .post {
+        margin: 0;
         display: flex;
-        padding: 0;
+        padding: 8px;
+        border-top: 1px solid #333;
     }
 
     .grid .post a {
         flex: initial;
         width: 25%;
+        height: 100%;
     }
 
     .grid .post a img {
-        margin: 0;
+        flex: auto;
+        margin: auto;
         width: 100%;
+        height: 100%;
+        object-fit: contain;
     }
 
     .grid .post .text {
@@ -444,6 +450,7 @@ table th, table td {
         display: block;
         width: 75%;
         margin-left: 0.5em;
+        margin-bottom: 0.5em;
     }
 
     .grid .post .text .description {
@@ -491,7 +498,7 @@ table th, table td {
     flex: auto;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
     .author .content-wrapper {
         display: block;
     }
