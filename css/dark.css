@@ -67,6 +67,9 @@ pre code {
   display: inline-block
 }
 
+.author {
+    border-top: 1px solid #333;
+}
 li.tag {
     border: none;
 	background-color: #333;
