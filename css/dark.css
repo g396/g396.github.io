@@ -74,3 +74,14 @@ li.tag {
     border: none;
 	background-color: #333;
 }
+
+/*(モバイル)トップ画面/記事一覧 */
+@media (max-width: 767px) {
+    .grid {
+        border-color: #333;
+    }
+
+    .grid .post {
+        border-color: #333;
+    }
+}
