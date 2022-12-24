@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io</copyright>
-    <lastBuildDate>Fri, 16 Dec 2022 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 25 Dec 2022 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://razl-dazl.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugoでテスト用サーバを立てた際に毎回ポート番号が変わる件</title>
+      <link>https://razl-dazl.github.io/posts/2022/12/hugo-build-port/</link>
+      <pubDate>Sun, 25 Dec 2022 00:00:00 +0900</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2022/12/hugo-build-port/</guid>
+      <description>&lt;p&gt;&lt;code&gt;hugo server&lt;/code&gt;してテスト用サーバを立てた際に、毎回ポート番号が変わってしまいアクセスが面倒になるケースがあったのでメモ&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Hugo用MarkdownエディタとしてObsidianを使うに当たって生じた問題点</title>
