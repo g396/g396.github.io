@@ -537,5 +537,5 @@ li.tag a {
 }
 
 code {
-    font-family: Consolas;
+    font-family: Consolas, monospace;
 }
