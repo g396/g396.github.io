@@ -4,14 +4,14 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Hugo用MarkdownエディタとしてObsidianを使うに当たって生じた問題点 - Razl-Dazl</title><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:title" content="Hugo用MarkdownエディタとしてObsidianを使うに当たって生じた問題点" />
-<meta property="og:description" content="個人的にObsidianが熱いので記事の執筆もObsidianでやるか～と思ったのですが・・・主に検索面で問題が生じました" />
+<meta property="og:description" content="(追記有) 個人的にObsidianが熱いので記事の執筆もObsidianでやるか～と思ったのですが・・・主に検索面で問題が生じました" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://razl-dazl.github.io/posts/2022/12/hugo-obsidian-graph/" />
 <meta property="article:published_time" content="2022-12-16T00:00:00+09:00" />
 <meta property="article:modified_time" content="2022-12-16T00:00:00+09:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugo用MarkdownエディタとしてObsidianを使うに当たって生じた問題点"/>
-<meta name="twitter:description" content="個人的にObsidianが熱いので記事の執筆もObsidianでやるか～と思ったのですが・・・主に検索面で問題が生じました"/>
+<meta name="twitter:description" content="(追記有) 個人的にObsidianが熱いので記事の執筆もObsidianでやるか～と思ったのですが・・・主に検索面で問題が生じました"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Raleway:wght@100;200&display=swap" rel="stylesheet">
@@ -54,20 +54,23 @@
 
 
 		<div class="post-header">
+
 			
-			<div class="eyecatch">
-				<img src="/thumbnails/obsidian.webp">
-				
+			
+			
+			
+			<div class = "eyecatch">
+				<img src="/thumbnails/obsidian.webp" alt="eyecatch">
 				<div class = "eyecatch-credit">© 2022 Obsidian</div>
-				
 			</div>
-			
+				
+
 			<h1 class="title">Hugo用MarkdownエディタとしてObsidianを使うに当たって生じた問題点</h1>
 			<div class="meta">Posted at &mdash; Dec 16, 2022</div>
 		</div>
 
 		<div class="markdown">
-			<p>個人的にObsidianが熱いので記事の執筆もObsidianでやるか～と思ったのですが・・・主に検索面で問題が生じました</p>
+			<p>(追記有) 個人的にObsidianが熱いので記事の執筆もObsidianでやるか～と思ったのですが・・・主に検索面で問題が生じました</p>
 <hr>
 <h2 id="検索やグラフでファイル名しか表示されない">検索やグラフでファイル名しか表示されない</h2>
 <p>例えば記事に付けたタグで検索してみると、</p>
@@ -121,10 +124,46 @@
 </code></pre></div><p>こうすることでビルド時のURLは</p>
 <p><code>example.com/posts/example/</code></p>
 <p>となるので、記事のファイル名がindex.mdの時と同じようにビルドされます</p>
-<p>メリット: 記事のURLを変えずに済む</p>
-<p>デメリット: 全記事に追記する必要があるのが少し面倒くさい、Front Matterの情報量が増える</p>
+<p>メリット: 記事のURLを変えずに済む<br>
+デメリット: 全記事に追記する必要があるのが少し面倒くさい、Front Matterの情報量が増える</p>
 <p>現状実際にやるとしたらこちらかな（全記事に追記するのがだるいのでまだ保留中）</p>
 <p>なんかいい方法無いかなぁー</p>
+<hr>
+<h2 id="追記-configファイルでpermalinkを設定する">追記: configファイルでpermalinkを設定する</h2>
+<p>これだよこれー！こういうのでいいんだよ！</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#719e07">permalinks</span>:
+  <span style="color:#719e07">posts</span>: /:section/:year/:month/:filename
+</code></pre></div><p>config.yamlに上記を追加します(TOMLは知らん)
+そして各記事のファイル名をindex.mdから直上のフォルダ名にします</p>
+<p>例としてこの記事のパスは</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">/content/posts/2022/12/hugo-obsidian-graph/hugo-obsidian-graph.md
+</code></pre></div><p>ですが、ビルド時にconfig.yamlの設定が適用され、記事のパスは</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">/posts/2022/12/hugo-obsidian-graph/
+</code></pre></div><p>となります</p>
+<p><img src="4.jpg" alt=""></p>
+<p>というわけでグラフ上でのファイル名の区別がつくようになりました</p>
+<p>&hellip;意味があるのかと言われると正直微妙な所</p>
+<p>グラフ表示のメリットって何でしょうね？</p>
+<p>大量のファイルを2次元的に可視化することで、断片的な情報を繋げたり、色分けして全体的な傾向を分析するとか、そういう感じでしょうか？</p>
+<p>個人としてはブログの記事は大量生産するものではないので、別にグラフ表示を使う必然性が・・・うーん・・・</p>
+<p>(参考)
+<a href="https://gohugo.io/content-management/urls/">https://gohugo.io/content-management/urls/</a></p>
+<hr>
+<h3 id="ファイル名を日本語に設定してビルド時のパスは別で設定したい場合">ファイル名を日本語に設定してビルド時のパスは別で設定したい場合</h3>
+<p>例を上げると、マークダウンのファイル名は<code>ほげほげ.md</code>とかにして、ビルドした後のパスは<code>/posts/2022/12/foobar/</code>にしたい場合</p>
+<p>configファイルでの設定は以下のようにします</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">permalinks:
+  posts: /:section/:year/:month/:filename
+</code></pre></div><p>ここで出てきたslugは各記事のFront Matterで設定します</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">slug: &#34;foobar&#34;
+</code></pre></div><p>こうすればURLが自由自在に！</p>
+<p>・・・と言いたいところですが、カスタムできるのは記事のパスだけです</p>
+<p>パスの深さを変えたりしてしまうと、Page Bundleで画像ファイルを管理してる場合にリンク切れを起こしてしまいます</p>
+<hr>
+<h2 id="tagfolderプラグインの使用">TagFolderプラグインの使用</h2>
+<p>グラフ表示は放っておきます</p>
+<p>タグによる分類を一覧で表示するだけなら、プラグインの導入だけで解決することが発覚しました</p>
+<p><a href="/posts/2022/12/obsidian-hugo-plugin/">別記事</a>に書きました</p>
 		</div>
 
 		<div class="post-tags">
@@ -133,9 +172,9 @@
 					<nav class="nav tags">
 							<ul class="flat">
 								
-								<li class="tag"><img src = "/img/tags/hugo.webp" alt=""><a href="/tags/hugo">Hugo</a></li>
-								
 								<li class="tag"><img src = "/img/tags/obsidian.webp" alt=""><a href="/tags/obsidian">Obsidian</a></li>
+								
+								<li class="tag"><img src = "/img/tags/hugo.webp" alt=""><a href="/tags/hugo">Hugo</a></li>
 								
 							</ul>
 					</nav>
