@@ -535,3 +535,7 @@ li.tag a {
     font-size: 1em;
     margin: 0.25em 0.5em 0.25em 0em;
 }
+
+code {
+    font-family: Consolas;
+}
