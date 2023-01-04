@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io</copyright>
-    <lastBuildDate>Tue, 27 Dec 2022 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 04 Jan 2023 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://razl-dazl.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugoでタグ毎にアイキャッチ画像を設定する</title>
+      <link>https://razl-dazl.github.io/posts/2023/01/hugo-eyecatch/</link>
+      <pubDate>Wed, 04 Jan 2023 00:00:00 +0900</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2023/01/hugo-eyecatch/</guid>
+      <description>&lt;p&gt;Front Matter内の記述を極力簡便にしつつ、アイキャッチ画像(サムネイル)を設定する方法について考えてみました&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>ObsidianをHugoの為に最適化</title>
