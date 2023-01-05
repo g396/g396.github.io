@@ -7,15 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io</copyright>
-    <lastBuildDate>Wed, 04 Jan 2023 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jan 2023 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://razl-dazl.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Windows環境の時だけコードブロックのフォントが汚いので直した</title>
+      <link>https://razl-dazl.github.io/posts/2023/01/windows-codeblock/</link>
+      <pubDate>Thu, 05 Jan 2023 00:00:00 +0900</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2023/01/windows-codeblock/</guid>
+      <description>&lt;p&gt;このサイトをビルドする時に毎回感じつつスルーしていましたがもう我慢できません&lt;/p&gt;
+&lt;p&gt;コードブロックのフォントがコマンドプロンプトみたいで鬼ダサいので直すことにしました&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Hugoでタグ毎にアイキャッチ画像を設定する</title>
       <link>https://razl-dazl.github.io/posts/2023/01/hugo-eyecatch/</link>
-      <pubDate>Wed, 04 Jan 2023 00:00:00 +0900</pubDate>
+      <pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2023/01/hugo-eyecatch/</guid>
       <description>&lt;p&gt;Front Matter内の記述を極力簡便にしつつ、アイキャッチ画像(サムネイル)を設定する方法について考えてみました&lt;/p&gt;</description>
