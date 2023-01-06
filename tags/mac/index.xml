@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io</copyright>
-    <lastBuildDate>Fri, 08 Jul 2022 05:30:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 08 Jul 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://razl-dazl.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Mac miniを壁や机に固定すると便利って話</title>
       <link>https://razl-dazl.github.io/posts/2022/07/mac-mini/</link>
-      <pubDate>Fri, 08 Jul 2022 05:30:00 +0900</pubDate>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2022/07/mac-mini/</guid>
       <description>&lt;p&gt;まあ既にMac miniは手放してしまっているのですが・・・&lt;/p&gt;</description>
@@ -24,7 +24,7 @@
     <item>
       <title>Fusion Drive搭載iMacでパーティションを切っていた場合の初期化手順</title>
       <link>https://razl-dazl.github.io/posts/2022/02/mac-fusion-drive/</link>
-      <pubDate>Fri, 18 Feb 2022 00:00:30 +0900</pubDate>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2022/02/mac-fusion-drive/</guid>
       <description>&lt;p&gt;iMacのパーティションを切ってLinuxを起動できるようにしていたのですが、Fusion Driveを搭載しているせいで初期化手順がややこしかったです&lt;/p&gt;</description>
@@ -33,7 +33,7 @@
     <item>
       <title>macOSで音源付きの録画を行う</title>
       <link>https://razl-dazl.github.io/posts/2022/02/mac-rec/</link>
-      <pubDate>Sat, 05 Feb 2022 21:00:00 +0900</pubDate>
+      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2022/02/mac-rec/</guid>
       <description>&lt;p&gt;Macで画面を録画する際に、音も含めて行う方法についてのメモです&lt;/p&gt;

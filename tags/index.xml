@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io</copyright>
-    <lastBuildDate>Thu, 05 Jan 2023 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jan 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://razl-dazl.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Hugo</title>
       <link>https://razl-dazl.github.io/tags/hugo/</link>
-      <pubDate>Thu, 05 Jan 2023 00:00:00 +0900</pubDate>
+      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/tags/hugo/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Obsidian</title>
       <link>https://razl-dazl.github.io/tags/obsidian/</link>
-      <pubDate>Tue, 27 Dec 2022 00:00:00 +0900</pubDate>
+      <pubDate>Tue, 27 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/tags/obsidian/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Android</title>
       <link>https://razl-dazl.github.io/tags/android/</link>
-      <pubDate>Tue, 06 Dec 2022 00:00:00 +0900</pubDate>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/tags/android/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>音ゲー</title>
       <link>https://razl-dazl.github.io/tags/%E9%9F%B3%E3%82%B2%E3%83%BC/</link>
-      <pubDate>Wed, 16 Nov 2022 15:30:00 +0900</pubDate>
+      <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/tags/%E9%9F%B3%E3%82%B2%E3%83%BC/</guid>
       <description></description>
@@ -51,7 +51,7 @@
     <item>
       <title>VRChat</title>
       <link>https://razl-dazl.github.io/tags/vrchat/</link>
-      <pubDate>Tue, 02 Aug 2022 15:00:00 +0900</pubDate>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/tags/vrchat/</guid>
       <description></description>
@@ -60,7 +60,7 @@
     <item>
       <title>Mac</title>
       <link>https://razl-dazl.github.io/tags/mac/</link>
-      <pubDate>Fri, 08 Jul 2022 05:30:00 +0900</pubDate>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/tags/mac/</guid>
       <description></description>
@@ -69,7 +69,7 @@
     <item>
       <title>Develop</title>
       <link>https://razl-dazl.github.io/tags/develop/</link>
-      <pubDate>Mon, 27 Jun 2022 19:00:00 +0900</pubDate>
+      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/tags/develop/</guid>
       <description></description>
@@ -78,7 +78,7 @@
     <item>
       <title>Kotlin</title>
       <link>https://razl-dazl.github.io/tags/kotlin/</link>
-      <pubDate>Mon, 27 Jun 2022 19:00:00 +0900</pubDate>
+      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/tags/kotlin/</guid>
       <description></description>

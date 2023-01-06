@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io</copyright>
-    <lastBuildDate>Tue, 06 Dec 2022 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 06 Dec 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://razl-dazl.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Android端末からGitHub Pagesを更新してみる</title>
       <link>https://razl-dazl.github.io/posts/2022/12/github-pages-from-android/</link>
-      <pubDate>Tue, 06 Dec 2022 00:00:00 +0900</pubDate>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2022/12/github-pages-from-android/</guid>
       <description>&lt;p&gt;TermuxでHugoが動くことに気づいたので、じゃあ理論上GitHub Pagesの更新もできるかと思って試してみました&lt;/p&gt;

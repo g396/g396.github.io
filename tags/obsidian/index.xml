@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io</copyright>
-    <lastBuildDate>Tue, 27 Dec 2022 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 27 Dec 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://razl-dazl.github.io/tags/obsidian/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>ObsidianをHugoの為に最適化</title>
       <link>https://razl-dazl.github.io/posts/2022/12/obsidian-hugo-plugin/</link>
-      <pubDate>Tue, 27 Dec 2022 00:00:00 +0900</pubDate>
+      <pubDate>Tue, 27 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2022/12/obsidian-hugo-plugin/</guid>
       <description>&lt;p&gt;Hugo用の記事(Markdown)をObsidianで書くにあたって、プラグインを入れたり設定を弄ったりしたのでメモしておきます&lt;/p&gt;</description>
@@ -24,7 +24,7 @@
     <item>
       <title>Hugo用MarkdownエディタとしてObsidianを使うに当たって生じた問題点</title>
       <link>https://razl-dazl.github.io/posts/2022/12/hugo-obsidian-graph/</link>
-      <pubDate>Fri, 16 Dec 2022 00:00:00 +0900</pubDate>
+      <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2022/12/hugo-obsidian-graph/</guid>
       <description>&lt;p&gt;(追記有) 個人的にObsidianが熱いので記事の執筆もObsidianでやるか～と思ったのですが・・・主に検索面で問題が生じました&lt;/p&gt;</description>
@@ -33,7 +33,7 @@
     <item>
       <title>Android端末からGitHub Pagesを更新してみる</title>
       <link>https://razl-dazl.github.io/posts/2022/12/github-pages-from-android/</link>
-      <pubDate>Tue, 06 Dec 2022 00:00:00 +0900</pubDate>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2022/12/github-pages-from-android/</guid>
       <description>&lt;p&gt;TermuxでHugoが動くことに気づいたので、じゃあ理論上GitHub Pagesの更新もできるかと思って試してみました&lt;/p&gt;

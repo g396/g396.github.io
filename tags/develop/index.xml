@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io</copyright>
-    <lastBuildDate>Mon, 27 Jun 2022 19:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jun 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://razl-dazl.github.io/tags/develop/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>KClassを使ってメソッドを呼び出してみる</title>
       <link>https://razl-dazl.github.io/posts/2022/06/kclass/</link>
-      <pubDate>Mon, 27 Jun 2022 19:00:00 +0900</pubDate>
+      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2022/06/kclass/</guid>
       <description>&lt;p&gt;最近JUnit5を使うことが多いのですがメソッドの呼び出しがややこしく毎回つまづいてしまうので、自分の中で少し整理してみました&lt;/p&gt;</description>

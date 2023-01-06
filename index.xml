@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io</copyright>
-    <lastBuildDate>Thu, 05 Jan 2023 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jan 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://razl-dazl.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Windows環境の時だけコードブロックのフォントが汚いので直した</title>
       <link>https://razl-dazl.github.io/posts/2023/01/windows-codeblock/</link>
-      <pubDate>Thu, 05 Jan 2023 00:00:00 +0900</pubDate>
+      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2023/01/windows-codeblock/</guid>
       <description>&lt;p&gt;このサイトをビルドする時に毎回感じつつスルーしていましたがもう我慢できません&lt;/p&gt;
@@ -34,7 +34,7 @@
     <item>
       <title>ObsidianをHugoの為に最適化</title>
       <link>https://razl-dazl.github.io/posts/2022/12/obsidian-hugo-plugin/</link>
-      <pubDate>Tue, 27 Dec 2022 00:00:00 +0900</pubDate>
+      <pubDate>Tue, 27 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2022/12/obsidian-hugo-plugin/</guid>
       <description>&lt;p&gt;Hugo用の記事(Markdown)をObsidianで書くにあたって、プラグインを入れたり設定を弄ったりしたのでメモしておきます&lt;/p&gt;</description>
@@ -43,7 +43,7 @@
     <item>
       <title>Hugoでテスト用サーバを立てた際に毎回ポート番号が変わる件</title>
       <link>https://razl-dazl.github.io/posts/2022/12/hugo-build-port/</link>
-      <pubDate>Sun, 25 Dec 2022 00:00:00 +0900</pubDate>
+      <pubDate>Sun, 25 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2022/12/hugo-build-port/</guid>
       <description>&lt;p&gt;&lt;code&gt;hugo server&lt;/code&gt;してテスト用サーバを立てた際に、毎回ポート番号が変わってしまいアクセスが面倒になるケースがあったのでメモ&lt;/p&gt;</description>
@@ -52,7 +52,7 @@
     <item>
       <title>Hugo用MarkdownエディタとしてObsidianを使うに当たって生じた問題点</title>
       <link>https://razl-dazl.github.io/posts/2022/12/hugo-obsidian-graph/</link>
-      <pubDate>Fri, 16 Dec 2022 00:00:00 +0900</pubDate>
+      <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2022/12/hugo-obsidian-graph/</guid>
       <description>&lt;p&gt;(追記有) 個人的にObsidianが熱いので記事の執筆もObsidianでやるか～と思ったのですが・・・主に検索面で問題が生じました&lt;/p&gt;</description>
@@ -61,7 +61,7 @@
     <item>
       <title>Keybase.pubで静的Webサイトの作成を試す</title>
       <link>https://razl-dazl.github.io/posts/2022/12/keybase-pub/</link>
-      <pubDate>Sat, 10 Dec 2022 00:00:00 +0900</pubDate>
+      <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2022/12/keybase-pub/</guid>
       <description>&lt;p&gt;KeybaseのPublicフォルダにMarkdownやHTMLファイルを設置すると、静的Webサイトとして機能するようなので試してみました&lt;/p&gt;</description>
@@ -70,7 +70,7 @@
     <item>
       <title>Hugoでの画像サイズ調整</title>
       <link>https://razl-dazl.github.io/posts/2022/12/hugo-image-size/</link>
-      <pubDate>Wed, 07 Dec 2022 00:00:00 +0900</pubDate>
+      <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2022/12/hugo-image-size/</guid>
       <description>&lt;p&gt;基本的な要素の割にかなり悩んだやつです&lt;/p&gt;
@@ -80,7 +80,7 @@
     <item>
       <title>Android端末からGitHub Pagesを更新してみる</title>
       <link>https://razl-dazl.github.io/posts/2022/12/github-pages-from-android/</link>
-      <pubDate>Tue, 06 Dec 2022 00:00:00 +0900</pubDate>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2022/12/github-pages-from-android/</guid>
       <description>&lt;p&gt;TermuxでHugoが動くことに気づいたので、じゃあ理論上GitHub Pagesの更新もできるかと思って試してみました&lt;/p&gt;
@@ -91,7 +91,7 @@
     <item>
       <title>HugoでPage Bundleに準じた構成にしたら画像が表示されなくて困った</title>
       <link>https://razl-dazl.github.io/posts/2022/11/hugo-page-bundle/</link>
-      <pubDate>Sun, 27 Nov 2022 22:30:00 +0900</pubDate>
+      <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2022/11/hugo-page-bundle/</guid>
       <description>&lt;p&gt;記事更新のモチベを上げる為、ファイルの階層構造を整理してPage Bundleに準ずるように変更しました&lt;/p&gt;
@@ -101,7 +101,7 @@
     <item>
       <title>DIVAのアケコンのバネを交換した</title>
       <link>https://razl-dazl.github.io/posts/2022/11/diva-controller/</link>
-      <pubDate>Wed, 16 Nov 2022 15:30:00 +0900</pubDate>
+      <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2022/11/diva-controller/</guid>
       <description>&lt;p&gt;最近Steam版Project DIVAにハマっています&lt;/p&gt;
@@ -111,7 +111,7 @@
     <item>
       <title>VRChatの不具合はIPv6を無効にすれば全部消える説</title>
       <link>https://razl-dazl.github.io/posts/2022/08/vrchat-ipv6/</link>
-      <pubDate>Tue, 02 Aug 2022 15:00:00 +0900</pubDate>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2022/08/vrchat-ipv6/</guid>
       <description>&lt;p&gt;VRChatの動作があまりにも不安定で狂いそうになったのですがタイトルの通りの対処法ですべて直ったという話です&lt;/p&gt;
@@ -121,7 +121,7 @@
     <item>
       <title>Mac miniを壁や机に固定すると便利って話</title>
       <link>https://razl-dazl.github.io/posts/2022/07/mac-mini/</link>
-      <pubDate>Fri, 08 Jul 2022 05:30:00 +0900</pubDate>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2022/07/mac-mini/</guid>
       <description>&lt;p&gt;まあ既にMac miniは手放してしまっているのですが・・・&lt;/p&gt;</description>
@@ -130,7 +130,7 @@
     <item>
       <title>KClassを使ってメソッドを呼び出してみる</title>
       <link>https://razl-dazl.github.io/posts/2022/06/kclass/</link>
-      <pubDate>Mon, 27 Jun 2022 19:00:00 +0900</pubDate>
+      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2022/06/kclass/</guid>
       <description>&lt;p&gt;最近JUnit5を使うことが多いのですがメソッドの呼び出しがややこしく毎回つまづいてしまうので、自分の中で少し整理してみました&lt;/p&gt;</description>
@@ -139,7 +139,7 @@
     <item>
       <title>Fusion Drive搭載iMacでパーティションを切っていた場合の初期化手順</title>
       <link>https://razl-dazl.github.io/posts/2022/02/mac-fusion-drive/</link>
-      <pubDate>Fri, 18 Feb 2022 00:00:30 +0900</pubDate>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2022/02/mac-fusion-drive/</guid>
       <description>&lt;p&gt;iMacのパーティションを切ってLinuxを起動できるようにしていたのですが、Fusion Driveを搭載しているせいで初期化手順がややこしかったです&lt;/p&gt;</description>
@@ -148,7 +148,7 @@
     <item>
       <title>macOSで音源付きの録画を行う</title>
       <link>https://razl-dazl.github.io/posts/2022/02/mac-rec/</link>
-      <pubDate>Sat, 05 Feb 2022 21:00:00 +0900</pubDate>
+      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2022/02/mac-rec/</guid>
       <description>&lt;p&gt;Macで画面を録画する際に、音も含めて行う方法についてのメモです&lt;/p&gt;
@@ -158,7 +158,7 @@
     <item>
       <title>Hugoで文章を中央に寄せる方法</title>
       <link>https://razl-dazl.github.io/posts/2021/12/hugo-text-centering/</link>
-      <pubDate>Wed, 15 Dec 2021 00:00:00 +0900</pubDate>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2021/12/hugo-text-centering/</guid>
       <description>&lt;p&gt;結局Hugoでサイトを生成することにしたのですが、文章を中央揃えにする際に少し手間取ったので、メモを残しておきます&lt;/p&gt;</description>
