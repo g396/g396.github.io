@@ -26,8 +26,7 @@
 </head>
 
 <body>
-	<div class="container wrapper post">
-		<div class="header">
+	<div class="header wrapper">
 	
 	<h1 class="site-title"><a href="https://razl-dazl.github.io/">Razl-Dazl</a></h1>
 	<div class="site-description"><nav class="nav social">
@@ -39,15 +38,15 @@
 		<ul class="flat">
 			
 			<li>
-				<a href="/">home</a>
+				<a href="/posts/">blog</a>
+			</li>
+			
+			<li>
+				<a href="/diary/">diary</a>
 			</li>
 			
 			<li>
 				<a href="/tags/">tags</a>
-			</li>
-			
-			<li>
-				<a href="/posts/">all posts</a>
 			</li>
 			
 		</ul>
@@ -55,24 +54,25 @@
 </div>
 
 
-		<div class="post-header">
-
-			
-			
-			
-			
-			<div class = "eyecatch">
-				<img src="/thumbnails/hugo.webp" alt="eyecatch">
-				<div class = "eyecatch-credit">© 2014 Steve Francia</div>
-			</div>
+	<div class="container wrapper post">
+		<div class="main">
+			<div class="post-header">
 				
+				
+				
+				
+				<div class = "eyecatch">
+					<img src="/thumbnails/hugo.webp" alt="eyecatch">
+					<div class = "eyecatch-credit">© 2014 Steve Francia</div>
+				</div>
+					
 
-			<h1 class="title">HugoでPage Bundleに準じた構成にしたら画像が表示されなくて困った</h1>
-			<div class="meta">Posted at &mdash; 2022-11-27</div>
-		</div>
+				<h1 class="title">HugoでPage Bundleに準じた構成にしたら画像が表示されなくて困った</h1>
+				<div class="meta">Posted at &mdash; 2022-11-27</div>
+			</div>
 
-		<div class="markdown">
-			<p>記事更新のモチベを上げる為、ファイルの階層構造を整理してPage Bundleに準ずるように変更しました</p>
+			<div class="markdown">
+				<p>記事更新のモチベを上げる為、ファイルの階層構造を整理してPage Bundleに準ずるように変更しました</p>
 <p>その後、記事内の画像が何故かリンク切れになってしまい表示されなくなりました</p>
 <p>原因を頑張って探りました</p>
 <p>時間がかかりすぎて心が折れそうになりましたが、原因は特定できました</p>
@@ -88,12 +88,12 @@
 <p>HTMLソースと睨めっこしなければ一生気づかなかったと思います・・・</p>
 <p>Hugoで原因不明の不具合が発生したら、テーマも疑って見たほうが良さそうです・・・</p>
 <p>お風呂入って寝ます</p>
-		</div>
+			</div>
 
-		<div class="post-tags">
-			
+			<div class="post-tags">
 				
-					<nav class="nav tags">
+					
+						<nav class="nav tags">
 							<ul class="flat">
 								
 								<li class="tag">
@@ -105,36 +105,185 @@
 								</li>
 								
 							</ul>
-					</nav>
+						</nav>
+					
 				
+			</div>
 			
-		</div>
-		
-
-<hr>
-<h3>関連記事</h3>
+<div class="related section">
+<h2 class="section-header">関連記事</h2>
 <ul>
     
     <li><a href="/posts/2021/12/hugo-text-centering/">Hugoで文章を中央に寄せる方法</a></li>
     
 </ul>
-
-
-		<div class="author section">
+</div>
+		</div>
+		<div class="side">
 			
-				<h2 class="section-header">Author@zakuro</h2>
-				<div class="content-wrapper">
-					<img src ="/img/my-icon.jpg">
-					<div class="content"><p>SE辞めた/Kotlin/Python/Hugo/Obsidian</p>
+<div class="author section">
+    <h2 class="section-header">Author@zakuro</h2>
+    <div class="content-wrapper">
+        
+        <p><img src="/author/my-icon.jpg" alt=""></p>
+<p>SE辞めた/Kotlin/Python/Hugo/Obsidian</p>
 <p>好きなもの: OSS、個人サイト、クロスプラットフォーム</p>
 <p>嫌いなもの: サブスク、いかがでしたかブログ、ビッグテックの囲い込み</p>
 <p>生息地: <a href="https://mistodon.cloud/@z">mastodon</a></p>
+
+    </div>
 </div>
-				</div>
+
+
+
 			
+
+
+
+
+
+<div class="related section">
+    <h2 class="section-header">Tags</h2>
+    <div class="tag-cloud">
+        <nav class="nav tags">
+            <ul>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/android.webp" alt="tag's icon">
+                    
+                    <a href="/tags/android/">Android (7)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/develop/">Develop (5)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/docker/">Docker (1)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/hugo.webp" alt="tag's icon">
+                    
+                    <a href="/tags/hugo/">Hugo (10)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/ipad/">iPad (1)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/iphone/">iPhone (2)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/kotlin.webp" alt="tag's icon">
+                    
+                    <a href="/tags/kotlin/">Kotlin (1)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/mac.webp" alt="tag's icon">
+                    
+                    <a href="/tags/mac/">Mac (7)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/obsidian.webp" alt="tag's icon">
+                    
+                    <a href="/tags/obsidian/">Obsidian (3)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/python.webp" alt="tag's icon">
+                    
+                    <a href="/tags/python/">Python (1)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/rom%E7%84%BC%E3%81%8D/">ROM焼き (6)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/vrchat/">VRChat (1)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/%E9%9F%B3%E3%82%B2%E3%83%BC/">音ゲー (1)</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</div>
 		</div>
 	</div>
-	
 	<div class="footer wrapper">
 	<nav class="nav">
 		<div> razl-dazl.github.io |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>

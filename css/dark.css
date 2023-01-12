@@ -67,16 +67,13 @@ pre code {
   display: inline-block
 }
 
-.author {
-    border-top: 1px solid #333;
-}
 li.tag {
     border: none;
 	background-color: #333;
 }
 
 /*(モバイル)トップ画面/記事一覧 */
-@media (max-width: 767px) {
+@media (max-width: 960px) {
     .grid {
         border-color: #333;
     }

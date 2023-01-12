@@ -132,7 +132,9 @@ h6 {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1280px;
+    padding: 16px;
+    position: static;
 }
 
 ul {
@@ -196,7 +198,7 @@ pre code {
   
 
 .wrapper {
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -261,11 +263,15 @@ pre code {
     max-height: 15px;
 }
 
+.section {
+    margin-top: 40px;
+}
+
 .section .section-header {
     font-size: 0.75rem;
     font-weight: 600;
     color: #999;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     letter-spacing: 1px;
 }
 
@@ -327,6 +333,7 @@ pre code {
 }
 
 .tag-cloud {
+    max-width: 768px;
     margin-top: 20px;
 }
 
@@ -371,7 +378,7 @@ table th, table td {
     border: 1px solid #dddddd;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 9999px) {
     body {
         padding: 20px;
     }
@@ -414,27 +421,24 @@ table th, table td {
 
 
 /*(モバイル)トップ画面/記事一覧 */
-@media (max-width: 767px) {
+@media (max-width: 9999px) {
     .grid {
         display: flex;
         flex-wrap: wrap;
         padding: 0;
         margin: 0 0 2em;
         grid-gap: 0.0;
-        border-bottom: 1px solid #f4f4f4;
     }
 
     .grid .post {
         margin: 0;
         display: flex;
-        padding: 8px;
-        border-top: 1px solid #f4f4f4;
     }
 
     .grid .post a {
-        flex: initial;
         width: 25%;
         height: 100%;
+        object-fit: cover;
     }
 
     .grid .post a img {
@@ -451,10 +455,6 @@ table th, table td {
         width: 75%;
         margin-left: 0.5em;
         margin-bottom: 0.5em;
-    }
-
-    .grid .post .text .description {
-        display: none;
     }
 }
 
@@ -477,43 +477,16 @@ table th, table td {
     font-size: 12px;
 }
 
-.author {
-    margin-top: 40px;
-    border-top: 1px solid #f4f4f4;
-}
-
 .author .content-wrapper {
-    display: flex;
+    display: block;
 }
 
 .author .content-wrapper img {
-    flex: initial;
-    padding: 20px;
     border-radius: 50%;
-    width: 128px;
-    height: 128px;
+    max-height: 96px;
+    object-fit: contain;
 }
 
-.author .content-wrapper .content {
-    flex: auto;
-}
-
-@media (max-width: 500px) {
-    .author .content-wrapper {
-        display: block;
-    }
-
-    .author .content-wrapper img {
-        margin: auto;
-        border-radius: 50%;
-        width: 128px;
-        height: auto; 
-    }
-    
-    .author .content-wrapper p {
-        text-align: center;
-    }
-}
 
 li.tag {
     margin: 0.25em;
@@ -538,4 +511,63 @@ li.tag a {
 
 code {
     font-family: Consolas, monospace;
+}
+
+@media (max-width: 480px) {
+    .main .description {
+        display: none;
+    }
+    .side .author p {
+        text-align: center;
+    }
+
+    .side img {
+        margin: auto;
+    }
+
+    .side .tag {
+        display: flex;
+        width: fit-content;
+        margin-bottom: 10px
+    }
+}
+
+@media (min-width:480px) and (max-width: 1024px) {
+    .side {
+        max-width: 768px;
+    }
+
+    .side img {
+        margin: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        display: flex;
+    }
+
+    .main {
+        width: calc(100% - 320px);
+        display: block;
+    }
+
+    .side {
+        width: 320px;
+        margin-left: 48px;
+    }
+
+    .side .tag {
+        display: flex;
+        width: fit-content;
+        margin-bottom: 10px
+    }
+}
+
+.background {
+    background-image: url("/img/back.webp");
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

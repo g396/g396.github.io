@@ -28,8 +28,7 @@ PCを初期化したり買い換える度にrbenv入れて〜とかやるのは�
 </head>
 
 <body>
-	<div class="container wrapper post">
-		<div class="header">
+	<div class="header wrapper">
 	
 	<h1 class="site-title"><a href="https://razl-dazl.github.io/">Razl-Dazl</a></h1>
 	<div class="site-description"><nav class="nav social">
@@ -41,15 +40,15 @@ PCを初期化したり買い換える度にrbenv入れて〜とかやるのは�
 		<ul class="flat">
 			
 			<li>
-				<a href="/">home</a>
+				<a href="/posts/">blog</a>
+			</li>
+			
+			<li>
+				<a href="/diary/">diary</a>
 			</li>
 			
 			<li>
 				<a href="/tags/">tags</a>
-			</li>
-			
-			<li>
-				<a href="/posts/">all posts</a>
 			</li>
 			
 		</ul>
@@ -57,24 +56,25 @@ PCを初期化したり買い換える度にrbenv入れて〜とかやるのは�
 </div>
 
 
-		<div class="post-header">
-
-			
-			
-			
-			
-			<div class = "eyecatch">
-				<img src="/thumbnails/develop.webp" alt="eyecatch">
-				<div class = "eyecatch-credit"></div>
-			</div>
+	<div class="container wrapper post">
+		<div class="main">
+			<div class="post-header">
 				
+				
+				
+				
+				<div class = "eyecatch">
+					<img src="/thumbnails/develop.webp" alt="eyecatch">
+					<div class = "eyecatch-credit"></div>
+				</div>
+					
 
-			<h1 class="title">Jekyll環境をDockerで構築したよ</h1>
-			<div class="meta">Posted at &mdash; 2021-12-09</div>
-		</div>
+				<h1 class="title">Jekyll環境をDockerで構築したよ</h1>
+				<div class="meta">Posted at &mdash; 2021-12-09</div>
+			</div>
 
-		<div class="markdown">
-			<p><del>※このサイトはJekyllで生成しているのですが</del>、作成した記事のプレビューを見るにはRubyが必要なので少し厄介です</p>
+			<div class="markdown">
+				<p><del>※このサイトはJekyllで生成しているのですが</del>、作成した記事のプレビューを見るにはRubyが必要なので少し厄介です</p>
 <p>PCを初期化したり買い換える度にrbenv入れて〜とかやるのは少しだるい</p>
 <p>環境を汚すのはあまり好きじゃないのでDockerを使って環境を作ることにしました</p>
 <p>DockerでJekyllを使う方法なんてググればいくらでも前例が出てくるんですけど、折角なので自己流の手順を書いていきます</p>
@@ -161,12 +161,12 @@ services:
 <p>これでいつでも環境が簡単に復元できるってわけ</p>
 <p>去年までDockerのDの字も知らなかったけど使えば使うほど便利だな〜と&hellip;</p>
 <p>最近は仕事でDockerばっかり触っているので、事ある毎にDockerの使い道を考えています。公私混同。さいあく</p>
-		</div>
+			</div>
 
-		<div class="post-tags">
-			
+			<div class="post-tags">
 				
-					<nav class="nav tags">
+					
+						<nav class="nav tags">
 							<ul class="flat">
 								
 								<li class="tag">
@@ -186,14 +186,13 @@ services:
 								</li>
 								
 							</ul>
-					</nav>
+						</nav>
+					
 				
+			</div>
 			
-		</div>
-		
-
-<hr>
-<h3>関連記事</h3>
+<div class="related section">
+<h2 class="section-header">関連記事</h2>
 <ul>
     
     <li><a href="/posts/2021/04/ish-icloud/">iSHからiCloud Drive上のファイルにアクセスする</a></li>
@@ -203,23 +202,173 @@ services:
     <li><a href="/posts/2020/12/exiftool/">Exiftoolで写真のファイル名から撮影日を取得する</a></li>
     
 </ul>
-
-
-		<div class="author section">
+</div>
+		</div>
+		<div class="side">
 			
-				<h2 class="section-header">Author@zakuro</h2>
-				<div class="content-wrapper">
-					<img src ="/img/my-icon.jpg">
-					<div class="content"><p>SE辞めた/Kotlin/Python/Hugo/Obsidian</p>
+<div class="author section">
+    <h2 class="section-header">Author@zakuro</h2>
+    <div class="content-wrapper">
+        
+        <p><img src="/author/my-icon.jpg" alt=""></p>
+<p>SE辞めた/Kotlin/Python/Hugo/Obsidian</p>
 <p>好きなもの: OSS、個人サイト、クロスプラットフォーム</p>
 <p>嫌いなもの: サブスク、いかがでしたかブログ、ビッグテックの囲い込み</p>
 <p>生息地: <a href="https://mistodon.cloud/@z">mastodon</a></p>
+
+    </div>
 </div>
-				</div>
+
+
+
 			
+
+
+
+
+
+<div class="related section">
+    <h2 class="section-header">Tags</h2>
+    <div class="tag-cloud">
+        <nav class="nav tags">
+            <ul>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/android.webp" alt="tag's icon">
+                    
+                    <a href="/tags/android/">Android (7)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/develop/">Develop (5)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/docker/">Docker (1)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/hugo.webp" alt="tag's icon">
+                    
+                    <a href="/tags/hugo/">Hugo (10)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/ipad/">iPad (1)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/iphone/">iPhone (2)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/kotlin.webp" alt="tag's icon">
+                    
+                    <a href="/tags/kotlin/">Kotlin (1)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/mac.webp" alt="tag's icon">
+                    
+                    <a href="/tags/mac/">Mac (7)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/obsidian.webp" alt="tag's icon">
+                    
+                    <a href="/tags/obsidian/">Obsidian (3)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/python.webp" alt="tag's icon">
+                    
+                    <a href="/tags/python/">Python (1)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/rom%E7%84%BC%E3%81%8D/">ROM焼き (6)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/vrchat/">VRChat (1)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/%E9%9F%B3%E3%82%B2%E3%83%BC/">音ゲー (1)</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</div>
 		</div>
 	</div>
-	
 	<div class="footer wrapper">
 	<nav class="nav">
 		<div> razl-dazl.github.io |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>

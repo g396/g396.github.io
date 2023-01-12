@@ -24,8 +24,7 @@
 </head>
 
 <body>
-	<div class="container wrapper post">
-		<div class="header">
+	<div class="header wrapper">
 	
 	<h1 class="site-title"><a href="https://razl-dazl.github.io/">Razl-Dazl</a></h1>
 	<div class="site-description"><nav class="nav social">
@@ -37,15 +36,15 @@
 		<ul class="flat">
 			
 			<li>
-				<a href="/">home</a>
+				<a href="/posts/">blog</a>
+			</li>
+			
+			<li>
+				<a href="/diary/">diary</a>
 			</li>
 			
 			<li>
 				<a href="/tags/">tags</a>
-			</li>
-			
-			<li>
-				<a href="/posts/">all posts</a>
 			</li>
 			
 		</ul>
@@ -53,24 +52,25 @@
 </div>
 
 
-		<div class="post-header">
-
-			
-			
-			
-			
-			<div class = "eyecatch">
-				<img src="/thumbnails/kotlin.webp" alt="eyecatch">
-				<div class = "eyecatch-credit"></div>
-			</div>
+	<div class="container wrapper post">
+		<div class="main">
+			<div class="post-header">
 				
+				
+				
+				
+				<div class = "eyecatch">
+					<img src="/thumbnails/kotlin.webp" alt="eyecatch">
+					<div class = "eyecatch-credit"></div>
+				</div>
+					
 
-			<h1 class="title">KClassを使ってメソッドを呼び出してみる</h1>
-			<div class="meta">Posted at &mdash; 2022-06-27</div>
-		</div>
+				<h1 class="title">KClassを使ってメソッドを呼び出してみる</h1>
+				<div class="meta">Posted at &mdash; 2022-06-27</div>
+			</div>
 
-		<div class="markdown">
-			<p>最近JUnit5を使うことが多いのですがメソッドの呼び出しがややこしく毎回つまづいてしまうので、自分の中で少し整理してみました</p>
+			<div class="markdown">
+				<p>最近JUnit5を使うことが多いのですがメソッドの呼び出しがややこしく毎回つまづいてしまうので、自分の中で少し整理してみました</p>
 <h2 id="1-publicなクラスのメソッドを取得する">1. publicなクラスのメソッドを取得する</h2>
 <p>ここでは以下のコードをテストします</p>
 <div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin"><span style="color:#719e07">class</span> <span style="color:#268bd2">ClassA</span> {
@@ -257,12 +257,12 @@
 <div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin"><span style="color:#719e07">val</span> instance = <span style="color:#719e07">constructor</span>.call(<span style="color:#2aa198">&#34;hello&#34;</span>, <span style="color:#2aa198">&#34;kotlin&#34;</span>)
 </code></pre></div><p>本当はプロパティへのアクセスとかについても書きたかったのですが、ちょっと長くなってしまったので今回はやめておきます</p>
 <p>ご参考までに・・・</p>
-		</div>
+			</div>
 
-		<div class="post-tags">
-			
+			<div class="post-tags">
 				
-					<nav class="nav tags">
+					
+						<nav class="nav tags">
 							<ul class="flat">
 								
 								<li class="tag">
@@ -282,14 +282,13 @@
 								</li>
 								
 							</ul>
-					</nav>
+						</nav>
+					
 				
+			</div>
 			
-		</div>
-		
-
-<hr>
-<h3>関連記事</h3>
+<div class="related section">
+<h2 class="section-header">関連記事</h2>
 <ul>
     
     <li><a href="/posts/2021/12/jekyll-docker-compose/">Jekyll環境をDockerで構築したよ</a></li>
@@ -301,23 +300,173 @@
     <li><a href="/posts/2020/12/exiftool/">Exiftoolで写真のファイル名から撮影日を取得する</a></li>
     
 </ul>
-
-
-		<div class="author section">
+</div>
+		</div>
+		<div class="side">
 			
-				<h2 class="section-header">Author@zakuro</h2>
-				<div class="content-wrapper">
-					<img src ="/img/my-icon.jpg">
-					<div class="content"><p>SE辞めた/Kotlin/Python/Hugo/Obsidian</p>
+<div class="author section">
+    <h2 class="section-header">Author@zakuro</h2>
+    <div class="content-wrapper">
+        
+        <p><img src="/author/my-icon.jpg" alt=""></p>
+<p>SE辞めた/Kotlin/Python/Hugo/Obsidian</p>
 <p>好きなもの: OSS、個人サイト、クロスプラットフォーム</p>
 <p>嫌いなもの: サブスク、いかがでしたかブログ、ビッグテックの囲い込み</p>
 <p>生息地: <a href="https://mistodon.cloud/@z">mastodon</a></p>
+
+    </div>
 </div>
-				</div>
+
+
+
 			
+
+
+
+
+
+<div class="related section">
+    <h2 class="section-header">Tags</h2>
+    <div class="tag-cloud">
+        <nav class="nav tags">
+            <ul>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/android.webp" alt="tag's icon">
+                    
+                    <a href="/tags/android/">Android (7)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/develop/">Develop (5)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/docker/">Docker (1)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/hugo.webp" alt="tag's icon">
+                    
+                    <a href="/tags/hugo/">Hugo (10)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/ipad/">iPad (1)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/iphone/">iPhone (2)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/kotlin.webp" alt="tag's icon">
+                    
+                    <a href="/tags/kotlin/">Kotlin (1)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/mac.webp" alt="tag's icon">
+                    
+                    <a href="/tags/mac/">Mac (7)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/obsidian.webp" alt="tag's icon">
+                    
+                    <a href="/tags/obsidian/">Obsidian (3)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/python.webp" alt="tag's icon">
+                    
+                    <a href="/tags/python/">Python (1)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/rom%E7%84%BC%E3%81%8D/">ROM焼き (6)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/vrchat/">VRChat (1)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/%E9%9F%B3%E3%82%B2%E3%83%BC/">音ゲー (1)</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</div>
 		</div>
 	</div>
-	
 	<div class="footer wrapper">
 	<nav class="nav">
 		<div> razl-dazl.github.io |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>

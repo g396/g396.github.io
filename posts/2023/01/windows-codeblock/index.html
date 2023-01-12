@@ -26,8 +26,7 @@
 </head>
 
 <body>
-	<div class="container wrapper post">
-		<div class="header">
+	<div class="header wrapper">
 	
 	<h1 class="site-title"><a href="https://razl-dazl.github.io/">Razl-Dazl</a></h1>
 	<div class="site-description"><nav class="nav social">
@@ -39,15 +38,15 @@
 		<ul class="flat">
 			
 			<li>
-				<a href="/">home</a>
+				<a href="/posts/">blog</a>
+			</li>
+			
+			<li>
+				<a href="/diary/">diary</a>
 			</li>
 			
 			<li>
 				<a href="/tags/">tags</a>
-			</li>
-			
-			<li>
-				<a href="/posts/">all posts</a>
 			</li>
 			
 		</ul>
@@ -55,24 +54,25 @@
 </div>
 
 
-		<div class="post-header">
-
-			
-			
-			
-			
-			<div class = "eyecatch">
-				<img src="/thumbnails/hugo.webp" alt="eyecatch">
-				<div class = "eyecatch-credit">© 2014 Steve Francia</div>
-			</div>
+	<div class="container wrapper post">
+		<div class="main">
+			<div class="post-header">
 				
+				
+				
+				
+				<div class = "eyecatch">
+					<img src="/thumbnails/hugo.webp" alt="eyecatch">
+					<div class = "eyecatch-credit">© 2014 Steve Francia</div>
+				</div>
+					
 
-			<h1 class="title">Windows環境の時だけコードブロックのフォントが汚いので直した</h1>
-			<div class="meta">Posted at &mdash; 2023-01-05</div>
-		</div>
+				<h1 class="title">Windows環境の時だけコードブロックのフォントが汚いので直した</h1>
+				<div class="meta">Posted at &mdash; 2023-01-05</div>
+			</div>
 
-		<div class="markdown">
-			<p>このサイトをビルドする時に毎回感じつつスルーしていましたがもう我慢できません</p>
+			<div class="markdown">
+				<p>このサイトをビルドする時に毎回感じつつスルーしていましたがもう我慢できません</p>
 <p>コードブロックのフォントがコマンドプロンプトみたいで鬼ダサいので直すことにしました</p>
 <p>自分の使用しているHugoのテーマにはNormalize.cssが含まれており、コードブロックのフォントに関してはそちらから指定しているのですが、中を見てみると・・・</p>
 <div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">  <span style="color:#268bd2">code</span><span style="color:#719e07">,</span>
@@ -96,12 +96,12 @@
 <p><del>Normalizeとは何だったのか</del></p>
 <p>インターネットで調べ物しててもよくこの事象に遭遇しますが、Normalize.cssとWindows君が上手く噛み合ってないんだろうなー多分・・・</p>
 <p><strong>Normalize.cssはコードブロックもNormalizeしてくれ～！</strong></p>
-		</div>
+			</div>
 
-		<div class="post-tags">
-			
+			<div class="post-tags">
 				
-					<nav class="nav tags">
+					
+						<nav class="nav tags">
 							<ul class="flat">
 								
 								<li class="tag">
@@ -113,14 +113,13 @@
 								</li>
 								
 							</ul>
-					</nav>
+						</nav>
+					
 				
+			</div>
 			
-		</div>
-		
-
-<hr>
-<h3>関連記事</h3>
+<div class="related section">
+<h2 class="section-header">関連記事</h2>
 <ul>
     
     <li><a href="/posts/2023/01/hugo-eyecatch/">Hugoでタグ毎にアイキャッチ画像を設定する</a></li>
@@ -134,23 +133,173 @@
     <li><a href="/posts/2022/12/keybase-pub/">Keybase.pubで静的Webサイトの作成を試す</a></li>
     
 </ul>
-
-
-		<div class="author section">
+</div>
+		</div>
+		<div class="side">
 			
-				<h2 class="section-header">Author@zakuro</h2>
-				<div class="content-wrapper">
-					<img src ="/img/my-icon.jpg">
-					<div class="content"><p>SE辞めた/Kotlin/Python/Hugo/Obsidian</p>
+<div class="author section">
+    <h2 class="section-header">Author@zakuro</h2>
+    <div class="content-wrapper">
+        
+        <p><img src="/author/my-icon.jpg" alt=""></p>
+<p>SE辞めた/Kotlin/Python/Hugo/Obsidian</p>
 <p>好きなもの: OSS、個人サイト、クロスプラットフォーム</p>
 <p>嫌いなもの: サブスク、いかがでしたかブログ、ビッグテックの囲い込み</p>
 <p>生息地: <a href="https://mistodon.cloud/@z">mastodon</a></p>
+
+    </div>
 </div>
-				</div>
+
+
+
 			
+
+
+
+
+
+<div class="related section">
+    <h2 class="section-header">Tags</h2>
+    <div class="tag-cloud">
+        <nav class="nav tags">
+            <ul>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/android.webp" alt="tag's icon">
+                    
+                    <a href="/tags/android/">Android (7)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/develop/">Develop (5)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/docker/">Docker (1)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/hugo.webp" alt="tag's icon">
+                    
+                    <a href="/tags/hugo/">Hugo (10)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/ipad/">iPad (1)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/iphone/">iPhone (2)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/kotlin.webp" alt="tag's icon">
+                    
+                    <a href="/tags/kotlin/">Kotlin (1)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/mac.webp" alt="tag's icon">
+                    
+                    <a href="/tags/mac/">Mac (7)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/obsidian.webp" alt="tag's icon">
+                    
+                    <a href="/tags/obsidian/">Obsidian (3)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/python.webp" alt="tag's icon">
+                    
+                    <a href="/tags/python/">Python (1)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/rom%E7%84%BC%E3%81%8D/">ROM焼き (6)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/vrchat/">VRChat (1)</a>
+                </li>
+                
+                
+                
+                <li class = "tag">
+                    
+                    
+                    <img src = "/img/tags/tag.webp" alt="tag's icon">
+                    
+                    <a href="/tags/%E9%9F%B3%E3%82%B2%E3%83%BC/">音ゲー (1)</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</div>
 		</div>
 	</div>
-	
 	<div class="footer wrapper">
 	<nav class="nav">
 		<div> razl-dazl.github.io |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>

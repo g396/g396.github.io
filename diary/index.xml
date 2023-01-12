@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diaries on Razl-Dazl</title>
+    <link>https://razl-dazl.github.io/diary/</link>
+    <description>Recent content in Diaries on Razl-Dazl</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>razl-dazl.github.io</copyright>
+    
+	<atom:link href="https://razl-dazl.github.io/diary/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://razl-dazl.github.io/diary/2023-01-10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/diary/2023-01-10/</guid>
+      <description>コンテンツの新しい区分としてDiaryを作成
+ちゃんとした記事を書くほどじゃないけど残したいメモとか、そういった物の為にブログとは別区分で領域を作ってみました
+図書室のエルザ[FOX]がクリア出来た事があまりにも嬉しかったのでここに残しておきます
+三重乱打が押せるようになってくるとBMSやってるな～って感じがして良いですね</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://razl-dazl.github.io/diary/2023-01-12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/diary/2023-01-12/</guid>
+      <description>ムームードメインから「ドメインを更新した」なるメールが来ました
+以前VPSで遊ぶために適当に取得した、1年で解約する予定のドメインが勝手に自動更新されてしまったようでした
+調べた所、自動更新のキャンセルは出来ないようでした
+自動更新と言ってもまだドメインの期限は切れておらず（1月末だか2月末だったかな）、まだ利用が発生していない期間の利用料金を払うことになってしまい何だかな～・・・という感じ
+ドメインって1年目は99円！とかそういう商売をしているんですけど2年目以降は普通に年1600円とかだったりするので、商法にまんまと乗せられてしまいました
+すごいモヤモヤするので愚痴としてここに書き記しておきます
+せめて、自動更新前にも予告メールとかしてくれればいいのにな～・・・よくわからないお知らせメールとかは強制配信してくるのにね
+まぁ年1600円は勉強料として受け入れるにしても、ドメインの利用期間が満了にならないとアカウントの削除をすることが出来ないんですよね・・・
+使わないアカウントは消す主義なのでとても気持ち悪いです
+利用期間満了となる1年後まで、頭の片隅にこのモヤモヤを留めて置く羽目になってしまいました
+年1600円より痛い勉強料・・・</description>
+    </item>
+    
+  </channel>
+</rss>
