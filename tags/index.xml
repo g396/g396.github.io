@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io</copyright>
-    <lastBuildDate>Fri, 13 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Jan 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://razl-dazl.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>音ゲー</title>
+      <link>https://razl-dazl.github.io/tags/%E9%9F%B3%E3%82%B2%E3%83%BC/</link>
+      <pubDate>Sat, 21 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/tags/%E9%9F%B3%E3%82%B2%E3%83%BC/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>iPad</title>
@@ -54,15 +63,6 @@
       <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/tags/android/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>音ゲー</title>
-      <link>https://razl-dazl.github.io/tags/%E9%9F%B3%E3%82%B2%E3%83%BC/</link>
-      <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://razl-dazl.github.io/tags/%E9%9F%B3%E3%82%B2%E3%83%BC/</guid>
       <description></description>
     </item>
     

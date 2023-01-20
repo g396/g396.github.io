@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io</copyright>
-    <lastBuildDate>Fri, 13 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Jan 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://razl-dazl.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MuseDash with DIVAアケコン キー反転対策メモ</title>
+      <link>https://razl-dazl.github.io/posts/2023/01/musedash-diva-controller/</link>
+      <pubDate>Sat, 21 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2023/01/musedash-diva-controller/</guid>
+      <description>&lt;p&gt;異種格闘技のつもりでDIVAコンでMuseDashをプレーしてみたら中々にハマってしまいました&lt;/p&gt;
+&lt;p&gt;MuseDash用とDIVA用のコンフィグの共存をさせるのにちょっと迷ったので一応メモ&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Native Unionのカバーは如何なのか</title>

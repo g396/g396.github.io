@@ -557,6 +557,10 @@ code {
         margin-left: 48px;
     }
 
+    .side .author p {
+        text-align: center;
+    }
+
     .side .tag {
         display: flex;
         width: fit-content;
