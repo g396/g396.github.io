@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io</copyright>
-    <lastBuildDate>Sat, 21 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Jan 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://razl-dazl.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>WSL上のHugoサーバにLAN内の端末からアクセスする</title>
+      <link>https://razl-dazl.github.io/posts/2023/01/hugo-wsl2-lan/</link>
+      <pubDate>Fri, 27 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2023/01/hugo-wsl2-lan/</guid>
+      <description>&lt;p&gt;WSL(WSL2)上で&lt;code&gt;hugo server&lt;/code&gt; した際に、手持ちのiPhone等から見た目を確認したかったので、色々試行錯誤しました&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>MuseDash with DIVAアケコン キー反転対策メモ</title>
@@ -371,6 +380,22 @@ Softbank版Xperia XZ(601SO)にF8331のAndroid 8.0(Oreo)を入れてみたので�
       <guid>https://razl-dazl.github.io/diary/2023-01-20/</guid>
       <description>激唱Exの最後が奇跡的に繋がってしまったつらい
 こういうタイプの譜面は暫く放置しないと繋げられないので放置します・・・</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://razl-dazl.github.io/diary/2023-01-27/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/diary/2023-01-27/</guid>
+      <description>CSSを一日中弄くり回していたら、iPhoneで見た場合とPCやAndroidで見た場合で挙動が異なる事に気が付きました・・・
+競合した場合のCSSの適用順序が、どうやらwebkitの時だけ違うみたいで・・・
+FirefoxとVivaldi(Chromiumベース)は同じ挙動だったのでどう考えてもApple様のせいですありがとうございました
+webkitの変な挙動は以下を修正した時に発見しました
+修正前
+a { ... } .foo a { ... } 修正後
+a { ... } h1.foo a { ... } 更に厄介なのは、ダークモード時(dark.css適用時)のみ変な挙動になってて、非適用時は特に問題無かったこと・・・
+結果修正は行わずそのままにしました</description>
     </item>
     
     <item>

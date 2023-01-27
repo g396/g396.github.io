@@ -206,3 +206,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0
 }
+
+/* Custom */
+
+code {
+  font-family: Consolas, monospace;
+}

@@ -63,5 +63,21 @@
 こういうタイプの譜面は暫く放置しないと繋げられないので放置します・・・</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://razl-dazl.github.io/diary/2023-01-27/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/diary/2023-01-27/</guid>
+      <description>CSSを一日中弄くり回していたら、iPhoneで見た場合とPCやAndroidで見た場合で挙動が異なる事に気が付きました・・・
+競合した場合のCSSの適用順序が、どうやらwebkitの時だけ違うみたいで・・・
+FirefoxとVivaldi(Chromiumベース)は同じ挙動だったのでどう考えてもApple様のせいですありがとうございました
+webkitの変な挙動は以下を修正した時に発見しました
+修正前
+a { ... } .foo a { ... } 修正後
+a { ... } h1.foo a { ... } 更に厄介なのは、ダークモード時(dark.css適用時)のみ変な挙動になってて、非適用時は特に問題無かったこと・・・
+結果修正は行わずそのままにしました</description>
+    </item>
+    
   </channel>
 </rss>
