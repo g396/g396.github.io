@@ -3,22 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://razl-dazl.github.io/tags/hugo/</loc>
-    <lastmod>2023-01-27T00:00:00+00:00</lastmod>
+    <loc>https://razl-dazl.github.io/tags/css/</loc>
+    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://razl-dazl.github.io/tags/javascript/</loc>
+    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://razl-dazl.github.io/posts/</loc>
-    <lastmod>2023-01-27T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://razl-dazl.github.io/</loc>
-    <lastmod>2023-01-27T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://razl-dazl.github.io/tags/</loc>
+    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://razl-dazl.github.io/posts/2023/02/darkmode-js/</loc>
+    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://razl-dazl.github.io/tags/hugo/</loc>
     <lastmod>2023-01-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -269,6 +284,10 @@
   
   <url>
     <loc>https://razl-dazl.github.io/diary/2023-01-30/</loc>
+  </url>
+  
+  <url>
+    <loc>https://razl-dazl.github.io/diary/2023-02-03/</loc>
   </url>
   
   <url>

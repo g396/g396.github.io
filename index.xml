@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io</copyright>
-    <lastBuildDate>Fri, 27 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Feb 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://razl-dazl.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ダークモード切替ボタンの実装</title>
+      <link>https://razl-dazl.github.io/posts/2023/02/darkmode-js/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2023/02/darkmode-js/</guid>
+      <description>&lt;p&gt;一応CSSはダークモード対応にしていましたが、折角なのでダークモードの切替ボタンを設置しました&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>WSL上のHugoサーバにLAN内の端末からアクセスする</title>
@@ -408,6 +417,23 @@ a { ... } h1.foo a { ... } 更に厄介なのは、ダークモード時(dark.cs
 以下を重ね着したのが気に入っています
  サイバースーツ3 スケルトンスーツ  衣装に合わせて白髪にしたら統一感が出ていい感じに・・・
 普通の服とか着せてるとあまり気づかないけど、VRoidの太ももの造形へのこだわりが凄い・・・</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://razl-dazl.github.io/diary/2023-02-03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/diary/2023-02-03/</guid>
+      <description>ここ3日くらいまたサイト周りを弄っています
+ダークモード切替ボタンを実装したいなと思ったので、jsをちょっと調べたりして見様見真似で実装していたのですが、色々な罠にぶつかったり原因不明の事象に当たったりして辛いです
+getElementById()の結果がnullってしまいaddEventListener()でエラってしまいました
+適当にググったら答えが出ました、jsの実行がgetElementById()で取得する所より先行していると、そんなものはないと言われてしまうみたいです window.onloadを使用して実行順を制御することでここは解決・・・
+その後はiPhoneとPCで挙動が異なる事案が発生・・・これが本当に意味不明で心が折れそうになった
+ソースをよくよく見てみると変数名を間違えて存在しないものになっていました・・・エラったときの処理の仕方がブラウザによって異なる為に起こったものと推定
+変数名を直したら動作も問題なくなりました JavaScriptに関しては素人なのでこのあたりはいい勉強になりました
+あと、JavaScriptは行末のセミコロンを省略できるみたいなので全部取っ払ってしまいました
+どうせつけ忘れるくらいなら最初から無い方が良いですね～</description>
     </item>
     
     <item>

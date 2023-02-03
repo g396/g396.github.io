@@ -1,33 +1,64 @@
+/* var */
+:root {
+    --background-color: #fff;
+    --text-color: #333;
+    --primary-color: #a00;
+    --border-color: #ddd;
+    --codeblock-color: #fafafa; 
+    --tag-background-color: #fff;
+    --tag-border-color: #a00;
+    --selection-background-color: #b3d4fc;
+    --blockquote-border-color: #a00;
+}
+:root[theme = "dark"] {
+    --background-color: #111;
+    --text-color: #ddd;
+    --primary-color: #ff7979;
+    --border-color: #333;
+    --codeblock-color: #333;
+    --tag-background-color: #333;
+    --tag-border-color: #333;
+    --selection-background-color: #666;
+    --blockquote-border-color: #ddd;
+}
+
 /* General */
 body {
     font-family: Noto Sans JP, sans-serif;
     font-weight: 200;
-    color: #333;
+    color: var(--text-color);
+    background-color: var(--background-color);
     line-height: 1.4;
     font-size: 16px;
-    padding: 20px;}
+    padding: 20px;
+    transition: 0.3s;}
 a{
-    color: #a00;
+    color: var(--primary-color);
     text-decoration: none;
     word-break: break-word;}
 a:hover {
-    text-decoration: underline}
+    text-decoration: underline;
+    opacity: 0.8;
+}
+.darkmode a:hover {
+    text-decoration: none;
+}
 a img {
     border:none;}
 html,button,input,select,textarea {
     color: #333;}
 ::-moz-selection {
-    background: #b3d4fc;
+    background: var(--selection-background-color);
     text-shadow: none;
 }
 ::selection {
-    background: #b3d4fc;
+    background: var(--selection-background-color);
     text-shadow: none;}
 hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid var(--border-color);
     margin: 1rem 0;
     padding: 0;}
 img {
@@ -46,25 +77,36 @@ blockquote {
     font-size: 1.4rem;
     font-family: Georgia,bitstream charter,serif;
     border-left: 3px solid;
-    border-color: #a00;
+    border-color: var(--blockquote-border-color);
     padding-left: 20px;}
     blockquote cite {
         font-size: 70%;
         opacity: .8;}
     blockquote em {
         font-weight: 600;}
+
 h1,h2,h3,h4,h5,h6 {
     font-family: raleway, Noto Sans JP, sans-serif;
     line-height: 1.2;
-    color: #333;
     font-weight: 200;}
+
 table th {
     background-color: #f4f4f4;
+}
+.darkmode table th {
+	background-color: #333;
 }
 table th, table td {
     padding: 10px 20px;
     border: 1px solid #dddddd;
 }
+.darkmode table th, .darkmode table td {
+    padding: 10px 20px;
+    border: 1px solid #666;
+}
+
+
+
 ul {
     list-style: disc;
     padding-left: 15px;}
@@ -95,7 +137,7 @@ ul {
         margin-top: 10px;}
 
 .post .draft-label {
-    color: #a00;
+    color: var(--primary-color);
     text-decoration: none;
     padding: 2px 4px;
     border-radius: 4px;
@@ -104,7 +146,7 @@ ul {
 
 .highlight {
     background: 0 0;
-    background-color: #FAFAFA;}     
+    background-color: var(--codeblock-color);}     
     .highlight pre {
         margin-bottom: 0;
         margin-top: 0;
@@ -140,16 +182,26 @@ pre code {
     margin: auto;}
     .header .site-title {
         margin: 0;}
-    .header nav {
+    .header .menu-bar {
+        display: flex;
         margin-top: 20px;
-        border-top: 1px solid #f4f4f4;}
-        .header nav ul.flat li {
-            display: inline-block;
-            list-style: none;
-            margin-left: 0;
-            margin-right: 10px;
-            margin-top: 10px;
-            text-transform: capitalize;}
+        border-top: 1px solid var(--border-color);
+        justify-content: space-between;}
+    .header .toggle {
+        margin-top: 10px;
+        margin-right: 10px;
+        width: 24px;
+        height: 24px;
+    }
+    .header .toggle input {
+        display: none;}
+    .header nav ul.flat li {
+        display: inline-block;
+        list-style: none;
+        margin-left: 0;
+        margin-right: 10px;
+        margin-top: 10px;
+        text-transform: capitalize;}
     .header .site-description {
         display: flex;
         justify-content: space-between;}
@@ -162,7 +214,7 @@ pre code {
             .header .site-description nav ul svg {
                 max-height: 15px;}
 .site-title a {
-    color: #333;
+    color: var(--text-color);
     text-decoration: none !important;}
 
 /*
@@ -174,7 +226,8 @@ li.tag {
     display: inline-flex;
     align-items: center;
     border-radius: 1.25em;
-    border: 0.5px solid #a00;}
+    border: 0.5px solid var(--tag-border-color);
+    background-color: var(--tag-background-color);}
     li.tag img {
         height: 1.5em;
         width: auto;
@@ -213,7 +266,7 @@ li.tag {
     text-align: right;
     font-size: 0.75em;
     color: #999;
-    border-top: 1px solid #f4f4f4;
+    border-top: 1px solid var(--border-color);
     padding: 20px 0;
     margin-top: 20px;
 }
