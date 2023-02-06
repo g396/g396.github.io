@@ -1,11 +1,11 @@
 /* var */
-:root {
-    --background-color: #fff;
+:root{
+    --background-color: #fafafa;
     --text-color: #333;
     --primary-color: #a00;
     --border-color: #ddd;
-    --codeblock-color: #fafafa; 
-    --tag-background-color: #fff;
+    --codeblock-color: #f0f0f0; 
+    --tag-background-color: #fafafa;
     --tag-border-color: #a00;
     --selection-background-color: #b3d4fc;
     --blockquote-border-color: #a00;

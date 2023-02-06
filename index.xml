@@ -437,6 +437,35 @@ getElementById()の結果がnullってしまいaddEventListener()でエラって
     </item>
     
     <item>
+      <title></title>
+      <link>https://razl-dazl.github.io/diary/2023-02-05/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/diary/2023-02-05/</guid>
+      <description>ブルアカのスタンプラリーをやりに秋葉原へ・・・
+QRコード撮りつつ散財して、配布中のカードを貰ってきました
+シークレットはアロナちゃんなのでした　やったね
+ちなみに生塩ノアは出ませんでした
+なんでおたくって好きな女をフルネームで呼ぶんでしょうか？
+ちなみにこのカードは1会計に付き最大4枚までしか貰えません
+一枚でも多くゲットするべく一部の会計を友人に代行して貰いましたが、現金をあまり持ち歩いていないので分担方法に難儀しました
+値段の都合で会計を上手く分割することが出来ず、コハルがダメ死刑と言いそうな本を友人に会計して貰うという悲劇が発生しました
+友人に羞恥プレイをさせない為にも、キャッスレス派であろうと懐に予備の万札を忍ばせておくのが賢明です</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://razl-dazl.github.io/diary/2023-02-06/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/diary/2023-02-06/</guid>
+      <description>この前ダークモード切替ボタンを実装しましたがVivaldiで怪しい挙動を発見してしまいました
+OSがダークモードかつWebサイト側のダークモードを無効にしている際に、何故か一瞬ダークモードが適用されて画面がちらつく事案が発生・・・
+chromeの拡張機能(Dark Reader)を無効化すると発生しなくなったので何かが競合している可能性が浮上
+対策方法は思いつきませんがDark Readerを使用するような人はそもそもダークモードを無効にしないと思うので暫くは放置でいいかなーと思っています</description>
+    </item>
+    
+    <item>
       <title>Redirect</title>
       <link>https://razl-dazl.github.io/redirect/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
