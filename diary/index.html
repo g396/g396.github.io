@@ -68,6 +68,20 @@
 					
 					<div class="post">
 						<div class="markdown">
+							<a class="title" href="/diary/2023-02-08/">2023-02-08</a>
+							<span class="content"><p>久々にOKHttp触ったりしてました</p>
+<p>理由はmastodonのAPIを触る為</p>
+<p>postした結果のjson取得が上手くいかずムカついていたのですが自分が間違っているだけでした</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin"><span style="color:#719e07">val</span> response = OkHttpClient().newCall(request).execute()
+<span style="color:#719e07">val</span> jsonStr = response.body.string()
+</code></pre></div><p><code>response.body.string()</code> を<code>response.body.toString()</code>としていたが為に・・・</p>
+<p>しょうもない・・・</p>
+</span>
+						</div>
+					</div>
+					
+					<div class="post">
+						<div class="markdown">
 							<a class="title" href="/diary/2023-02-06/">2023-02-06</a>
 							<span class="content"><p>この前ダークモード切替ボタンを実装しましたがVivaldiで怪しい挙動を発見してしまいました</p>
 <p>OSがダークモードかつWebサイト側のダークモードを無効にしている際に、何故か一瞬ダークモードが適用されて画面がちらつく事案が発生・・・</p>
@@ -163,17 +177,6 @@ h1.foo a {
 							<span class="content"><p><img src="img/2023-01-20.jpg" alt=""></p>
 <p>激唱Exの最後が奇跡的に繋がってしまったつらい</p>
 <p>こういうタイプの譜面は暫く放置しないと繋げられないので放置します・・・</p>
-</span>
-						</div>
-					</div>
-					
-					<div class="post">
-						<div class="markdown">
-							<a class="title" href="/diary/2023-01-17/">2023-01-17</a>
-							<span class="content"><p><img src="img/2023-01-17.webp" alt=""></p>
-<p>虹コンが断線してBMSができなくなりました</p>
-<p>幸いにも(?) 冥界帰航を直前に練習してたらBP100~120前後で安定したので本家皆伝のモチベも湧いてきました</p>
-<p>とりあえず断線をどうやって直すか検討中・・・お金さえあればフェニワン買うんですが流石に再就職しないとキツイ</p>
 </span>
 						</div>
 					</div>

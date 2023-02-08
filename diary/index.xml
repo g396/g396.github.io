@@ -137,5 +137,18 @@ chromeの拡張機能(Dark Reader)を無効化すると発生しなくなった�
 対策方法は思いつきませんがDark Readerを使用するような人はそもそもダークモードを無効にしないと思うので暫くは放置でいいかなーと思っています</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://razl-dazl.github.io/diary/2023-02-08/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/diary/2023-02-08/</guid>
+      <description>久々にOKHttp触ったりしてました
+理由はmastodonのAPIを触る為
+postした結果のjson取得が上手くいかずムカついていたのですが自分が間違っているだけでした
+val response = OkHttpClient().newCall(request).execute() val jsonStr = response.body.string() response.body.string() をresponse.body.toString()としていたが為に・・・
+しょうもない・・・</description>
+    </item>
+    
   </channel>
 </rss>
