@@ -479,6 +479,24 @@ val response = OkHttpClient().newCall(request).execute() val jsonStr = response.
     </item>
     
     <item>
+      <title></title>
+      <link>https://razl-dazl.github.io/diary/2023-02-13/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/diary/2023-02-13/</guid>
+      <description>最近Cloudflare WARP(VPN)の調子がおかしい・・・
+Youtubeの読込が遅かったりpingがめちゃめちゃ長かったりまともに使えたもんじゃ無くてストレスマッハです
+試しにWARPを1.1.1.1のモード(DNSのみ暗号化するモード)に切り替えたのですが、途端に読み込み速度が爆速になったのでWARPがおかしい疑惑が強まる強まる・・・
+適当に設定を弄ったらタイムアウトとかは無くなりました
+Androidの場合は
+設定 &amp;gt; 詳細 &amp;gt; 接続オプション &amp;gt; DNS設定 &amp;gt; プロトコルオプション を DNS over HTTPS へ変更
+Windowsの場合は
+環境設定 &amp;gt; 接続 &amp;gt; DNSプロトコル を HTTPSへ変更
+iOSは特に不具合は起きていないんですよね・・・クライアントがバグってるだけの可能性ありそう
+接続自体は改善したものの、スピードテストで上りの速度が2Mbpsとかあり得ない数値を出してるので早く直ってほしいです</description>
+    </item>
+    
+    <item>
       <title>Redirect</title>
       <link>https://razl-dazl.github.io/redirect/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
