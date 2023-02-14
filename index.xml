@@ -497,6 +497,19 @@ iOSは特に不具合は起きていないんですよね・・・クライア�
     </item>
     
     <item>
+      <title></title>
+      <link>https://razl-dazl.github.io/diary/2023-02-14/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/diary/2023-02-14/</guid>
+      <description>Android StudioでSwipeRefreshLayoutを導入しようとしたら、GUIのプレビュー(あれ何て呼ぶんだ)が表示されなくなってしまい・・・
+XMLの書き方が悪いのかなと思ったけど、そのままビルドしたら普通に動作しちゃったんですよね
+なんか昔も似たようなこと起きてあんスタ(Android Studioの略)再起動したら直ったよな～と思ったので、File &amp;gt; Invalidate Caches &amp;gt; Invalidate and Restart したらあっさり直りました
+gradle書き換えたので新規に追加したライブラリがプレビューに反映されてなかっただけっぽい
+再起動は大事！</description>
+    </item>
+    
+    <item>
       <title>Redirect</title>
       <link>https://razl-dazl.github.io/redirect/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
