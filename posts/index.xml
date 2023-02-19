@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io</copyright>
-    <lastBuildDate>Sat, 04 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Feb 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://razl-dazl.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugoビルド時にWikiLink形式の動画リンクを変換する</title>
+      <link>https://razl-dazl.github.io/posts/2023/02/hugo-video-wikilink/</link>
+      <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2023/02/hugo-video-wikilink/</guid>
+      <description>&lt;p&gt;ObsidianとHugoを組み合わせて使用していたところ新たなる問題が発生しました&lt;/p&gt;
+&lt;p&gt;Obsidianでマークダウンに動画を貼っ付けるとリンクはWikiLinkになりますが、HugoはWikiLinkを読み込んでくれません&lt;/p&gt;
+&lt;p&gt;仕方ないので自力で置き換えることにしました&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>ダークモード切替ボタンの実装</title>

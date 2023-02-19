@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io</copyright>
-    <lastBuildDate>Sat, 04 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Feb 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://razl-dazl.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://razl-dazl.github.io/tags/hugo/</link>
+      <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Obsidian</title>
+      <link>https://razl-dazl.github.io/tags/obsidian/</link>
+      <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/tags/obsidian/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CSS</title>
@@ -27,15 +45,6 @@
       <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://razl-dazl.github.io/tags/hugo/</link>
-      <pubDate>Fri, 27 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://razl-dazl.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
@@ -72,15 +81,6 @@
       <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/tags/iphone/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Obsidian</title>
-      <link>https://razl-dazl.github.io/tags/obsidian/</link>
-      <pubDate>Tue, 27 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://razl-dazl.github.io/tags/obsidian/</guid>
       <description></description>
     </item>
     

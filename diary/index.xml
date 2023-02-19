@@ -181,5 +181,19 @@ gradle書き換えたので新規に追加したライブラリがプレビュ�
 再起動は大事！</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://razl-dazl.github.io/diary/2023-02-17/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/diary/2023-02-17/</guid>
+      <description>動画貼り付けテスト
+![[video/2023-02-17.webm]]
+Igallta裏の最後がどうしても繋がらない
+ここの歯車、よくよくみてみると音符と少しずれてる・・・
+実質的に判定の前方のマージンが少なくなってしまっているけど遅めに押せばなんとかなる・・・のかな　わからない
+DIVAコンとMuse Dashの相性が良くて楽しいです</description>
+    </item>
+    
   </channel>
 </rss>

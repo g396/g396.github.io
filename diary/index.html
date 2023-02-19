@@ -24,6 +24,7 @@
 </head>
 
 <body>
+	<base href="/diary/">
 	<div class="header wrapper">
 	
 	<h1 class="site-title"><a href="/">Razl-Dazl</a></h1>
@@ -68,20 +69,41 @@
 					
 					<div class="post">
 						<div class="markdown">
+							<a class="title" href="/diary/2023-02-17/">2023-02-17</a>
+							<span class="content">
+								
+								<p>動画貼り付けテスト</p>
+<video controls width="100%" preload="metadata"><source src="video/2023-02-17.webm" type="video/webm"></video>
+<p>Igallta裏の最後がどうしても繋がらない</p>
+<p>ここの歯車、よくよくみてみると音符と少しずれてる・・・</p>
+<p>実質的に判定の前方のマージンが少なくなってしまっているけど遅めに押せばなんとかなる・・・のかな　わからない</p>
+<p>DIVAコンとMuse Dashの相性が良くて楽しいです</p>
+
+							</span>
+						</div>
+					</div>
+					
+					<div class="post">
+						<div class="markdown">
 							<a class="title" href="/diary/2023-02-14/">2023-02-14</a>
-							<span class="content"><p>Android StudioでSwipeRefreshLayoutを導入しようとしたら、GUIのプレビュー(あれ何て呼ぶんだ)が表示されなくなってしまい・・・</p>
+							<span class="content">
+								
+								<p>Android StudioでSwipeRefreshLayoutを導入しようとしたら、GUIのプレビュー(あれ何て呼ぶんだ)が表示されなくなってしまい・・・</p>
 <p>XMLの書き方が悪いのかなと思ったけど、そのままビルドしたら普通に動作しちゃったんですよね</p>
 <p>なんか昔も似たようなこと起きてあんスタ(Android Studioの略)再起動したら直ったよな～と思ったので、<code>File &gt; Invalidate Caches &gt; Invalidate and Restart</code> したらあっさり直りました</p>
 <p>gradle書き換えたので新規に追加したライブラリがプレビューに反映されてなかっただけっぽい</p>
 <p>再起動は大事！</p>
-</span>
+
+							</span>
 						</div>
 					</div>
 					
 					<div class="post">
 						<div class="markdown">
 							<a class="title" href="/diary/2023-02-13/">2023-02-13</a>
-							<span class="content"><p>最近Cloudflare WARP(VPN)の調子がおかしい・・・</p>
+							<span class="content">
+								
+								<p>最近Cloudflare WARP(VPN)の調子がおかしい・・・</p>
 <p>Youtubeの読込が遅かったりpingがめちゃめちゃ長かったりまともに使えたもんじゃ無くてストレスマッハです</p>
 <p>試しにWARPを1.1.1.1のモード(DNSのみ暗号化するモード)に切り替えたのですが、途端に読み込み速度が爆速になったのでWARPがおかしい疑惑が強まる強まる・・・</p>
 <p>適当に設定を弄ったらタイムアウトとかは無くなりました</p>
@@ -91,39 +113,48 @@
 <code>環境設定 &gt; 接続 &gt; DNSプロトコル</code> を <code>HTTPS</code>へ変更</p>
 <p>iOSは特に不具合は起きていないんですよね・・・クライアントがバグってるだけの可能性ありそう</p>
 <p>接続自体は改善したものの、スピードテストで上りの速度が2Mbpsとかあり得ない数値を出してるので早く直ってほしいです</p>
-</span>
+
+							</span>
 						</div>
 					</div>
 					
 					<div class="post">
 						<div class="markdown">
 							<a class="title" href="/diary/2023-02-08/">2023-02-08</a>
-							<span class="content"><p>久々にOKHttp触ったりしてました</p>
+							<span class="content">
+								
+								<p>久々にOKHttp触ったりしてました</p>
 <p>理由はmastodonのAPIを触る為</p>
 <p>postした結果のjson取得が上手くいかずムカついていたのですが自分が間違っているだけでした</p>
 <div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin"><span style="color:#719e07">val</span> response = OkHttpClient().newCall(request).execute()
 <span style="color:#719e07">val</span> jsonStr = response.body.string()
 </code></pre></div><p><code>response.body.string()</code> を<code>response.body.toString()</code>としていたが為に・・・</p>
 <p>しょうもない・・・</p>
-</span>
+
+							</span>
 						</div>
 					</div>
 					
 					<div class="post">
 						<div class="markdown">
 							<a class="title" href="/diary/2023-02-06/">2023-02-06</a>
-							<span class="content"><p>この前ダークモード切替ボタンを実装しましたがVivaldiで怪しい挙動を発見してしまいました</p>
+							<span class="content">
+								
+								<p>この前ダークモード切替ボタンを実装しましたがVivaldiで怪しい挙動を発見してしまいました</p>
 <p>OSがダークモードかつWebサイト側のダークモードを無効にしている際に、何故か一瞬ダークモードが適用されて画面がちらつく事案が発生・・・</p>
 <p>chromeの拡張機能(Dark Reader)を無効化すると発生しなくなったので何かが競合している可能性が浮上</p>
 <p>対策方法は思いつきませんがDark Readerを使用するような人はそもそもダークモードを無効にしないと思うので暫くは放置でいいかなーと思っています</p>
-</span>
+
+							</span>
 						</div>
 					</div>
 					
 					<div class="post">
 						<div class="markdown">
 							<a class="title" href="/diary/2023-02-05/">2023-02-05</a>
-							<span class="content"><p>ブルアカのスタンプラリーをやりに秋葉原へ・・・</p>
+							<span class="content">
+								
+								<p>ブルアカのスタンプラリーをやりに秋葉原へ・・・</p>
 <p>QRコード撮りつつ散財して、配布中のカードを貰ってきました</p>
 <p><img src="img/2023-02-05.webp" alt=""></p>
 <p>シークレットはアロナちゃんなのでした　やったね</p>
@@ -133,14 +164,17 @@
 <p>一枚でも多くゲットするべく一部の会計を友人に代行して貰いましたが、現金をあまり持ち歩いていないので分担方法に難儀しました</p>
 <p>値段の都合で会計を上手く分割することが出来ず、コハルがダメ死刑と言いそうな本を友人に会計して貰うという悲劇が発生しました</p>
 <p>友人に羞恥プレイをさせない為にも、キャッスレス派であろうと懐に予備の万札を忍ばせておくのが賢明です</p>
-</span>
+
+							</span>
 						</div>
 					</div>
 					
 					<div class="post">
 						<div class="markdown">
 							<a class="title" href="/diary/2023-02-03/">2023-02-03</a>
-							<span class="content"><p>ここ3日くらいまたサイト周りを弄っています</p>
+							<span class="content">
+								
+								<p>ここ3日くらいまたサイト周りを弄っています</p>
 <p>ダークモード切替ボタンを実装したいなと思ったので、jsをちょっと調べたりして見様見真似で実装していたのですが、色々な罠にぶつかったり原因不明の事象に当たったりして辛いです</p>
 <p>getElementById()の結果がnullってしまいaddEventListener()でエラってしまいました</p>
 <p>適当にググったら答えが出ました、jsの実行がgetElementById()で取得する所より先行していると、そんなものはないと言われてしまうみたいです
@@ -151,23 +185,8 @@ window.onloadを使用して実行順を制御することでここは解決・�
 JavaScriptに関しては素人なのでこのあたりはいい勉強になりました</p>
 <p>あと、JavaScriptは行末のセミコロンを省略できるみたいなので全部取っ払ってしまいました</p>
 <p>どうせつけ忘れるくらいなら最初から無い方が良いですね～</p>
-</span>
-						</div>
-					</div>
-					
-					<div class="post">
-						<div class="markdown">
-							<a class="title" href="/diary/2023-01-30/">2023-01-30</a>
-							<span class="content"><p>久しぶりにVRoidのやる気が出てきた</p>
-<p><img src="img/2023-01-30.webp" alt=""></p>
-<p>以下を重ね着したのが気に入っています</p>
-<ul>
-<li><a href="https://booth.pm/ja/items/2232833">サイバースーツ3</a></li>
-<li><a href="https://booth.pm/ja/items/1880669">スケルトンスーツ</a></li>
-</ul>
-<p>衣装に合わせて白髪にしたら統一感が出ていい感じに・・・</p>
-<p>普通の服とか着せてるとあまり気づかないけど、VRoidの太ももの造形へのこだわりが凄い・・・</p>
-</span>
+
+							</span>
 						</div>
 					</div>
 					

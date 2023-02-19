@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io</copyright>
-    <lastBuildDate>Sat, 04 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Feb 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://razl-dazl.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugoビルド時にWikiLink形式の動画リンクを変換する</title>
+      <link>https://razl-dazl.github.io/posts/2023/02/hugo-video-wikilink/</link>
+      <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2023/02/hugo-video-wikilink/</guid>
+      <description>&lt;p&gt;ObsidianとHugoを組み合わせて使用していたところ新たなる問題が発生しました&lt;/p&gt;
+&lt;p&gt;Obsidianでマークダウンに動画を貼っ付けるとリンクはWikiLinkになりますが、HugoはWikiLinkを読み込んでくれません&lt;/p&gt;
+&lt;p&gt;仕方ないので自力で置き換えることにしました&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>ダークモード切替ボタンの実装</title>
@@ -507,6 +518,20 @@ XMLの書き方が悪いのかなと思ったけど、そのままビルドし�
 なんか昔も似たようなこと起きてあんスタ(Android Studioの略)再起動したら直ったよな～と思ったので、File &amp;gt; Invalidate Caches &amp;gt; Invalidate and Restart したらあっさり直りました
 gradle書き換えたので新規に追加したライブラリがプレビューに反映されてなかっただけっぽい
 再起動は大事！</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://razl-dazl.github.io/diary/2023-02-17/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/diary/2023-02-17/</guid>
+      <description>動画貼り付けテスト
+![[video/2023-02-17.webm]]
+Igallta裏の最後がどうしても繋がらない
+ここの歯車、よくよくみてみると音符と少しずれてる・・・
+実質的に判定の前方のマージンが少なくなってしまっているけど遅めに押せばなんとかなる・・・のかな　わからない
+DIVAコンとMuse Dashの相性が良くて楽しいです</description>
     </item>
     
     <item>
