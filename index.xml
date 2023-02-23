@@ -535,6 +535,24 @@ DIVAコンとMuse Dashの相性が良くて楽しいです</description>
     </item>
     
     <item>
+      <title></title>
+      <link>https://razl-dazl.github.io/diary/2023-02-23/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/diary/2023-02-23/</guid>
+      <description>ブルアカ初めて4ヶ月弱
+やっとLvと経験値がカンスト
+復職した後もぼちぼち続けていきたいゲームだなと思ったので、早めにチュートリアルを終わらせようと頑張りましたがそれでも4ヶ月くらいかかりました（結局のところ復職はまだまだ先になりそうだけど）
+とりあえず一段落したのでリソースを一気にMastodonアプリの制作に注ぎ込んでいます
+まだまだ機能は足りていないけど、OAuth認証、DBの読み書き、タイムラインの取得や投稿といった核となる機能は実装できているから、あとはどんどん広げていく感じ・・・
+特にフラグメントを動的に操る所はメチャメチャ苦労して心が折れるかと思った
+残りの機能は時間をかければそのうち終わるだろと言いたい所なんですが通知の取得で怪しい挙動になっているので何だか不穏が・・・
+API叩く部分のテストコードを書いていないので細かい分析は出来ていないです（書けよ・・・）
+KotlinはKotestとかいうのが良いらしいですが生憎JUnitでしかテストしたことが無いので新しく学ぶか悩む所
+まずは足りない機能の実装が先かなぁ・・・</description>
+    </item>
+    
+    <item>
       <title>Redirect</title>
       <link>https://razl-dazl.github.io/redirect/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
