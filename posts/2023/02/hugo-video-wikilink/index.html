@@ -96,9 +96,10 @@ Obsidianでマークダウンに動画を貼っ付けるとリンクはWikiLink�
 <div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">{{ $content := replaceRE `&lt;p&gt;(.*?)(?:\!\[\[(.*?\.(webm|mp4))\]\])(.*?)&lt;\/p&gt;` `$1&lt;video controls width=&#34;100%&#34; preload=&#34;metadata&#34;&gt;&lt;source src=&#34;$2&#34; type=&#34;video/$3&#34;&gt;&lt;/video&gt;$4` .Content }}
 {{ $content | safeHTML }}
 </code></pre></div><p><a href="/diary/2023-02-17/">ビルドするとこんな感じになります</a></p>
-<p>webmかmp4しか使用予定がないのでこの2つだけを対象にしていますが、ほかも使いたいのであれば</p>
+<p>※<del>webmか</del>mp4しか使用予定がないのでこの2つだけを対象にしていますが、ほかも使いたいのであれば</p>
 <div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">(webm|mp4|mkv|mov)
 </code></pre></div><p>とか適宜追加すれば問題ないかと思います(例はすごい適当)</p>
+<p>※ <strong>追記:WebMってiOS対応してないんですね・・・使うの辞めました</strong></p>
 <hr>
 <h2 id="ひとりごと">ひとりごと</h2>
 <p>ちなみにObsidianでは、マークダウン記法で画像を貼る時の書き方でも動画リンクとして認識されます</p>
