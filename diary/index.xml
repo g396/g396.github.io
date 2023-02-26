@@ -213,5 +213,20 @@ KotlinはKotestとかいうのが良いらしいですが生憎JUnitでしかテ
 まずは足りない機能の実装が先かなぁ・・・</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://razl-dazl.github.io/diary/2023-02-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/diary/2023-02-26/</guid>
+      <description>Android Studioでレイアウトファイルを弄っていたら変な挙動を観測しました
+GUIで各Viewのマージン(layout_margin)の属性が変更しても何故か反映されない・・・
+もう少し詳しく言うと、設定したマージンが一旦プレビュー上で反映されてから、勝手に元に戻ってしまうような挙動を取ってしまいます
+暫く悩んでいましたがコードの方を見てみると
+android:layout_marginHorizontal=&amp;#34;8dp&amp;#34; android:layout_marginVertical=&amp;#34;8dp&amp;#34; android:layout_marginStart=&amp;#34;16dp&amp;#34; android:layout_marginTop=&amp;#34;8dp&amp;#34; android:layout_marginEnd=&amp;#34;16dp&amp;#34; あー・・・
+GUIで操作していた属性とは別の属性(layout_marginHorizontalとlayout_marginVertical)が干渉していたみたいで・・・
+競合するならこう、大げさにエラーとか出して欲しいです</description>
+    </item>
+    
   </channel>
 </rss>
