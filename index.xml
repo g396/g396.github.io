@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io</copyright>
-    <lastBuildDate>Sun, 19 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://razl-dazl.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>KotlinでOKHttpを使う(MastodonのAPIに触ってみる)</title>
+      <link>https://razl-dazl.github.io/posts/2023/02/kotlin-okhttp-mastodon/</link>
+      <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2023/02/kotlin-okhttp-mastodon/</guid>
+      <description>&lt;p&gt;現在KotlinでMastodonのアプリを書いています&lt;/p&gt;
+&lt;p&gt;折角なので、タイムラインを取得するサンプルを此処に書き記しておきます&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Hugoビルド時にWikiLink形式の動画リンクを変換する</title>
