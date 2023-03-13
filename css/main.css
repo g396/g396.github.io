@@ -72,10 +72,10 @@ fieldset {
 textarea {
     resize: vertical;}
 blockquote {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     margin-left: 1rem;
     font-style: italic;
-    font-size: 1.4rem;
-    font-family: Georgia,bitstream charter,serif;
     border-left: 3px solid;
     border-color: var(--blockquote-border-color);
     padding-left: 20px;}
