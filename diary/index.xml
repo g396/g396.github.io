@@ -262,5 +262,18 @@ Diaryの方は基本的にタイトル無し、サッと書いてサッと上げ
  アプリからのアカウント削除 投稿削除 ふぁぼやブーストの取り消し フォロー・フォロリクの処理 アンケートの表示  何が何でも今月中に実装するぞするぞするぞうおおーー</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://razl-dazl.github.io/diary/2023-03-16/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/diary/2023-03-16/</guid>
+      <description>以前Keybase.pubで作成したデモページにアクセスできなくなっていました
+鯖が死んでるのか？と思いきや、reddit にこんな投稿が・・・
+Keybase.pubは終了したようです・・・いやそういう大事なことはもっと大々的に通知してよ！！
+読み込み速度が遅くてあまり使い物になっていなかったので、まぁ仕方ないとこはあります
+あぁ記事に追記しておかないと・・・</description>
+    </item>
+    
   </channel>
 </rss>

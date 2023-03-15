@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io</copyright>
-    <lastBuildDate>Tue, 14 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Mar 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://razl-dazl.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>OKHttpでクエリパラメータに配列を渡す</title>
+      <link>https://razl-dazl.github.io/posts/2023/03/okhttp-query-array/</link>
+      <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/posts/2023/03/okhttp-query-array/</guid>
+      <description>&lt;p&gt;大それたことじゃないのに何で調べても出てこないんだ・・・？&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>フラグメントに対応するViewModelが新たに生成されない</title>
@@ -131,7 +140,8 @@
       <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://razl-dazl.github.io/posts/2022/12/keybase-pub/</guid>
-      <description>&lt;p&gt;KeybaseのPublicフォルダにMarkdownやHTMLファイルを設置すると、静的Webサイトとして機能するようなので試してみました&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;追記: Keybase.pubはサ終しました 無念&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;KeybaseのPublicフォルダにMarkdownやHTMLファイルを設置すると、静的Webサイトとして機能するようなので試してみました&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -618,6 +628,19 @@ Diaryの方は基本的にタイトル無し、サッと書いてサッと上げ
  せっかくだしMastodonアプリの進捗も書いとこうかな？
  ストリーミングAPI対応 クライアントキーを自動取得するようにして、どの鯖でもOAuth可能にした カラム種類追加(リストやふぁぼ一覧、ブックマーク一覧) UIテコ入れ(タブをアクションバーに統合してスペース節約したり、投稿にCardViewを適用させて今風にしたり)  ただ、ベータ版としてapk配布するのに必要な実装がまだまだ残ってたりする(おい)
  アプリからのアカウント削除 投稿削除 ふぁぼやブーストの取り消し フォロー・フォロリクの処理 アンケートの表示  何が何でも今月中に実装するぞするぞするぞうおおーー</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://razl-dazl.github.io/diary/2023-03-16/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://razl-dazl.github.io/diary/2023-03-16/</guid>
+      <description>以前Keybase.pubで作成したデモページにアクセスできなくなっていました
+鯖が死んでるのか？と思いきや、reddit にこんな投稿が・・・
+Keybase.pubは終了したようです・・・いやそういう大事なことはもっと大々的に通知してよ！！
+読み込み速度が遅くてあまり使い物になっていなかったので、まぁ仕方ないとこはあります
+あぁ記事に追記しておかないと・・・</description>
     </item>
     
     <item>
