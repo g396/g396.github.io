@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Razl-Dazl</title>
-    <link>https://razl-dazl.github.io/</link>
+    <link>https://g396.github.io/</link>
     <description>Recent content on Razl-Dazl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <copyright>razl-dazl.github.io</copyright>
+    <copyright>razl-dazl.github.io -&gt; g396.github.io</copyright>
     <lastBuildDate>Thu, 16 Mar 2023 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://razl-dazl.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://g396.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>OKHttpでクエリパラメータに配列を渡す</title>
-      <link>https://razl-dazl.github.io/posts/2023/03/okhttp-query-array/</link>
+      <link>https://g396.github.io/posts/2023/03/okhttp-query-array/</link>
       <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2023/03/okhttp-query-array/</guid>
+      <guid>https://g396.github.io/posts/2023/03/okhttp-query-array/</guid>
       <description>&lt;p&gt;大それたことじゃないのに何で調べても出てこないんだ・・・？&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>フラグメントに対応するViewModelが新たに生成されない</title>
-      <link>https://razl-dazl.github.io/posts/2023/03/kotlin-viewmodel-fragment/</link>
+      <link>https://g396.github.io/posts/2023/03/kotlin-viewmodel-fragment/</link>
       <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2023/03/kotlin-viewmodel-fragment/</guid>
+      <guid>https://g396.github.io/posts/2023/03/kotlin-viewmodel-fragment/</guid>
       <description>&lt;p&gt;フラグメント(Fragment)を再生成した際に、ViewModelに前のフラグメントの値が残るという変な挙動を観測しました&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>KotlinでOKHttpを使う(MastodonのAPIに触ってみる)</title>
-      <link>https://razl-dazl.github.io/posts/2023/02/kotlin-okhttp-mastodon/</link>
+      <link>https://g396.github.io/posts/2023/02/kotlin-okhttp-mastodon/</link>
       <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2023/02/kotlin-okhttp-mastodon/</guid>
+      <guid>https://g396.github.io/posts/2023/02/kotlin-okhttp-mastodon/</guid>
       <description>&lt;p&gt;現在KotlinでMastodonのアプリを書いています&lt;/p&gt;
 &lt;p&gt;折角なので、タイムラインを取得するサンプルを此処に書き記しておきます&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hugoビルド時にWikiLink形式の動画リンクを変換する</title>
-      <link>https://razl-dazl.github.io/posts/2023/02/hugo-video-wikilink/</link>
+      <link>https://g396.github.io/posts/2023/02/hugo-video-wikilink/</link>
       <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2023/02/hugo-video-wikilink/</guid>
+      <guid>https://g396.github.io/posts/2023/02/hugo-video-wikilink/</guid>
       <description>&lt;p&gt;ObsidianとHugoを組み合わせて使用していたところ新たなる問題が発生しました&lt;/p&gt;
 &lt;p&gt;Obsidianでマークダウンに動画を貼っ付けるとリンクはWikiLinkになりますが、HugoはWikiLinkを読み込んでくれません&lt;/p&gt;
 &lt;p&gt;仕方ないので自力で置き換えることにしました&lt;/p&gt;</description>
@@ -53,113 +53,113 @@
     
     <item>
       <title>ダークモード切替ボタンの実装</title>
-      <link>https://razl-dazl.github.io/posts/2023/02/darkmode-js/</link>
+      <link>https://g396.github.io/posts/2023/02/darkmode-js/</link>
       <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2023/02/darkmode-js/</guid>
+      <guid>https://g396.github.io/posts/2023/02/darkmode-js/</guid>
       <description>&lt;p&gt;一応CSSはダークモード対応にしていましたが、折角なのでダークモードの切替ボタンを設置しました&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>WSL上のHugoサーバにLAN内の端末からアクセスする</title>
-      <link>https://razl-dazl.github.io/posts/2023/01/hugo-wsl2-lan/</link>
+      <link>https://g396.github.io/posts/2023/01/hugo-wsl2-lan/</link>
       <pubDate>Fri, 27 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2023/01/hugo-wsl2-lan/</guid>
+      <guid>https://g396.github.io/posts/2023/01/hugo-wsl2-lan/</guid>
       <description>&lt;p&gt;WSL(WSL2)上で&lt;code&gt;hugo server&lt;/code&gt; した際に、手持ちのiPhone等から見た目を確認したかったので、色々試行錯誤しました&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>MuseDash with DIVAアケコン キー反転対策メモ</title>
-      <link>https://razl-dazl.github.io/posts/2023/01/musedash-diva-controller/</link>
+      <link>https://g396.github.io/posts/2023/01/musedash-diva-controller/</link>
       <pubDate>Sat, 21 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2023/01/musedash-diva-controller/</guid>
+      <guid>https://g396.github.io/posts/2023/01/musedash-diva-controller/</guid>
       <description>&lt;p&gt;異種格闘技のつもりでDIVAコンでMuseDashをプレーしてみたら中々にハマってしまいました&lt;/p&gt;
 &lt;p&gt;MuseDash用とDIVA用のコンフィグの共存をさせるのにちょっと迷ったので一応メモ&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Native Unionのカバーは如何なのか</title>
-      <link>https://razl-dazl.github.io/posts/2023/01/native-union-cover/</link>
+      <link>https://g396.github.io/posts/2023/01/native-union-cover/</link>
       <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2023/01/native-union-cover/</guid>
+      <guid>https://g396.github.io/posts/2023/01/native-union-cover/</guid>
       <description>&lt;p&gt;量販店で売ってるようなカバーはダサい！ 他人と被らない物が良い！と&lt;del&gt;逆張りを&lt;/del&gt;突き詰めていくと大体はNative Unionのカバーに行き着くんですよね&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Windows環境の時だけコードブロックのフォントが汚いので直した</title>
-      <link>https://razl-dazl.github.io/posts/2023/01/windows-codeblock/</link>
+      <link>https://g396.github.io/posts/2023/01/windows-codeblock/</link>
       <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2023/01/windows-codeblock/</guid>
+      <guid>https://g396.github.io/posts/2023/01/windows-codeblock/</guid>
       <description>&lt;p&gt;このサイトをビルドする時に毎回感じつつスルーしていましたがもう我慢できません&lt;/p&gt;
 &lt;p&gt;コードブロックのフォントがコマンドプロンプトみたいで鬼ダサいので直すことにしました&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hugoでタグ毎にアイキャッチ画像を設定する</title>
-      <link>https://razl-dazl.github.io/posts/2023/01/hugo-eyecatch/</link>
+      <link>https://g396.github.io/posts/2023/01/hugo-eyecatch/</link>
       <pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2023/01/hugo-eyecatch/</guid>
+      <guid>https://g396.github.io/posts/2023/01/hugo-eyecatch/</guid>
       <description>&lt;p&gt;Front Matter内の記述を極力簡便にしつつ、アイキャッチ画像(サムネイル)を設定する方法について考えてみました&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>ObsidianをHugoの為に最適化</title>
-      <link>https://razl-dazl.github.io/posts/2022/12/obsidian-hugo-plugin/</link>
+      <link>https://g396.github.io/posts/2022/12/obsidian-hugo-plugin/</link>
       <pubDate>Tue, 27 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2022/12/obsidian-hugo-plugin/</guid>
+      <guid>https://g396.github.io/posts/2022/12/obsidian-hugo-plugin/</guid>
       <description>&lt;p&gt;Hugo用の記事(Markdown)をObsidianで書くにあたって、プラグインを入れたり設定を弄ったりしたのでメモしておきます&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hugoでテスト用サーバを立てた際に毎回ポート番号が変わる件</title>
-      <link>https://razl-dazl.github.io/posts/2022/12/hugo-build-port/</link>
+      <link>https://g396.github.io/posts/2022/12/hugo-build-port/</link>
       <pubDate>Sun, 25 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2022/12/hugo-build-port/</guid>
+      <guid>https://g396.github.io/posts/2022/12/hugo-build-port/</guid>
       <description>&lt;p&gt;&lt;code&gt;hugo server&lt;/code&gt;してテスト用サーバを立てた際に、毎回ポート番号が変わってしまいアクセスが面倒になるケースがあったのでメモ&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hugo用MarkdownエディタとしてObsidianを使うに当たって生じた問題点</title>
-      <link>https://razl-dazl.github.io/posts/2022/12/hugo-obsidian-graph/</link>
+      <link>https://g396.github.io/posts/2022/12/hugo-obsidian-graph/</link>
       <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2022/12/hugo-obsidian-graph/</guid>
+      <guid>https://g396.github.io/posts/2022/12/hugo-obsidian-graph/</guid>
       <description>&lt;p&gt;(追記有) 個人的にObsidianが熱いので記事の執筆もObsidianでやるか～と思ったのですが・・・主に検索面で問題が生じました&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Keybase.pubで静的Webサイトの作成を試す</title>
-      <link>https://razl-dazl.github.io/posts/2022/12/keybase-pub/</link>
+      <link>https://g396.github.io/posts/2022/12/keybase-pub/</link>
       <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2022/12/keybase-pub/</guid>
+      <guid>https://g396.github.io/posts/2022/12/keybase-pub/</guid>
       <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;追記: Keybase.pubはサ終しました 無念&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;KeybaseのPublicフォルダにMarkdownやHTMLファイルを設置すると、静的Webサイトとして機能するようなので試してみました&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hugoでの画像サイズ調整</title>
-      <link>https://razl-dazl.github.io/posts/2022/12/hugo-image-size/</link>
+      <link>https://g396.github.io/posts/2022/12/hugo-image-size/</link>
       <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2022/12/hugo-image-size/</guid>
+      <guid>https://g396.github.io/posts/2022/12/hugo-image-size/</guid>
       <description>&lt;p&gt;基本的な要素の割にかなり悩んだやつです&lt;/p&gt;
 &lt;p&gt;Markdownの記法では画像サイズの指定が出来ないので解決策を考える必要がありました&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Android端末からGitHub Pagesを更新してみる</title>
-      <link>https://razl-dazl.github.io/posts/2022/12/github-pages-from-android/</link>
+      <link>https://g396.github.io/posts/2022/12/github-pages-from-android/</link>
       <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2022/12/github-pages-from-android/</guid>
+      <guid>https://g396.github.io/posts/2022/12/github-pages-from-android/</guid>
       <description>&lt;p&gt;TermuxでHugoが動くことに気づいたので、じゃあ理論上GitHub Pagesの更新もできるかと思って試してみました&lt;/p&gt;
 &lt;p&gt;ちなみに、この記事も実際にAndroid端末上から更新しています&lt;/p&gt;
 &lt;p&gt;&lt;del&gt;まあ後からPCで修正しましたけど&lt;/del&gt;&lt;/p&gt;</description>
@@ -167,86 +167,86 @@
     
     <item>
       <title>HugoでPage Bundleに準じた構成にしたら画像が表示されなくて困った</title>
-      <link>https://razl-dazl.github.io/posts/2022/11/hugo-page-bundle/</link>
+      <link>https://g396.github.io/posts/2022/11/hugo-page-bundle/</link>
       <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2022/11/hugo-page-bundle/</guid>
+      <guid>https://g396.github.io/posts/2022/11/hugo-page-bundle/</guid>
       <description>&lt;p&gt;記事更新のモチベを上げる為、ファイルの階層構造を整理してPage Bundleに準ずるように変更しました&lt;/p&gt;
 &lt;p&gt;その後、記事内の画像が何故かリンク切れになってしまい表示されなくなりました&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>DIVAのアケコンのバネを交換した</title>
-      <link>https://razl-dazl.github.io/posts/2022/11/diva-controller/</link>
+      <link>https://g396.github.io/posts/2022/11/diva-controller/</link>
       <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2022/11/diva-controller/</guid>
+      <guid>https://g396.github.io/posts/2022/11/diva-controller/</guid>
       <description>&lt;p&gt;最近Steam版Project DIVAにハマっています&lt;/p&gt;
 &lt;p&gt;とあるツテでHORIのアケコンを手に入れることができたので少し弄ってみました&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>VRChatの不具合はIPv6を無効にすれば全部消える説</title>
-      <link>https://razl-dazl.github.io/posts/2022/08/vrchat-ipv6/</link>
+      <link>https://g396.github.io/posts/2022/08/vrchat-ipv6/</link>
       <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2022/08/vrchat-ipv6/</guid>
+      <guid>https://g396.github.io/posts/2022/08/vrchat-ipv6/</guid>
       <description>&lt;p&gt;VRChatの動作があまりにも不安定で狂いそうになったのですがタイトルの通りの対処法ですべて直ったという話です&lt;/p&gt;
 &lt;p&gt;・・・と、方法に関しては一言で済ませることができるのですが、経緯やエラーのケースについても書いておこうかなと思います&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Mac miniを壁や机に固定すると便利って話</title>
-      <link>https://razl-dazl.github.io/posts/2022/07/mac-mini/</link>
+      <link>https://g396.github.io/posts/2022/07/mac-mini/</link>
       <pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2022/07/mac-mini/</guid>
+      <guid>https://g396.github.io/posts/2022/07/mac-mini/</guid>
       <description>&lt;p&gt;まあ既にMac miniは手放してしまっているのですが・・・&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>KClassを使ってメソッドを呼び出してみる</title>
-      <link>https://razl-dazl.github.io/posts/2022/06/kclass/</link>
+      <link>https://g396.github.io/posts/2022/06/kclass/</link>
       <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2022/06/kclass/</guid>
+      <guid>https://g396.github.io/posts/2022/06/kclass/</guid>
       <description>&lt;p&gt;最近JUnit5を使うことが多いのですがメソッドの呼び出しがややこしく毎回つまづいてしまうので、自分の中で少し整理してみました&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Fusion Drive搭載iMacでパーティションを切っていた場合の初期化手順</title>
-      <link>https://razl-dazl.github.io/posts/2022/02/mac-fusion-drive/</link>
+      <link>https://g396.github.io/posts/2022/02/mac-fusion-drive/</link>
       <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2022/02/mac-fusion-drive/</guid>
+      <guid>https://g396.github.io/posts/2022/02/mac-fusion-drive/</guid>
       <description>&lt;p&gt;iMacのパーティションを切ってLinuxを起動できるようにしていたのですが、Fusion Driveを搭載しているせいで初期化手順がややこしかったです&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>macOSで音源付きの録画を行う</title>
-      <link>https://razl-dazl.github.io/posts/2022/02/mac-rec/</link>
+      <link>https://g396.github.io/posts/2022/02/mac-rec/</link>
       <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2022/02/mac-rec/</guid>
+      <guid>https://g396.github.io/posts/2022/02/mac-rec/</guid>
       <description>&lt;p&gt;Macで画面を録画する際に、音も含めて行う方法についてのメモです&lt;/p&gt;
 &lt;p&gt;ググっても情報が古いものが出てきたりするのですが、今回はM1搭載Mac miniで動作確認済みです&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hugoで文章を中央に寄せる方法</title>
-      <link>https://razl-dazl.github.io/posts/2021/12/hugo-text-centering/</link>
+      <link>https://g396.github.io/posts/2021/12/hugo-text-centering/</link>
       <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2021/12/hugo-text-centering/</guid>
+      <guid>https://g396.github.io/posts/2021/12/hugo-text-centering/</guid>
       <description>&lt;p&gt;結局Hugoでサイトを生成することにしたのですが、文章を中央揃えにする際に少し手間取ったので、メモを残しておきます&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Jekyll環境をDockerで構築したよ</title>
-      <link>https://razl-dazl.github.io/posts/2021/12/jekyll-docker-compose/</link>
+      <link>https://g396.github.io/posts/2021/12/jekyll-docker-compose/</link>
       <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2021/12/jekyll-docker-compose/</guid>
+      <guid>https://g396.github.io/posts/2021/12/jekyll-docker-compose/</guid>
       <description>&lt;p&gt;&lt;del&gt;※このサイトはJekyllで生成しているのですが&lt;/del&gt;、作成した記事のプレビューを見るにはRubyが必要なので少し厄介です&lt;/p&gt;
 &lt;p&gt;PCを初期化したり買い換える度にrbenv入れて〜とかやるのは少しだるい&lt;/p&gt;
 &lt;p&gt;環境を汚すのはあまり好きじゃないのでDockerを使って環境を作ることにしました&lt;/p&gt;</description>
@@ -254,10 +254,10 @@
     
     <item>
       <title>macOS同士のデュアルブート</title>
-      <link>https://razl-dazl.github.io/posts/2021/09/mac-dualboot/</link>
+      <link>https://g396.github.io/posts/2021/09/mac-dualboot/</link>
       <pubDate>Wed, 08 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2021/09/mac-dualboot/</guid>
+      <guid>https://g396.github.io/posts/2021/09/mac-dualboot/</guid>
       <description>&lt;p&gt;実は今更ながら無印MacBookを購入しました&lt;/p&gt;
 &lt;p&gt;Big Surにアプデして使っていたんですけども、所用で32bitアプリを使用したくなったのでMojaveをインストールすることに&amp;hellip;&lt;/p&gt;
 &lt;p&gt;折角なのでBig Surの環境を維持しつつMojave環境を導入、つまりデュアルブート可能にしたいと思います&lt;/p&gt;</description>
@@ -265,10 +265,10 @@
     
     <item>
       <title>iSHからiCloud Drive上のファイルにアクセスする</title>
-      <link>https://razl-dazl.github.io/posts/2021/04/ish-icloud/</link>
+      <link>https://g396.github.io/posts/2021/04/ish-icloud/</link>
       <pubDate>Thu, 29 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2021/04/ish-icloud/</guid>
+      <guid>https://g396.github.io/posts/2021/04/ish-icloud/</guid>
       <description>&lt;p&gt;iOS用のシェルといえばiSHですが、iCloud Driveのファイルにも簡単にアクセスできるみたいですね&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;mount -t ios . /mnt
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
@@ -276,49 +276,49 @@
     
     <item>
       <title>Big Surを再インストールしたらpythonが動かなくなった</title>
-      <link>https://razl-dazl.github.io/posts/2021/03/mac-bigsur-python/</link>
+      <link>https://g396.github.io/posts/2021/03/mac-bigsur-python/</link>
       <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2021/03/mac-bigsur-python/</guid>
+      <guid>https://g396.github.io/posts/2021/03/mac-bigsur-python/</guid>
       <description>&lt;p&gt;事の発端:何故かアプデに失敗&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>M1 MacでBig Surでもフォルダの表示名は英語に変更できる</title>
-      <link>https://razl-dazl.github.io/posts/2021/03/mac-folder-name/</link>
+      <link>https://g396.github.io/posts/2021/03/mac-folder-name/</link>
       <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2021/03/mac-folder-name/</guid>
+      <guid>https://g396.github.io/posts/2021/03/mac-folder-name/</guid>
       <description>&lt;p&gt;ええとですね&lt;/p&gt;
 &lt;p&gt;Macのこのあたりのフォルダ名が日本語である事にすごくムカつくんですよ…&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Exiftoolで写真のファイル名から撮影日を取得する</title>
-      <link>https://razl-dazl.github.io/posts/2020/12/exiftool/</link>
+      <link>https://g396.github.io/posts/2020/12/exiftool/</link>
       <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2020/12/exiftool/</guid>
+      <guid>https://g396.github.io/posts/2020/12/exiftool/</guid>
       <description>&lt;p&gt;色々な箇所に分散して保存してたスクリーンショットの山をiCloudの写真ライブラリに読みこんだ&lt;/p&gt;
 &lt;p&gt;そしたらなんと、作成日が今日と見なされて保存されてしまった&amp;hellip;ライブラリ内で時系列順に並んでくれないので死ぬほど困った&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Syncthingで外部SDカードに写真を同期させると写真アプリに何も表示されない</title>
-      <link>https://razl-dazl.github.io/posts/2020/08/syncthing-sdcard/</link>
+      <link>https://g396.github.io/posts/2020/08/syncthing-sdcard/</link>
       <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2020/08/syncthing-sdcard/</guid>
+      <guid>https://g396.github.io/posts/2020/08/syncthing-sdcard/</guid>
       <description>&lt;p&gt;ここ1年くらいSyncthingでファイルを管理しているけど、内部ストレージの好きなところを同期させられるから結構便利&lt;/p&gt;
 &lt;p&gt;折角なので大容量のSDカードを買って、一眼レフで撮った写真を管理しようと思ったけど、少し躓いたのでいろいろ試行錯誤したのでそれをメモ&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>macOSでfastbootコマンド使用時にエラーが出る場合の対処法</title>
-      <link>https://razl-dazl.github.io/posts/2019/07/macos-fastboot/</link>
+      <link>https://g396.github.io/posts/2019/07/macos-fastboot/</link>
       <pubDate>Sun, 14 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2019/07/macos-fastboot/</guid>
+      <guid>https://g396.github.io/posts/2019/07/macos-fastboot/</guid>
       <description>&lt;span style=&#34;font-size: 50%&#34;&gt;移行記事の為レイアウトが崩れる可能性有り&lt;/span&gt;
 &lt;p&gt;相変わらず2019年にもなってROM焼きをしてしまう性です&lt;/p&gt;
 &lt;p&gt;macOS Mojaveにアップグレード後、fastbootコマンドを実行時に変なエラーが出てうまく行かなくなってしまいました&lt;/p&gt;</description>
@@ -326,20 +326,20 @@
     
     <item>
       <title>Nextbit robinにAndroid 9 Pieを導入したときのメモ</title>
-      <link>https://razl-dazl.github.io/posts/2019/03/nextbit-robin-pie/</link>
+      <link>https://g396.github.io/posts/2019/03/nextbit-robin-pie/</link>
       <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2019/03/nextbit-robin-pie/</guid>
+      <guid>https://g396.github.io/posts/2019/03/nextbit-robin-pie/</guid>
       <description>&lt;span style=&#34;font-size: 50%&#34;&gt;移行記事の為レイアウトが崩れる可能性有り&lt;/span&gt;
 &lt;p&gt;Essential Phone PH-1を買って優勝しようとした私ですが、PH-1は返品することにしました。(理由等別記事に書く予定)&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Xperia XZ SOV34を非公式SIMロック解除した(要ROM焼き)</title>
-      <link>https://razl-dazl.github.io/posts/2019/02/sov34-unlock/</link>
+      <link>https://g396.github.io/posts/2019/02/sov34-unlock/</link>
       <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2019/02/sov34-unlock/</guid>
+      <guid>https://g396.github.io/posts/2019/02/sov34-unlock/</guid>
       <description>&lt;span style=&#34;font-size: 50%&#34;&gt;移行記事の為レイアウトが崩れる可能性有り&lt;/span&gt;
 &lt;p&gt;SOV34を自力でSIMロック解除したので要点だけメモ。(既に売ってしまいましたが覚えてるうちに記事を&amp;hellip;)
 要点だけしかまとめてないので、詳細でわからないことはググるのが早いです。&lt;/p&gt;</description>
@@ -347,10 +347,10 @@
     
     <item>
       <title>601SOにSOV34のROMを焼く</title>
-      <link>https://razl-dazl.github.io/posts/2018/05/601so-sov34/</link>
+      <link>https://g396.github.io/posts/2018/05/601so-sov34/</link>
       <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2018/05/601so-sov34/</guid>
+      <guid>https://g396.github.io/posts/2018/05/601so-sov34/</guid>
       <description>&lt;span style=&#34;font-size: 50%&#34;&gt;移行記事の為レイアウトが崩れる可能性有り&lt;/span&gt;
 &lt;p&gt;Softbank版Xperia XZ(601SO)は、いつまで経ってもNougatのままですね…。&lt;/p&gt;
 &lt;p&gt;自分は呆れてしまったので、国際版ROMを焼いて使っていました…が、これだとおサイフは使えませんね。&lt;/p&gt;</description>
@@ -358,10 +358,10 @@
     
     <item>
       <title>SO-02FにeXistenZ(5.1.1)を焼いてみた</title>
-      <link>https://razl-dazl.github.io/posts/2018/03/so02f/</link>
+      <link>https://g396.github.io/posts/2018/03/so02f/</link>
       <pubDate>Sat, 24 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2018/03/so02f/</guid>
+      <guid>https://g396.github.io/posts/2018/03/so02f/</guid>
       <description>&lt;span style=&#34;font-size: 50%&#34;&gt;移行記事の為レイアウトが崩れる可能性有り&lt;/span&gt;
 &lt;p&gt;昨年6月までメイン機はXperia Z1f(SO-02F)でした。(Nexus6だけだと心許なかったので&amp;hellip;)&lt;/p&gt;
 &lt;p&gt;メイン機を601SOに変え、サブの端末も7月に新調したので、SO-02Fはお役御免&amp;hellip;となっていたのですが、たまには昔みたいにROM焼きするのもありかなと思い、ブートローダがロック(LB)されていても使えるカスタムROMを探し、焼いてみました。&lt;/p&gt;</description>
@@ -369,10 +369,10 @@
     
     <item>
       <title>国内版XZにF8331のOreoを焼く</title>
-      <link>https://razl-dazl.github.io/posts/2018/02/f8331/</link>
+      <link>https://g396.github.io/posts/2018/02/f8331/</link>
       <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2018/02/f8331/</guid>
+      <guid>https://g396.github.io/posts/2018/02/f8331/</guid>
       <description>&lt;span style=&#34;font-size: 50%&#34;&gt;移行記事の為レイアウトが崩れる可能性有り&lt;/span&gt;
 &lt;p&gt;というわけで。
 Softbank版Xperia XZ(601SO)にF8331のAndroid 8.0(Oreo)を入れてみたのでその時のメモを残しておきます。
@@ -381,10 +381,10 @@ Softbank版Xperia XZ(601SO)にF8331のAndroid 8.0(Oreo)を入れてみたので�
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-01-10/</link>
+      <link>https://g396.github.io/diary/2023-01-10/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-01-10/</guid>
+      <guid>https://g396.github.io/diary/2023-01-10/</guid>
       <description>コンテンツの新しい区分としてDiaryを作成
 ちゃんとした記事を書くほどじゃないけど残したいメモとか、そういった物の為にブログとは別区分で領域を作ってみました
 図書室のエルザ[FOX]がクリア出来た事があまりにも嬉しかったのでここに残しておきます
@@ -393,10 +393,10 @@ Softbank版Xperia XZ(601SO)にF8331のAndroid 8.0(Oreo)を入れてみたので�
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-01-12/</link>
+      <link>https://g396.github.io/diary/2023-01-12/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-01-12/</guid>
+      <guid>https://g396.github.io/diary/2023-01-12/</guid>
       <description>ムームードメインから「ドメインを更新した」なるメールが来ました
 以前VPSで遊ぶために適当に取得した、1年で解約する予定のドメインが勝手に自動更新されてしまったようでした
 調べた所、自動更新のキャンセルは出来ないようでした
@@ -412,10 +412,10 @@ Softbank版Xperia XZ(601SO)にF8331のAndroid 8.0(Oreo)を入れてみたので�
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-01-17/</link>
+      <link>https://g396.github.io/diary/2023-01-17/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-01-17/</guid>
+      <guid>https://g396.github.io/diary/2023-01-17/</guid>
       <description>虹コンが断線してBMSができなくなりました
 幸いにも(?) 冥界帰航を直前に練習してたらBP100~120前後で安定したので本家皆伝のモチベも湧いてきました
 とりあえず断線をどうやって直すか検討中・・・お金さえあればフェニワン買うんですが流石に再就職しないとキツイ</description>
@@ -423,20 +423,20 @@ Softbank版Xperia XZ(601SO)にF8331のAndroid 8.0(Oreo)を入れてみたので�
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-01-20/</link>
+      <link>https://g396.github.io/diary/2023-01-20/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-01-20/</guid>
+      <guid>https://g396.github.io/diary/2023-01-20/</guid>
       <description>激唱Exの最後が奇跡的に繋がってしまったつらい
 こういうタイプの譜面は暫く放置しないと繋げられないので放置します・・・</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-01-27/</link>
+      <link>https://g396.github.io/diary/2023-01-27/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-01-27/</guid>
+      <guid>https://g396.github.io/diary/2023-01-27/</guid>
       <description>CSSを一日中弄くり回していたら、iPhoneで見た場合とPCやAndroidで見た場合で挙動が異なる事に気が付きました・・・
 競合した場合のCSSの適用順序が、どうやらwebkitの時だけ違うみたいで・・・
 FirefoxとVivaldi(Chromiumベース)は同じ挙動だったのでどう考えてもApple様のせいですありがとうございました
@@ -449,10 +449,10 @@ a { ... } h1.foo a { ... } 更に厄介なのは、ダークモード時(dark.cs
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-01-30/</link>
+      <link>https://g396.github.io/diary/2023-01-30/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-01-30/</guid>
+      <guid>https://g396.github.io/diary/2023-01-30/</guid>
       <description>久しぶりにVRoidのやる気が出てきた
 以下を重ね着したのが気に入っています
  サイバースーツ3 スケルトンスーツ  衣装に合わせて白髪にしたら統一感が出ていい感じに・・・
@@ -461,10 +461,10 @@ a { ... } h1.foo a { ... } 更に厄介なのは、ダークモード時(dark.cs
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-02-03/</link>
+      <link>https://g396.github.io/diary/2023-02-03/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-02-03/</guid>
+      <guid>https://g396.github.io/diary/2023-02-03/</guid>
       <description>ここ3日くらいまたサイト周りを弄っています
 ダークモード切替ボタンを実装したいなと思ったので、jsをちょっと調べたりして見様見真似で実装していたのですが、色々な罠にぶつかったり原因不明の事象に当たったりして辛いです
 getElementById()の結果がnullってしまいaddEventListener()でエラってしまいました
@@ -478,10 +478,10 @@ getElementById()の結果がnullってしまいaddEventListener()でエラって
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-02-05/</link>
+      <link>https://g396.github.io/diary/2023-02-05/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-02-05/</guid>
+      <guid>https://g396.github.io/diary/2023-02-05/</guid>
       <description>ブルアカのスタンプラリーをやりに秋葉原へ・・・
 QRコード撮りつつ散財して、配布中のカードを貰ってきました
 シークレットはアロナちゃんなのでした　やったね
@@ -495,10 +495,10 @@ QRコード撮りつつ散財して、配布中のカードを貰ってきまし
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-02-06/</link>
+      <link>https://g396.github.io/diary/2023-02-06/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-02-06/</guid>
+      <guid>https://g396.github.io/diary/2023-02-06/</guid>
       <description>この前ダークモード切替ボタンを実装しましたがVivaldiで怪しい挙動を発見してしまいました
 OSがダークモードかつWebサイト側のダークモードを無効にしている際に、何故か一瞬ダークモードが適用されて画面がちらつく事案が発生・・・
 chromeの拡張機能(Dark Reader)を無効化すると発生しなくなったので何かが競合している可能性が浮上
@@ -507,10 +507,10 @@ chromeの拡張機能(Dark Reader)を無効化すると発生しなくなった�
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-02-08/</link>
+      <link>https://g396.github.io/diary/2023-02-08/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-02-08/</guid>
+      <guid>https://g396.github.io/diary/2023-02-08/</guid>
       <description>久々にOKHttp触ったりしてました
 理由はmastodonのAPIを触る為
 postした結果のjson取得が上手くいかずムカついていたのですが自分が間違っているだけでした
@@ -520,10 +520,10 @@ val response = OkHttpClient().newCall(request).execute() val jsonStr = response.
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-02-13/</link>
+      <link>https://g396.github.io/diary/2023-02-13/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-02-13/</guid>
+      <guid>https://g396.github.io/diary/2023-02-13/</guid>
       <description>最近Cloudflare WARP(VPN)の調子がおかしい・・・
 Youtubeの読込が遅かったりpingがめちゃめちゃ長かったりまともに使えたもんじゃ無くてストレスマッハです
 試しにWARPを1.1.1.1のモード(DNSのみ暗号化するモード)に切り替えたのですが、途端に読み込み速度が爆速になったのでWARPがおかしい疑惑が強まる強まる・・・
@@ -538,10 +538,10 @@ iOSは特に不具合は起きていないんですよね・・・クライア�
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-02-14/</link>
+      <link>https://g396.github.io/diary/2023-02-14/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-02-14/</guid>
+      <guid>https://g396.github.io/diary/2023-02-14/</guid>
       <description>Android StudioでSwipeRefreshLayoutを導入しようとしたら、GUIのプレビュー(あれ何て呼ぶんだ)が表示されなくなってしまい・・・
 XMLの書き方が悪いのかなと思ったけど、そのままビルドしたら普通に動作しちゃったんですよね
 なんか昔も似たようなこと起きてあんスタ(Android Studioの略)再起動したら直ったよな～と思ったので、File &amp;gt; Invalidate Caches &amp;gt; Invalidate and Restart したらあっさり直りました
@@ -551,10 +551,10 @@ gradle書き換えたので新規に追加したライブラリがプレビュ�
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-02-17/</link>
+      <link>https://g396.github.io/diary/2023-02-17/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-02-17/</guid>
+      <guid>https://g396.github.io/diary/2023-02-17/</guid>
       <description>動画貼り付けテスト
 ![[video/2023-02-17.mp4]]
 Igallta裏の最後がどうしても繋がらない
@@ -565,10 +565,10 @@ DIVAコンとMuse Dashの相性が良くて楽しいです</description>
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-02-23/</link>
+      <link>https://g396.github.io/diary/2023-02-23/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-02-23/</guid>
+      <guid>https://g396.github.io/diary/2023-02-23/</guid>
       <description>ブルアカ初めて4ヶ月弱
 やっとLvと経験値がカンスト
 復職した後もぼちぼち続けていきたいゲームだなと思ったので、早めにチュートリアルを終わらせようと頑張りましたがそれでも4ヶ月くらいかかりました（結局のところ復職はまだまだ先になりそうだけど）
@@ -583,10 +583,10 @@ KotlinはKotestとかいうのが良いらしいですが生憎JUnitでしかテ
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-02-26/</link>
+      <link>https://g396.github.io/diary/2023-02-26/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-02-26/</guid>
+      <guid>https://g396.github.io/diary/2023-02-26/</guid>
       <description>Android Studioでレイアウトファイルを弄っていたら変な挙動を観測しました
 GUIで各Viewのマージン(layout_margin)の属性が変更しても何故か反映されない・・・
 もう少し詳しく言うと、設定したマージンが一旦プレビュー上で反映されてから、勝手に元に戻ってしまうような挙動を取ってしまいます
@@ -598,10 +598,10 @@ GUIで操作していた属性とは別の属性(layout_marginHorizontalとlayou
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-03-07/</link>
+      <link>https://g396.github.io/diary/2023-03-07/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-03-07/</guid>
+      <guid>https://g396.github.io/diary/2023-03-07/</guid>
       <description>Mastodonアプリ制作の進捗でも書いておきます
 アカウントの認証  OAuth認証とアクセストークンの直接入力の双方に対応 ただ、アプリを初めて使用する鯖では「そんなアプリ無いぞ」と言われて弾かれるので初回は何らかの登録作業が必要そう(TODO) 複垢登録 削除機能はまだ作ってない 同じアカウントを認証しようとすると落ちる(DB操作を見直せば直るはず)  タイムラインの表示  ホーム、ローカル、パブリック、ホームとローカルの統合(TheDeskっぽいやつ)に対応 統合は単純にホームとローカル双方のAPIを叩いて、うまく結合させてる感じ ストリーミングはWebSocketを勉強しなければならないので後回し・・・  カラムの並び替え・追加・削除  ローカルしか使わない人間（私とか）もいればホームしか使わない人間もいると思うので、必要なカラムだけを表示可能なようにしました カラム表示可能なものは今のところタイムラインと通知のみ 今後追加予定のものは  お気に入り(必須) リスト(必須) 指定したタグの検索結果(できれば) 指定したユーザの投稿(できれば)   カラムを重複させようとすると落ちるので直したい  投稿へのアクション  現状はふぁぼとブーストしか実装してない 今後追加予定のもの(すべて必須)は  ふぁぼ取り消し ブースト取り消し ブックマーク ふぁぼやブーストの件数表示 返信機能    絵文字関連  投稿  一覧取得から、選択した絵文字を投稿欄に自動入力する部分まで実装済 絵文字のポップアップを開くたびにAPIを叩いてしまうのでDBにデータを保持したい   表示  ショートコードを正規表現で抽出し、imgタグ(HTML)に置き換えることで実現 横長の絵文字の表示にも対応済み 設定で大きさを調整できるようにしたい    メディア  画像と動画は詳細画面で表示可能 画像は保存できるようにしたい(できれば他も) 音声ファイルに関してはまだ何も実装してない アップロードはまだ一切実装してない・・・   標準的な機能ばかりですが、書き起こしてみたら割とそこそこの量になりました
 一応1か月以上かかってますしね・・・
@@ -613,10 +613,10 @@ GUIで操作していた属性とは別の属性(layout_marginHorizontalとlayou
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-03-14/</link>
+      <link>https://g396.github.io/diary/2023-03-14/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-03-14/</guid>
+      <guid>https://g396.github.io/diary/2023-03-14/</guid>
       <description>今日書いたViewModelの話、最初はDiaryの方で上げようかなと思っていたのですがBlogの方で上げました
 Diaryの方は基本的にタイトル無し、サッと書いてサッと上げる、タグ分類はしない方針なので技術的なメモはちょっと特性に合わないかな・・・という気がしたのです
 まあBlogの方に上げるネタが不足してるのもあるけど
@@ -632,10 +632,10 @@ Diaryの方は基本的にタイトル無し、サッと書いてサッと上げ
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-03-16/</link>
+      <link>https://g396.github.io/diary/2023-03-16/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-03-16/</guid>
+      <guid>https://g396.github.io/diary/2023-03-16/</guid>
       <description>以前Keybase.pubで作成したデモページにアクセスできなくなっていました
 鯖が死んでるのか？と思いきや、reddit にこんな投稿が・・・
 Keybase.pubは終了したようです・・・いやそういう大事なことはもっと大々的に通知してよ！！
@@ -644,11 +644,26 @@ Keybase.pubは終了したようです・・・いやそういう大事なこと
     </item>
     
     <item>
-      <title>Redirect</title>
-      <link>https://razl-dazl.github.io/redirect/</link>
+      <title></title>
+      <link>https://g396.github.io/diary/2023-03-20/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/redirect/</guid>
+      <guid>https://g396.github.io/diary/2023-03-20/</guid>
+      <description>GitHub PagesのURLを変更しました
+URLの変更自体はするつもりでは無かったのですが、GitHubのIDを変更したので自動的にそれに合わせて変わった、という感じです
+ブログのURL変更についてググると、「SEO的にやるべきでない！」っていうSEO対策バッチリな記事が出てきたりするんですけど、正直あんまり気にしてないです
+広告をペタペタ貼ってお小遣い稼ぎしてる訳でもないので・・・
+検索順位に左右される、万人受けするような内容を書いてる訳でも無いので、一時的に検索に支障が出たとしてもそのうち解決するだろうと楽観視しています
+仕組み上、リダイレクトが出来ずリンク切れになってしまうので、もしブックマークしている人が居るのであれば申し訳ないけど・・・
+各検索エンジンが早くクローリングしてくれることを願います</description>
+    </item>
+    
+    <item>
+      <title>Redirect</title>
+      <link>https://g396.github.io/redirect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://g396.github.io/redirect/</guid>
       <description>リダイレクト用ページ
 ブックマーク等されていた方  ファイルの管理方法が変わったので内部のパスも変わっています リダイレクトの設定もしているのですが多分失敗しています All Postsの方から再度探すようお願いします&amp;hellip;  旧サイトで記事を探されていた方  All Postsの方から再度探すようお願いします&amp;hellip;  </description>
     </item>

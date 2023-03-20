@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Obsidian on Razl-Dazl</title>
-    <link>https://razl-dazl.github.io/tags/obsidian/</link>
+    <link>https://g396.github.io/tags/obsidian/</link>
     <description>Recent content in Obsidian on Razl-Dazl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <copyright>razl-dazl.github.io</copyright>
+    <copyright>razl-dazl.github.io -&gt; g396.github.io</copyright>
     <lastBuildDate>Sun, 19 Feb 2023 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://razl-dazl.github.io/tags/obsidian/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://g396.github.io/tags/obsidian/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugoビルド時にWikiLink形式の動画リンクを変換する</title>
-      <link>https://razl-dazl.github.io/posts/2023/02/hugo-video-wikilink/</link>
+      <link>https://g396.github.io/posts/2023/02/hugo-video-wikilink/</link>
       <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2023/02/hugo-video-wikilink/</guid>
+      <guid>https://g396.github.io/posts/2023/02/hugo-video-wikilink/</guid>
       <description>&lt;p&gt;ObsidianとHugoを組み合わせて使用していたところ新たなる問題が発生しました&lt;/p&gt;
 &lt;p&gt;Obsidianでマークダウンに動画を貼っ付けるとリンクはWikiLinkになりますが、HugoはWikiLinkを読み込んでくれません&lt;/p&gt;
 &lt;p&gt;仕方ないので自力で置き換えることにしました&lt;/p&gt;</description>
@@ -25,28 +25,28 @@
     
     <item>
       <title>ObsidianをHugoの為に最適化</title>
-      <link>https://razl-dazl.github.io/posts/2022/12/obsidian-hugo-plugin/</link>
+      <link>https://g396.github.io/posts/2022/12/obsidian-hugo-plugin/</link>
       <pubDate>Tue, 27 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2022/12/obsidian-hugo-plugin/</guid>
+      <guid>https://g396.github.io/posts/2022/12/obsidian-hugo-plugin/</guid>
       <description>&lt;p&gt;Hugo用の記事(Markdown)をObsidianで書くにあたって、プラグインを入れたり設定を弄ったりしたのでメモしておきます&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hugo用MarkdownエディタとしてObsidianを使うに当たって生じた問題点</title>
-      <link>https://razl-dazl.github.io/posts/2022/12/hugo-obsidian-graph/</link>
+      <link>https://g396.github.io/posts/2022/12/hugo-obsidian-graph/</link>
       <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2022/12/hugo-obsidian-graph/</guid>
+      <guid>https://g396.github.io/posts/2022/12/hugo-obsidian-graph/</guid>
       <description>&lt;p&gt;(追記有) 個人的にObsidianが熱いので記事の執筆もObsidianでやるか～と思ったのですが・・・主に検索面で問題が生じました&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Android端末からGitHub Pagesを更新してみる</title>
-      <link>https://razl-dazl.github.io/posts/2022/12/github-pages-from-android/</link>
+      <link>https://g396.github.io/posts/2022/12/github-pages-from-android/</link>
       <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2022/12/github-pages-from-android/</guid>
+      <guid>https://g396.github.io/posts/2022/12/github-pages-from-android/</guid>
       <description>&lt;p&gt;TermuxでHugoが動くことに気づいたので、じゃあ理論上GitHub Pagesの更新もできるかと思って試してみました&lt;/p&gt;
 &lt;p&gt;ちなみに、この記事も実際にAndroid端末上から更新しています&lt;/p&gt;
 &lt;p&gt;&lt;del&gt;まあ後からPCで修正しましたけど&lt;/del&gt;&lt;/p&gt;</description>

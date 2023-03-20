@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Diaries on Razl-Dazl</title>
-    <link>https://razl-dazl.github.io/diary/</link>
+    <link>https://g396.github.io/diary/</link>
     <description>Recent content in Diaries on Razl-Dazl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <copyright>razl-dazl.github.io</copyright>
+    <copyright>razl-dazl.github.io -&gt; g396.github.io</copyright>
     
-	<atom:link href="https://razl-dazl.github.io/diary/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://g396.github.io/diary/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-01-10/</link>
+      <link>https://g396.github.io/diary/2023-01-10/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-01-10/</guid>
+      <guid>https://g396.github.io/diary/2023-01-10/</guid>
       <description>コンテンツの新しい区分としてDiaryを作成
 ちゃんとした記事を書くほどじゃないけど残したいメモとか、そういった物の為にブログとは別区分で領域を作ってみました
 図書室のエルザ[FOX]がクリア出来た事があまりにも嬉しかったのでここに残しておきます
@@ -25,10 +25,10 @@
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-01-12/</link>
+      <link>https://g396.github.io/diary/2023-01-12/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-01-12/</guid>
+      <guid>https://g396.github.io/diary/2023-01-12/</guid>
       <description>ムームードメインから「ドメインを更新した」なるメールが来ました
 以前VPSで遊ぶために適当に取得した、1年で解約する予定のドメインが勝手に自動更新されてしまったようでした
 調べた所、自動更新のキャンセルは出来ないようでした
@@ -44,10 +44,10 @@
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-01-17/</link>
+      <link>https://g396.github.io/diary/2023-01-17/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-01-17/</guid>
+      <guid>https://g396.github.io/diary/2023-01-17/</guid>
       <description>虹コンが断線してBMSができなくなりました
 幸いにも(?) 冥界帰航を直前に練習してたらBP100~120前後で安定したので本家皆伝のモチベも湧いてきました
 とりあえず断線をどうやって直すか検討中・・・お金さえあればフェニワン買うんですが流石に再就職しないとキツイ</description>
@@ -55,20 +55,20 @@
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-01-20/</link>
+      <link>https://g396.github.io/diary/2023-01-20/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-01-20/</guid>
+      <guid>https://g396.github.io/diary/2023-01-20/</guid>
       <description>激唱Exの最後が奇跡的に繋がってしまったつらい
 こういうタイプの譜面は暫く放置しないと繋げられないので放置します・・・</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-01-27/</link>
+      <link>https://g396.github.io/diary/2023-01-27/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-01-27/</guid>
+      <guid>https://g396.github.io/diary/2023-01-27/</guid>
       <description>CSSを一日中弄くり回していたら、iPhoneで見た場合とPCやAndroidで見た場合で挙動が異なる事に気が付きました・・・
 競合した場合のCSSの適用順序が、どうやらwebkitの時だけ違うみたいで・・・
 FirefoxとVivaldi(Chromiumベース)は同じ挙動だったのでどう考えてもApple様のせいですありがとうございました
@@ -81,10 +81,10 @@ a { ... } h1.foo a { ... } 更に厄介なのは、ダークモード時(dark.cs
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-01-30/</link>
+      <link>https://g396.github.io/diary/2023-01-30/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-01-30/</guid>
+      <guid>https://g396.github.io/diary/2023-01-30/</guid>
       <description>久しぶりにVRoidのやる気が出てきた
 以下を重ね着したのが気に入っています
  サイバースーツ3 スケルトンスーツ  衣装に合わせて白髪にしたら統一感が出ていい感じに・・・
@@ -93,10 +93,10 @@ a { ... } h1.foo a { ... } 更に厄介なのは、ダークモード時(dark.cs
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-02-03/</link>
+      <link>https://g396.github.io/diary/2023-02-03/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-02-03/</guid>
+      <guid>https://g396.github.io/diary/2023-02-03/</guid>
       <description>ここ3日くらいまたサイト周りを弄っています
 ダークモード切替ボタンを実装したいなと思ったので、jsをちょっと調べたりして見様見真似で実装していたのですが、色々な罠にぶつかったり原因不明の事象に当たったりして辛いです
 getElementById()の結果がnullってしまいaddEventListener()でエラってしまいました
@@ -110,10 +110,10 @@ getElementById()の結果がnullってしまいaddEventListener()でエラって
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-02-05/</link>
+      <link>https://g396.github.io/diary/2023-02-05/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-02-05/</guid>
+      <guid>https://g396.github.io/diary/2023-02-05/</guid>
       <description>ブルアカのスタンプラリーをやりに秋葉原へ・・・
 QRコード撮りつつ散財して、配布中のカードを貰ってきました
 シークレットはアロナちゃんなのでした　やったね
@@ -127,10 +127,10 @@ QRコード撮りつつ散財して、配布中のカードを貰ってきまし
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-02-06/</link>
+      <link>https://g396.github.io/diary/2023-02-06/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-02-06/</guid>
+      <guid>https://g396.github.io/diary/2023-02-06/</guid>
       <description>この前ダークモード切替ボタンを実装しましたがVivaldiで怪しい挙動を発見してしまいました
 OSがダークモードかつWebサイト側のダークモードを無効にしている際に、何故か一瞬ダークモードが適用されて画面がちらつく事案が発生・・・
 chromeの拡張機能(Dark Reader)を無効化すると発生しなくなったので何かが競合している可能性が浮上
@@ -139,10 +139,10 @@ chromeの拡張機能(Dark Reader)を無効化すると発生しなくなった�
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-02-08/</link>
+      <link>https://g396.github.io/diary/2023-02-08/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-02-08/</guid>
+      <guid>https://g396.github.io/diary/2023-02-08/</guid>
       <description>久々にOKHttp触ったりしてました
 理由はmastodonのAPIを触る為
 postした結果のjson取得が上手くいかずムカついていたのですが自分が間違っているだけでした
@@ -152,10 +152,10 @@ val response = OkHttpClient().newCall(request).execute() val jsonStr = response.
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-02-13/</link>
+      <link>https://g396.github.io/diary/2023-02-13/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-02-13/</guid>
+      <guid>https://g396.github.io/diary/2023-02-13/</guid>
       <description>最近Cloudflare WARP(VPN)の調子がおかしい・・・
 Youtubeの読込が遅かったりpingがめちゃめちゃ長かったりまともに使えたもんじゃ無くてストレスマッハです
 試しにWARPを1.1.1.1のモード(DNSのみ暗号化するモード)に切り替えたのですが、途端に読み込み速度が爆速になったのでWARPがおかしい疑惑が強まる強まる・・・
@@ -170,10 +170,10 @@ iOSは特に不具合は起きていないんですよね・・・クライア�
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-02-14/</link>
+      <link>https://g396.github.io/diary/2023-02-14/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-02-14/</guid>
+      <guid>https://g396.github.io/diary/2023-02-14/</guid>
       <description>Android StudioでSwipeRefreshLayoutを導入しようとしたら、GUIのプレビュー(あれ何て呼ぶんだ)が表示されなくなってしまい・・・
 XMLの書き方が悪いのかなと思ったけど、そのままビルドしたら普通に動作しちゃったんですよね
 なんか昔も似たようなこと起きてあんスタ(Android Studioの略)再起動したら直ったよな～と思ったので、File &amp;gt; Invalidate Caches &amp;gt; Invalidate and Restart したらあっさり直りました
@@ -183,10 +183,10 @@ gradle書き換えたので新規に追加したライブラリがプレビュ�
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-02-17/</link>
+      <link>https://g396.github.io/diary/2023-02-17/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-02-17/</guid>
+      <guid>https://g396.github.io/diary/2023-02-17/</guid>
       <description>動画貼り付けテスト
 ![[video/2023-02-17.mp4]]
 Igallta裏の最後がどうしても繋がらない
@@ -197,10 +197,10 @@ DIVAコンとMuse Dashの相性が良くて楽しいです</description>
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-02-23/</link>
+      <link>https://g396.github.io/diary/2023-02-23/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-02-23/</guid>
+      <guid>https://g396.github.io/diary/2023-02-23/</guid>
       <description>ブルアカ初めて4ヶ月弱
 やっとLvと経験値がカンスト
 復職した後もぼちぼち続けていきたいゲームだなと思ったので、早めにチュートリアルを終わらせようと頑張りましたがそれでも4ヶ月くらいかかりました（結局のところ復職はまだまだ先になりそうだけど）
@@ -215,10 +215,10 @@ KotlinはKotestとかいうのが良いらしいですが生憎JUnitでしかテ
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-02-26/</link>
+      <link>https://g396.github.io/diary/2023-02-26/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-02-26/</guid>
+      <guid>https://g396.github.io/diary/2023-02-26/</guid>
       <description>Android Studioでレイアウトファイルを弄っていたら変な挙動を観測しました
 GUIで各Viewのマージン(layout_margin)の属性が変更しても何故か反映されない・・・
 もう少し詳しく言うと、設定したマージンが一旦プレビュー上で反映されてから、勝手に元に戻ってしまうような挙動を取ってしまいます
@@ -230,10 +230,10 @@ GUIで操作していた属性とは別の属性(layout_marginHorizontalとlayou
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-03-07/</link>
+      <link>https://g396.github.io/diary/2023-03-07/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-03-07/</guid>
+      <guid>https://g396.github.io/diary/2023-03-07/</guid>
       <description>Mastodonアプリ制作の進捗でも書いておきます
 アカウントの認証  OAuth認証とアクセストークンの直接入力の双方に対応 ただ、アプリを初めて使用する鯖では「そんなアプリ無いぞ」と言われて弾かれるので初回は何らかの登録作業が必要そう(TODO) 複垢登録 削除機能はまだ作ってない 同じアカウントを認証しようとすると落ちる(DB操作を見直せば直るはず)  タイムラインの表示  ホーム、ローカル、パブリック、ホームとローカルの統合(TheDeskっぽいやつ)に対応 統合は単純にホームとローカル双方のAPIを叩いて、うまく結合させてる感じ ストリーミングはWebSocketを勉強しなければならないので後回し・・・  カラムの並び替え・追加・削除  ローカルしか使わない人間（私とか）もいればホームしか使わない人間もいると思うので、必要なカラムだけを表示可能なようにしました カラム表示可能なものは今のところタイムラインと通知のみ 今後追加予定のものは  お気に入り(必須) リスト(必須) 指定したタグの検索結果(できれば) 指定したユーザの投稿(できれば)   カラムを重複させようとすると落ちるので直したい  投稿へのアクション  現状はふぁぼとブーストしか実装してない 今後追加予定のもの(すべて必須)は  ふぁぼ取り消し ブースト取り消し ブックマーク ふぁぼやブーストの件数表示 返信機能    絵文字関連  投稿  一覧取得から、選択した絵文字を投稿欄に自動入力する部分まで実装済 絵文字のポップアップを開くたびにAPIを叩いてしまうのでDBにデータを保持したい   表示  ショートコードを正規表現で抽出し、imgタグ(HTML)に置き換えることで実現 横長の絵文字の表示にも対応済み 設定で大きさを調整できるようにしたい    メディア  画像と動画は詳細画面で表示可能 画像は保存できるようにしたい(できれば他も) 音声ファイルに関してはまだ何も実装してない アップロードはまだ一切実装してない・・・   標準的な機能ばかりですが、書き起こしてみたら割とそこそこの量になりました
 一応1か月以上かかってますしね・・・
@@ -245,10 +245,10 @@ GUIで操作していた属性とは別の属性(layout_marginHorizontalとlayou
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-03-14/</link>
+      <link>https://g396.github.io/diary/2023-03-14/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-03-14/</guid>
+      <guid>https://g396.github.io/diary/2023-03-14/</guid>
       <description>今日書いたViewModelの話、最初はDiaryの方で上げようかなと思っていたのですがBlogの方で上げました
 Diaryの方は基本的にタイトル無し、サッと書いてサッと上げる、タグ分類はしない方針なので技術的なメモはちょっと特性に合わないかな・・・という気がしたのです
 まあBlogの方に上げるネタが不足してるのもあるけど
@@ -264,15 +264,30 @@ Diaryの方は基本的にタイトル無し、サッと書いてサッと上げ
     
     <item>
       <title></title>
-      <link>https://razl-dazl.github.io/diary/2023-03-16/</link>
+      <link>https://g396.github.io/diary/2023-03-16/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/diary/2023-03-16/</guid>
+      <guid>https://g396.github.io/diary/2023-03-16/</guid>
       <description>以前Keybase.pubで作成したデモページにアクセスできなくなっていました
 鯖が死んでるのか？と思いきや、reddit にこんな投稿が・・・
 Keybase.pubは終了したようです・・・いやそういう大事なことはもっと大々的に通知してよ！！
 読み込み速度が遅くてあまり使い物になっていなかったので、まぁ仕方ないとこはあります
 あぁ記事に追記しておかないと・・・</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://g396.github.io/diary/2023-03-20/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://g396.github.io/diary/2023-03-20/</guid>
+      <description>GitHub PagesのURLを変更しました
+URLの変更自体はするつもりでは無かったのですが、GitHubのIDを変更したので自動的にそれに合わせて変わった、という感じです
+ブログのURL変更についてググると、「SEO的にやるべきでない！」っていうSEO対策バッチリな記事が出てきたりするんですけど、正直あんまり気にしてないです
+広告をペタペタ貼ってお小遣い稼ぎしてる訳でもないので・・・
+検索順位に左右される、万人受けするような内容を書いてる訳でも無いので、一時的に検索に支障が出たとしてもそのうち解決するだろうと楽観視しています
+仕組み上、リダイレクトが出来ずリンク切れになってしまうので、もしブックマークしている人が居るのであれば申し訳ないけど・・・
+各検索エンジンが早くクローリングしてくれることを願います</description>
     </item>
     
   </channel>

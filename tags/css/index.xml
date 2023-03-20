@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CSS on Razl-Dazl</title>
-    <link>https://razl-dazl.github.io/tags/css/</link>
+    <link>https://g396.github.io/tags/css/</link>
     <description>Recent content in CSS on Razl-Dazl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <copyright>razl-dazl.github.io</copyright>
+    <copyright>razl-dazl.github.io -&gt; g396.github.io</copyright>
     <lastBuildDate>Sat, 04 Feb 2023 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://razl-dazl.github.io/tags/css/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://g396.github.io/tags/css/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ダークモード切替ボタンの実装</title>
-      <link>https://razl-dazl.github.io/posts/2023/02/darkmode-js/</link>
+      <link>https://g396.github.io/posts/2023/02/darkmode-js/</link>
       <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2023/02/darkmode-js/</guid>
+      <guid>https://g396.github.io/posts/2023/02/darkmode-js/</guid>
       <description>&lt;p&gt;一応CSSはダークモード対応にしていましたが、折角なのでダークモードの切替ボタンを設置しました&lt;/p&gt;</description>
     </item>
     

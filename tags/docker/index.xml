@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docker on Razl-Dazl</title>
-    <link>https://razl-dazl.github.io/tags/docker/</link>
+    <link>https://g396.github.io/tags/docker/</link>
     <description>Recent content in Docker on Razl-Dazl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <copyright>razl-dazl.github.io</copyright>
+    <copyright>razl-dazl.github.io -&gt; g396.github.io</copyright>
     <lastBuildDate>Thu, 09 Dec 2021 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://razl-dazl.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://g396.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Jekyll環境をDockerで構築したよ</title>
-      <link>https://razl-dazl.github.io/posts/2021/12/jekyll-docker-compose/</link>
+      <link>https://g396.github.io/posts/2021/12/jekyll-docker-compose/</link>
       <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://razl-dazl.github.io/posts/2021/12/jekyll-docker-compose/</guid>
+      <guid>https://g396.github.io/posts/2021/12/jekyll-docker-compose/</guid>
       <description>&lt;p&gt;&lt;del&gt;※このサイトはJekyllで生成しているのですが&lt;/del&gt;、作成した記事のプレビューを見るにはRubyが必要なので少し厄介です&lt;/p&gt;
 &lt;p&gt;PCを初期化したり買い換える度にrbenv入れて〜とかやるのは少しだるい&lt;/p&gt;
 &lt;p&gt;環境を汚すのはあまり好きじゃないのでDockerを使って環境を作ることにしました&lt;/p&gt;</description>
