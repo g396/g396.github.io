@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://g396.github.io/tags/android/</loc>
-    <lastmod>2023-03-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://g396.github.io/posts/2023/03/gson-to-kotlin-serialization/</loc>
     <lastmod>2023-03-24T00:00:00+00:00</lastmod>
   </url>
@@ -35,6 +30,11 @@
   <url>
     <loc>https://g396.github.io/posts/2023/03/okhttp-query-array/</loc>
     <lastmod>2023-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://g396.github.io/tags/android/</loc>
+    <lastmod>2023-03-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
