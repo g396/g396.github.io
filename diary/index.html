@@ -69,6 +69,46 @@
 					
 					<div class="post">
 						<div class="markdown">
+							<a class="title" href="/diary/2023-04-02/">2023-04-02</a>
+							<span class="content">
+								
+								<p>いつの間にか4月になってしまった</p>
+<p>前回Mastodonアプリの進捗をここに書いた時に挙げた、やらないといけないことの一覧は</p>
+<ul>
+<li>アプリからのアカウント削除</li>
+<li>投稿削除</li>
+<li>ふぁぼやブーストの取り消し</li>
+<li>フォロー・フォロリクの処理</li>
+<li>アンケートの表示</li>
+</ul>
+<p>こんな感じでした</p>
+<p>このうち出来たのは</p>
+<ul>
+<li>ふぁぼやブーストの取り消し</li>
+<li>フォロー・フォロー解除・フォロリク申請(受理のみまだ)</li>
+<li>アンケートの表示(投票機能はまだ)</li>
+</ul>
+<p>・・・と、思ったより進んでいません</p>
+<p>ここに書かなかったことで実装したものは</p>
+<ul>
+<li>JSONデシリアライザの移行</li>
+<li>ListViewからRecyclerViewへの移行</li>
+<li>ViewPagerからViewPager2への移行</li>
+<li>Adapterでも全面的にビューバインディングを使用するようにした(findViewByIdを基本的に使わない)</li>
+<li>DBアクセスやHTTP通信でのリーク対策</li>
+<li>BlurHashサムネイル表示</li>
+</ul>
+<p>こんな感じ</p>
+<p>振り返ってみると、見た目は変わらず内部の処理を変えるようなものが中心でした</p>
+<p>あまり進んでる感が無いのはこのせいか・・・</p>
+<p>新年度も始まってしまったしいい加減職探しでもしたいのですが、どうすべきか・・・</p>
+
+							</span>
+						</div>
+					</div>
+					
+					<div class="post">
+						<div class="markdown">
 							<a class="title" href="/diary/2023-03-20/">2023-03-20</a>
 							<span class="content">
 								
@@ -256,22 +296,6 @@ android:layout_marginEnd=&#34;16dp&#34;
 <p>API叩く部分のテストコードを書いていないので細かい分析は出来ていないです（書けよ・・・）</p>
 <p>KotlinはKotestとかいうのが良いらしいですが生憎JUnitでしかテストしたことが無いので新しく学ぶか悩む所</p>
 <p>まずは足りない機能の実装が先かなぁ・・・</p>
-
-							</span>
-						</div>
-					</div>
-					
-					<div class="post">
-						<div class="markdown">
-							<a class="title" href="/diary/2023-02-17/">2023-02-17</a>
-							<span class="content">
-								
-								<p>動画貼り付けテスト</p>
-<video controls width="100%" preload="metadata"><source src="video/2023-02-17.mp4" type="video/mp4"></video>
-<p>Igallta裏の最後がどうしても繋がらない</p>
-<p>ここの歯車、よくよくみてみると音符と少しずれてる・・・</p>
-<p>実質的に判定の前方のマージンが少なくなってしまっているけど遅めに押せばなんとかなる・・・のかな　わからない</p>
-<p>DIVAコンとMuse Dashの相性が良くて楽しいです</p>
 
 							</span>
 						</div>
