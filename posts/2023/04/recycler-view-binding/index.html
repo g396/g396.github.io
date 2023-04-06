@@ -2,16 +2,20 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>OKHttpでクエリパラメータに配列を渡す - Razl-Dazl</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta property="og:title" content="OKHttpでクエリパラメータに配列を渡す" />
-<meta property="og:description" content="大それたことじゃないのに何で調べても出てこないんだ・・・？" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>RecyclerViewのViewHolderでバインディングオブジェクトを使う時に警告が出る件 - Razl-Dazl</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="RecyclerViewのViewHolderでバインディングオブジェクトを使う時に警告が出る件" />
+<meta property="og:description" content="RecyclerViewのAdapterでビューバインディングを使いたかったので、ViewHolderの変数にバインディングオブジェクト(って言い方で合ってますか？)を持たせようとしたのですが・・・こういう警告が出る場合がありました
+Type argument for a type parameter T can&#39;t be inferred because it has incompatible upper bounds: ViewDataBinding, RowExampleBinding (multiple incompatible classes). This will become an error in Kotlin 1.9
+型推論がうまくできてない・・・？うーんよくわかんない（ぉ" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://g396.github.io/posts/2023/03/okhttp-query-array/" />
-<meta property="article:published_time" content="2023-03-16T00:00:00+00:00" />
-<meta property="article:modified_time" content="2023-03-16T00:00:00+00:00" />
+<meta property="og:url" content="https://g396.github.io/posts/2023/04/recycler-view-binding/" />
+<meta property="article:published_time" content="2023-04-06T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-04-06T00:00:00+00:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="OKHttpでクエリパラメータに配列を渡す"/>
-<meta name="twitter:description" content="大それたことじゃないのに何で調べても出てこないんだ・・・？"/>
+<meta name="twitter:title" content="RecyclerViewのViewHolderでバインディングオブジェクトを使う時に警告が出る件"/>
+<meta name="twitter:description" content="RecyclerViewのAdapterでビューバインディングを使いたかったので、ViewHolderの変数にバインディングオブジェクト(って言い方で合ってますか？)を持たせようとしたのですが・・・こういう警告が出る場合がありました
+Type argument for a type parameter T can&#39;t be inferred because it has incompatible upper bounds: ViewDataBinding, RowExampleBinding (multiple incompatible classes). This will become an error in Kotlin 1.9
+型推論がうまくできてない・・・？うーんよくわかんない（ぉ"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Raleway:wght@100;200&display=swap" rel="stylesheet">
@@ -66,39 +70,70 @@
 				
 				
 				<div class = "eyecatch">
-					<img src="/thumbnails/kotlin.webp" alt="eyecatch">
-					<div class = "eyecatch-credit"></div>
+					<img src="/thumbnails/android.webp" alt="eyecatch">
+					<div class = "eyecatch-credit">Copyright © Google</div>
 				</div>
 					
 
-				<h1 class="title">OKHttpでクエリパラメータに配列を渡す</h1>
-				<div class="meta">Posted at &mdash; 2023-03-16</div>
+				<h1 class="title">RecyclerViewのViewHolderでバインディングオブジェクトを使う時に警告が出る件</h1>
+				<div class="meta">Posted at &mdash; 2023-04-06</div>
 			</div>
 
 			<div class="markdown">
-				<p>大それたことじゃないのに何で調べても出てこないんだ・・・？</p>
-<blockquote>
-<p>types[]
-Array of String. Types to include in the result.</p>
-</blockquote>
-<p><a href="https://docs.joinmastodon.org/methods/notifications/#get">MastodonのAPI</a>を叩くのにクエリで配列を渡す場面が出てきたのですが</p>
-<p>配列を<code>toString()</code>とかして直接渡しても上手くいきません</p>
-<p>キーを<code>types[0]</code>とか<code>types[1]</code>とか指定して渡しても上手くいきません</p>
-<p>正しい書き方が分からず悪戦苦闘していました</p>
-<p>試行錯誤してたらうまくいったのでとりあえず答えを載せてしまいます</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Kotlin" data-lang="Kotlin"><span style="color:#719e07">val</span> urlBuilder =url.newBuilder().apply {  
-    addQueryParameter(<span style="color:#2aa198">&#34;types[]&#34;</span>, <span style="color:#2aa198">&#34;follow&#34;</span>)  
-    addQueryParameter(<span style="color:#2aa198">&#34;types[]&#34;</span>, <span style="color:#2aa198">&#34;mention&#34;</span>)  
+				<p>RecyclerViewのAdapterでビューバインディングを使いたかったので、ViewHolderの変数にバインディングオブジェクト(って言い方で合ってますか？)を持たせようとしたのですが・・・こういう警告が出る場合がありました</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">Type argument for a type parameter T can&#39;t be inferred because it has incompatible upper bounds: ViewDataBinding, RowExampleBinding (multiple incompatible classes). This will become an error in Kotlin 1.9
+</code></pre></div><p>型推論がうまくできてない・・・？うーんよくわかんない（ぉ</p>
+<p>警告が出た場所は以下</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Kotlin" data-lang="Kotlin"><span style="color:#719e07">class</span> <span style="color:#268bd2">ExampleAdapter</span> (  
+    <span style="color:#719e07">val</span> context: Context,  
+): RecyclerView.Adapter&lt;ExampleAdapter.ViewHolder&gt;() {  
+    <span style="color:#719e07">override</span> <span style="color:#719e07">fun</span> <span style="color:#268bd2">onCreateViewHolder</span>(parent: ViewGroup, viewType: Int): ViewHolder {  
+        <span style="color:#719e07">val</span> inflater = LayoutInflater.from(context)  
+        <span style="color:#719e07">val</span> binding = RowExampleBinding.inflate(inflater, parent, <span style="color:#719e07">false</span>)  
+        <span style="color:#719e07">return</span> ViewHolder(binding.root)
+    }  
+  
+    <span style="color:#719e07">override</span> <span style="color:#719e07">fun</span> <span style="color:#268bd2">getItemCount</span>(): Int {  
+        ...
+    }  
+  
+    <span style="color:#719e07">override</span> <span style="color:#719e07">fun</span> <span style="color:#268bd2">onBindViewHolder</span>(holder: ViewHolder, position: Int) {  
+        <span style="color:#719e07">val</span> imageView = holder.binding.imageView
+        ...
+    }  
+  
+    <span style="color:#719e07">class</span> <span style="color:#268bd2">ViewHolder</span>(view: View) : RecyclerView.ViewHolder(view) {  
+        <span style="color:#719e07">val</span> binding: RowExampleBinding = DataBindingUtil.bind(view)<span style="color:#719e07">!!</span> <span style="color:#586e75">// ←ここで警告が出る
+</span><span style="color:#586e75"></span>    }  
 }
-</code></pre></div><p>このように同じキーを使って値を複数回渡すとうまくいきます <del>気持ち悪ッ・・・</del></p>
-<p>今まで、HashMapにキーと値セットしてそれをクエリパラメータとして渡す、という方法を取っていたので同じキーを使用するという発想に辿り着くまでそれなりの時間を溶かしました 辛い</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Kotlin" data-lang="Kotlin"><span style="color:#719e07">val</span> types = arrayOf(<span style="color:#2aa198">&#34;follow&#34;</span>, <span style="color:#2aa198">&#34;mention&#34;</span>)
-
-<span style="color:#719e07">val</span> urlBuilder =url.newBuilder().apply {
-	types.forEach { addQueryParameter(<span style="color:#2aa198">&#34;types[]&#34;</span>, it) } 
-}
-</code></pre></div><p>クエリが最初から配列として準備されてるならこんな感じですかね・・・</p>
-<p>あとは適当にbuild()してリクエストを投げるだけ！</p>
+</code></pre></div><p>ただこの警告が出ない場合もあって、何でだと思いながら各ファイルを比較してみると、レイアウトファイルの方に原因があるようでした</p>
+<p>警告が出る場合のレイアウトファイルはだいたいこのような感じになっていると思います</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-XML" data-lang="XML"><span style="color:#719e07">&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;</span>  
+<span style="color:#268bd2">&lt;androidx.constraintlayout.widget.ConstraintLayout</span>
+	xmlns:android=<span style="color:#2aa198">&#34;http://schemas.android.com/apk/res/android&#34;</span>  
+	xmlns:app=<span style="color:#2aa198">&#34;http://schemas.android.com/apk/res-auto&#34;</span>  
+	xmlns:tools=<span style="color:#2aa198">&#34;http://schemas.android.com/tools&#34;</span>
+	android:id=<span style="color:#2aa198">&#34;@+id/constraintLayout&#34;</span>  
+	android:layout_width=<span style="color:#2aa198">&#34;match_parent&#34;</span>  
+	android:layout_height=<span style="color:#2aa198">&#34;wrap_content&#34;</span><span style="color:#268bd2">&gt;</span>
+	...
+<span style="color:#268bd2">&lt;/androidx.constraintlayout.widget.ConstraintLayout&gt;</span>
+</code></pre></div><p>これをルートに<code>&lt;layout&gt;</code>を追加するよう書き換えます</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-XML" data-lang="XML"><span style="color:#719e07">&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;</span>  
+<span style="color:#268bd2">&lt;layout</span> xmlns:android=<span style="color:#2aa198">&#34;http://schemas.android.com/apk/res/android&#34;</span>  
+    xmlns:app=<span style="color:#2aa198">&#34;http://schemas.android.com/apk/res-auto&#34;</span>  
+    xmlns:tools=<span style="color:#2aa198">&#34;http://schemas.android.com/tools&#34;</span><span style="color:#268bd2">&gt;</span>  
+  
+    <span style="color:#268bd2">&lt;androidx.constraintlayout.widget.ConstraintLayout</span>
+	    android:id=<span style="color:#2aa198">&#34;@+id/constraintLayout&#34;</span>  
+        android:layout_width=<span style="color:#2aa198">&#34;match_parent&#34;</span>  
+        android:layout_height=<span style="color:#2aa198">&#34;wrap_content&#34;</span><span style="color:#268bd2">&gt;</span>
+		...
+	<span style="color:#268bd2">&lt;/androidx.constraintlayout.widget.ConstraintLayout&gt;</span>
+<span style="color:#268bd2">&lt;/layout&gt;</span>
+</code></pre></div><p>・・・すると直ります　（なんで？）</p>
+<p>注意点として、xmlns:fooの形式の属性に関しては、ルート直下にぶら下げるようにして上げてください</p>
+<p>本当は細かい理由を探りたいけどちょっと色々と忙しく・・・とりあえず解決方法だけ載っけておくことにしました</p>
 			</div>
 
 			<div class="post-tags">
@@ -106,6 +141,14 @@ Array of String. Types to include in the result.</p>
 					
 						<nav class="nav tags">
 							<ul class="flat">
+								
+								<li class="tag">
+									
+									
+									<img src = "/img/tags/android.webp" alt="tag's icon">
+									
+									<a href="/tags/android">Android</a>
+								</li>
 								
 								<li class="tag">
 									
@@ -129,7 +172,11 @@ Array of String. Types to include in the result.</p>
     
     <li><a href="/posts/2023/02/kotlin-okhttp-mastodon/">KotlinでOKHttpを使う(MastodonのAPIに触ってみる)</a></li>
     
-    <li><a href="/posts/2022/06/kclass/">KClassを使ってメソッドを呼び出してみる</a></li>
+    <li><a href="/posts/2023/03/gson-to-kotlin-serialization/">JSONデシリアライザをGsonからKotlin Serializationに変えようとしたら色々つまづいた</a></li>
+    
+    <li><a href="/posts/2023/03/okhttp-query-array/">OKHttpでクエリパラメータに配列を渡す</a></li>
+    
+    <li><a href="/posts/2022/12/github-pages-from-android/">Android端末からGitHub Pagesを更新してみる</a></li>
     
 </ul>
 </div>

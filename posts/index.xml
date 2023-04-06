@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io -&gt; g396.github.io</copyright>
-    <lastBuildDate>Fri, 24 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Apr 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://g396.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>RecyclerViewのViewHolderでバインディングオブジェクトを使う時に警告が出る件</title>
+      <link>https://g396.github.io/posts/2023/04/recycler-view-binding/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://g396.github.io/posts/2023/04/recycler-view-binding/</guid>
+      <description>&lt;p&gt;RecyclerViewのAdapterでビューバインディングを使いたかったので、ViewHolderの変数にバインディングオブジェクト(って言い方で合ってますか？)を持たせようとしたのですが・・・こういう警告が出る場合がありました&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;Type argument for a type parameter T can&amp;#39;t be inferred because it has incompatible upper bounds: ViewDataBinding, RowExampleBinding (multiple incompatible classes). This will become an error in Kotlin 1.9
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;型推論がうまくできてない・・・？うーんよくわかんない（ぉ&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>JSONデシリアライザをGsonからKotlin Serializationに変えようとしたら色々つまづいた</title>
