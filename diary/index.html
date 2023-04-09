@@ -69,6 +69,32 @@
 					
 					<div class="post">
 						<div class="markdown">
+							<a class="title" href="/diary/2023-04-09/">2023-04-09</a>
+							<span class="content">
+								
+								<video controls width="100%" preload="metadata"><source src="video/2023-04-09.mp4" type="video/mp4"></video>
+<p>Igallta裏ふるこんぼ
+99回目でした</p>
+<p>100回切れるとは思ってなかったのでなにげにうれしい</p>
+<p>フル版の動画をサイトのリポジトリに含めるのはファイルサイズ的にちょっとなぁと思ったのでここでは終盤だけ</p>
+<p>フル版は<a href="https://fedimovie.com/w/ba3c8637-cdd4-4d49-b8c9-527ce0f70953">Fedimovie</a>(PeerTubeのインスタンス)にアップロードしてみました</p>
+<p>PeerTubeは我らのMastodon(?)と同じActivityPubプロトコルを使用しているサービスなので、MastodonやMisskeyから新着投稿を受け取ったりすることが出来ます
+素晴らしい！</p>
+<p>PeerTubeのどの鯖に登録するかはそんなに迷いませんでした
+FedimovieはあのFedibirdの中の人が運営している鯖なので、下手に怪しい鯖を探すよりは安心です</p>
+<p>YouTubeに上げることも一瞬考えたんですけど、嫌でも再生数とか登録者数とかを眺めないといけないので辞めました
+こんなの自己満足でしかないので・・・</p>
+<p><del>サービスが中央集権的なら配信者とリスナーの関係も中央集権的ですよね</del></p>
+<p>ただ検索がなぁ・・・</p>
+<p>Googleで動画検索するとYouTubeばっか出てきますよね、あれずるい・・・
+年月を経る度にニコニコとかの動画が出てこなくなってる気がする・・・</p>
+
+							</span>
+						</div>
+					</div>
+					
+					<div class="post">
+						<div class="markdown">
 							<a class="title" href="/diary/2023-04-06/">2023-04-06</a>
 							<span class="content">
 								
@@ -274,28 +300,6 @@
 <p>ここまで見るとなかなか順調なように見えますが、<strong>どこかのコミットからアカウントの認証でコケる事案が発生</strong>しているので、ここ1日くらい進捗がありません・・・</p>
 <p><del>テストコードを書きなさい</del></p>
 <p>助けてー！</p>
-
-							</span>
-						</div>
-					</div>
-					
-					<div class="post">
-						<div class="markdown">
-							<a class="title" href="/diary/2023-02-26/">2023-02-26</a>
-							<span class="content">
-								
-								<p>Android Studioでレイアウトファイルを弄っていたら変な挙動を観測しました</p>
-<p>GUIで各Viewのマージン(layout_margin)の属性が変更しても何故か反映されない・・・</p>
-<p>もう少し詳しく言うと、設定したマージンが一旦プレビュー上で反映されてから、勝手に元に戻ってしまうような挙動を取ってしまいます</p>
-<p>暫く悩んでいましたがコードの方を見てみると</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">android:layout_marginHorizontal=&#34;8dp&#34;
-android:layout_marginVertical=&#34;8dp&#34;
-android:layout_marginStart=&#34;16dp&#34;  
-android:layout_marginTop=&#34;8dp&#34;  
-android:layout_marginEnd=&#34;16dp&#34;
-</code></pre></div><p>あー・・・</p>
-<p>GUIで操作していた属性とは別の属性(<code>layout_marginHorizontal</code>と<code>layout_marginVertical</code>)が干渉していたみたいで・・・</p>
-<p>競合するならこう、大げさにエラーとか出して欲しいです</p>
 
 							</span>
 						</div>
