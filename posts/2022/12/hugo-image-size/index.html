@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Hugoでの画像サイズ調整 - Razl-Dazl</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Hugoでの画像サイズ調整 - Razl-Dazl</title><link rel="icon" type="image/png" href=/favicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:title" content="Hugoでの画像サイズ調整" />
 <meta property="og:description" content="基本的な要素の割にかなり悩んだやつです
 Markdownの記法では画像サイズの指定が出来ないので解決策を考える必要がありました" />
@@ -86,10 +86,10 @@ Markdownの記法では画像サイズの指定が出来ないので解決策を
 <p>Markdown記法の代わりとしてHTMLタグで画像を貼りつけるだけです</p>
 <div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#268bd2">img</span> src<span style="color:#719e07">=</span><span style="color:#2aa198">&#34;foo.jpg&#34;</span> width<span style="color:#719e07">=</span><span style="color:#2aa198">&#34;70%&#34;</span>&gt;
 </code></pre></div><p>ただしHugoのビルド時にデフォルトでHTMLタグが無効化されてしまうのでconfigファイルをいじる必要があります</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#586e75"># To use html tag</span>
-markup:
-  goldmark:
-    renderer:
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#586e75"># To use html tag</span>
+<span style="color:#719e07">markup</span>:
+  <span style="color:#719e07">goldmark</span>:
+    <span style="color:#719e07">renderer</span>:
       <span style="color:#719e07">unsafe</span>: <span style="color:#cb4b16">true</span>
 </code></pre></div><p>前はこの方法にしていましたが、純粋なMarkdown記法で統一したいな～と思ったので辞めました</p>
 <hr>
