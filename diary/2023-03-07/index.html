@@ -2,7 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title> - Razl-Dazl</title><link rel="icon" type="image/png" href=/favicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title> - Razl-Dazl</title><link rel="icon" type="image/png" href=/favicon.png /><link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:title" content="" />
 <meta property="og:description" content="Mastodonアプリ制作の進捗でも書いておきます
 アカウントの認証  OAuth認証とアクセストークンの直接入力の双方に対応 ただ、アプリを初めて使用する鯖では「そんなアプリ無いぞ」と言われて弾かれるので初回は何らかの登録作業が必要そう(TODO) 複垢登録 削除機能はまだ作ってない 同じアカウントを認証しようとすると落ちる(DB操作を見直せば直るはず)  タイムラインの表示  ホーム、ローカル、パブリック、ホームとローカルの統合(TheDeskっぽいやつ)に対応 統合は単純にホームとローカル双方のAPIを叩いて、うまく結合させてる感じ ストリーミングはWebSocketを勉強しなければならないので後回し・・・  カラムの並び替え・追加・削除  ローカルしか使わない人間（私とか）もいればホームしか使わない人間もいると思うので、必要なカラムだけを表示可能なようにしました カラム表示可能なものは今のところタイムラインと通知のみ 今後追加予定のものは  お気に入り(必須) リスト(必須) 指定したタグの検索結果(できれば) 指定したユーザの投稿(できれば)   カラムを重複させようとすると落ちるので直したい  投稿へのアクション  現状はふぁぼとブーストしか実装してない 今後追加予定のもの(すべて必須)は  ふぁぼ取り消し ブースト取り消し ブックマーク ふぁぼやブーストの件数表示 返信機能    絵文字関連  投稿  一覧取得から、選択した絵文字を投稿欄に自動入力する部分まで実装済 絵文字のポップアップを開くたびにAPIを叩いてしまうのでDBにデータを保持したい   表示  ショートコードを正規表現で抽出し、imgタグ(HTML)に置き換えることで実現 横長の絵文字の表示にも対応済み 設定で大きさを調整できるようにしたい    メディア  画像と動画は詳細画面で表示可能 画像は保存できるようにしたい(できれば他も) 音声ファイルに関してはまだ何も実装してない アップロードはまだ一切実装してない・・・   標準的な機能ばかりですが、書き起こしてみたら割とそこそこの量になりました
