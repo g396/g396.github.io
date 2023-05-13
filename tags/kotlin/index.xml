@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io -&gt; g396.github.io</copyright>
-    <lastBuildDate>Thu, 06 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 May 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://g396.github.io/tags/kotlin/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>FragmentStateAdapterのgetItemId()をオーバーライドするとActivity再生成時に落ちる</title>
+      <link>https://g396.github.io/posts/2023/05/android-fragment-state-adapter-override/</link>
+      <pubDate>Sun, 14 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://g396.github.io/posts/2023/05/android-fragment-state-adapter-override/</guid>
+      <description>&lt;p&gt;FragmentStateAdapter +  ViewPager2を利用して、カラムの並び替えが可能な画面を作成していたところ謎のクラッシュに遭遇&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>RecyclerViewのViewHolderでバインディングオブジェクトを使う時に警告が出る件</title>
