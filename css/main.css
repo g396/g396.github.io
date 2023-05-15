@@ -25,7 +25,7 @@
 /* General */
 body {
     font-family: Noto Sans JP, sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     color: var(--text-color);
     background-color: var(--background-color);
     line-height: 1.4;
@@ -88,7 +88,7 @@ blockquote {
 h1,h2,h3,h4,h5,h6 {
     font-family: raleway, Noto Sans JP, sans-serif;
     line-height: 1.2;
-    font-weight: 200;}
+    font-weight: 300;}
 
 table th {
     background-color: #f4f4f4;
@@ -181,6 +181,7 @@ pre code {
 .header{
     margin: auto;}
     .header .site-title {
+        font-weight: 200;
         margin: 0;}
     .header .menu-bar {
         display: flex;
