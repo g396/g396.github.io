@@ -71,6 +71,43 @@
 					
 					<div class="post">
 						<div class="markdown">
+							<a class="title" href="/diary/2023-03-14/">2023-03-14</a>
+							<span class="content">
+								
+								<p>今日書いたViewModelの話、最初はDiaryの方で上げようかなと思っていたのですがBlogの方で上げました</p>
+<p>Diaryの方は基本的にタイトル無し、サッと書いてサッと上げる、タグ分類はしない方針なので技術的なメモはちょっと特性に合わないかな・・・という気がしたのです</p>
+<p><del>まあBlogの方に上げるネタが不足してるのもあるけど</del></p>
+<p>いや、まだ上げていないものが幾つかあるけど画像の用意とかめんどくさいことをしなきゃいけなくて、アプリ作りで忙しい今は上げれないのですよ・・・</p>
+<p>そもそも、こっちでは個人的な日記を書くだけにする予定だったので・・・</p>
+<hr>
+<p><img src="img/2023-03-14.jpg" alt=""></p>
+<p>なので個人的な日記</p>
+<p>20連で出た。ありがとう運営。<del>その調子でバニーも実装してくれ</del></p>
+<p>ちなみにトキは結構回した。辛い。</p>
+<hr>
+<p>せっかくだしMastodonアプリの進捗も書いとこうかな？</p>
+<ul>
+<li>ストリーミングAPI対応</li>
+<li>クライアントキーを自動取得するようにして、どの鯖でもOAuth可能にした</li>
+<li>カラム種類追加(リストやふぁぼ一覧、ブックマーク一覧)</li>
+<li>UIテコ入れ(タブをアクションバーに統合してスペース節約したり、投稿にCardViewを適用させて今風にしたり)</li>
+</ul>
+<p>ただ、ベータ版としてapk配布するのに必要な実装がまだまだ残ってたりする(おい)</p>
+<ul>
+<li>アプリからのアカウント削除</li>
+<li>投稿削除</li>
+<li>ふぁぼやブーストの取り消し</li>
+<li>フォロー・フォロリクの処理</li>
+<li>アンケートの表示</li>
+</ul>
+<p>何が何でも今月中に実装するぞするぞするぞうおおーー</p>
+
+							</span>
+						</div>
+					</div>
+					
+					<div class="post">
+						<div class="markdown">
 							<a class="title" href="/diary/2023-03-07/">2023-03-07</a>
 							<span class="content">
 								
@@ -240,23 +277,6 @@ android:layout_marginEnd=&#34;16dp&#34;
 <code>環境設定 &gt; 接続 &gt; DNSプロトコル</code> を <code>HTTPS</code>へ変更</p>
 <p>iOSは特に不具合は起きていないんですよね・・・クライアントがバグってるだけの可能性ありそう</p>
 <p>接続自体は改善したものの、スピードテストで上りの速度が2Mbpsとかあり得ない数値を出してるので早く直ってほしいです</p>
-
-							</span>
-						</div>
-					</div>
-					
-					<div class="post">
-						<div class="markdown">
-							<a class="title" href="/diary/2023-02-08/">2023-02-08</a>
-							<span class="content">
-								
-								<p>久々にOKHttp触ったりしてました</p>
-<p>理由はmastodonのAPIを触る為</p>
-<p>postした結果のjson取得が上手くいかずムカついていたのですが自分が間違っているだけでした</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin"><span style="color:#719e07">val</span> response = OkHttpClient().newCall(request).execute()
-<span style="color:#719e07">val</span> jsonStr = response.body.string()
-</code></pre></div><p><code>response.body.string()</code> を<code>response.body.toString()</code>としていたが為に・・・</p>
-<p>しょうもない・・・</p>
 
 							</span>
 						</div>
