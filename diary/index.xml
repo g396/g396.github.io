@@ -223,7 +223,7 @@ KotlinはKotestとかいうのが良いらしいですが生憎JUnitでしかテ
 GUIで各Viewのマージン(layout_margin)の属性が変更しても何故か反映されない・・・
 もう少し詳しく言うと、設定したマージンが一旦プレビュー上で反映されてから、勝手に元に戻ってしまうような挙動を取ってしまいます
 暫く悩んでいましたがコードの方を見てみると
-android:layout_marginHorizontal=&amp;#34;8dp&amp;#34; android:layout_marginVertical=&amp;#34;8dp&amp;#34; android:layout_marginStart=&amp;#34;16dp&amp;#34; android:layout_marginTop=&amp;#34;8dp&amp;#34; android:layout_marginEnd=&amp;#34;16dp&amp;#34; あー・・・
+android:layout_marginHorizontal=&amp;#34;8dp&amp;#34;android:layout_marginVertical=&amp;#34;8dp&amp;#34;android:layout_marginStart=&amp;#34;16dp&amp;#34; android:layout_marginTop=&amp;#34;8dp&amp;#34; android:layout_marginEnd=&amp;#34;16dp&amp;#34;あー・・・
 GUIで操作していた属性とは別の属性(layout_marginHorizontalとlayout_marginVertical)が干渉していたみたいで・・・
 競合するならこう、大げさにエラーとか出して欲しいです</description>
     </item>
@@ -403,6 +403,32 @@ Vivaldi CEOとVRChatアバターが共演した世界初の事例
 また機会があったら予備の分貰っておこう・・・（）
 ライブ限定Tシャツ
 また日本ツアーが開催されるのを期待しています　古の表現で全裸待機</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://g396.github.io/diary/2023-05-27/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://g396.github.io/diary/2023-05-27/</guid>
+      <description>もう4ヶ月弱アプリ作ってるらしい・・・
+前回日記に書いたところからどれ程進んだのか振り返ってみる
+ Mastodonアプリの進捗です   Fedibirdの絵文字関連機能に対応
+ 絵文字のリアクション数を表示 通知欄でリアクションに使われた絵文字を表示 投稿に絵文字でリアクションする機能追加    プログラムの構造の見直し
+ 一部クラスで試験的に双方向データバインディングしてみた Adapterクラスの継承元をListAdapterにして、データを持たせないように改良 Adapterで引数に高階関数生やしまくってた所をInterfaceに纏めた ModelやView等の各階層でちゃんとInterfaceや抽象クラスを定義した    機能の改良
+ カラムの並び替えをドラッグして出来るようにした 画像うｐを同期的に(間違えて選択した場合にそのままうｐされないように) 投稿のvisibilityに「サーバの設定に従う」を追加 動画再生時の表示サイズ等の最適化    新しい機能
+ リストにカラムを追加せずともタイムラインを個別のウインドウで開けるように アカウントにアクセントカラーを設定する機能(タブの判別用) ユーザのブロックorミュート/その一覧の表示 CW投稿の本文を隠す 投稿元の表示をカスタムできるようにした    いろいろまずかったやつ
+ カラム全削除すると、設定を開くためのメニューも表示されなくなって初期化するしか無かったのを対策 カラムの削除ボタン連打したら落ちる対策 とりあえず形だけでも英語に対応した 返信するときにvisibilityをちゃんと相手のvisibilityに合わせるように(DMに全公開で返信したりしないように・・・) BindingAdapterの件が解決した     多分まだ抜けてるのあるけど大体これくらい
+5月前半は、プログラムの構造の修正が中心でした 同じような処理を何回も書いていた所を、うまく纏めたりしてました
+5月後半は、既存の機能の調整したり潰さないとまずい問題を直したりしていました まだ足りない機能もありますが一通り揃いつつあるので、配布に向けた修正を中心に行いました
+ちなみに、Fedibird特有機能についてはアプリ配布時に一旦無効化する予定です（その次あたりの更新で再度有効にしたいです）
+ BindingAdapterの件 前回の時点で躓いていたBindingAdapterで絵文字表示を処理させる件は解決しました
+絵文字が表示されないのは、画像の取得が終わった後にViewの再描画処理がうまく走らないのが原因だったので、再描画の処理が走るように細工しました
+Picassoのライブラリを普通に使用するだけなら何も問題無いんですけどねー・・・
+TextViewに絵文字を乗せる都合上、ちょいとイレギュラーな使い方をしているのでそのせいでViewの再描画がうまくいってなかったっぽいです
+ なんだかんだもう600回近くコミットしてるっぽいです 5/2 ~5/27は毎日なにかしら更新していました　そろそろしんどいな
+と、とりあえずちゃんと開発してますアピール・・・
+うぎぎぎｇ</description>
     </item>
     
   </channel>

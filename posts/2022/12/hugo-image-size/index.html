@@ -90,10 +90,10 @@ Markdownの記法では画像サイズの指定が出来ないので解決策を
 <p>Markdown記法の代わりとしてHTMLタグで画像を貼りつけるだけです</p>
 <div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#268bd2">img</span> src<span style="color:#719e07">=</span><span style="color:#2aa198">&#34;foo.jpg&#34;</span> width<span style="color:#719e07">=</span><span style="color:#2aa198">&#34;70%&#34;</span>&gt;
 </code></pre></div><p>ただしHugoのビルド時にデフォルトでHTMLタグが無効化されてしまうのでconfigファイルをいじる必要があります</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#586e75"># To use html tag</span>
-<span style="color:#719e07">markup</span>:
-  <span style="color:#719e07">goldmark</span>:
-    <span style="color:#719e07">renderer</span>:
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#586e75"># To use html tag</span>
+markup:
+  goldmark:
+    renderer:
       <span style="color:#719e07">unsafe</span>: <span style="color:#cb4b16">true</span>
 </code></pre></div><p>前はこの方法にしていましたが、純粋なMarkdown記法で統一したいな～と思ったので辞めました</p>
 <hr>
