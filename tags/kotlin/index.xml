@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io -&gt; g396.github.io</copyright>
-    <lastBuildDate>Sun, 14 May 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jun 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://g396.github.io/tags/kotlin/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>RecyclerViewにLinearLayoutManagerを適用した際にViewの幅がおかしくなる件</title>
+      <link>https://g396.github.io/posts/2023/06/linear-layout-manager-width/</link>
+      <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://g396.github.io/posts/2023/06/linear-layout-manager-width/</guid>
+      <description>&lt;p&gt;RecyclerViewのレイアウトが崩れる場合、大抵はレイアウトファイルに不備があるのですが、今回に限ってはロジック側に問題がありました&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>FragmentStateAdapterのgetItemId()をオーバーライドするとActivity再生成時に落ちる</title>
