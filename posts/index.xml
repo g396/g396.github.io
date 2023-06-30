@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io -&gt; g396.github.io</copyright>
-    <lastBuildDate>Mon, 19 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://g396.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Drawableの色(tint)を動的に設定したい</title>
+      <link>https://g396.github.io/posts/2023/06/android-drawable-color-programmable/</link>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://g396.github.io/posts/2023/06/android-drawable-color-programmable/</guid>
+      <description>&lt;p&gt;DBから読みだしたカラーコードをDrawableの色として設定したいな～ってシチュエーションがあったので適当に実装しました&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>RecyclerViewにLinearLayoutManagerを適用した際にViewの幅がおかしくなる件</title>

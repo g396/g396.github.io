@@ -2,18 +2,18 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>OKHttpでクエリパラメータに配列を渡す - Razl-Dazl</title><link rel="icon" type="image/png" href=/favicon.png /><link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Drawableの色(tint)を動的に設定したい - Razl-Dazl</title><link rel="icon" type="image/png" href=/favicon.png /><link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta property="og:title" content="OKHttpでクエリパラメータに配列を渡す" />
-<meta property="og:description" content="大それたことじゃないのに何で調べても出てこないんだ・・・？" />
+	<meta property="og:title" content="Drawableの色(tint)を動的に設定したい" />
+<meta property="og:description" content="DBから読みだしたカラーコードをDrawableの色として設定したいな～ってシチュエーションがあったので適当に実装しました" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://g396.github.io/posts/2023/03/okhttp-query-array/" />
-<meta property="article:published_time" content="2023-03-16T00:00:00+00:00" />
-<meta property="article:modified_time" content="2023-03-16T00:00:00+00:00" />
+<meta property="og:url" content="https://g396.github.io/posts/2023/06/android-drawable-color-programmable/" />
+<meta property="article:published_time" content="2023-06-30T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-06-30T00:00:00+00:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="OKHttpでクエリパラメータに配列を渡す"/>
-<meta name="twitter:description" content="大それたことじゃないのに何で調べても出てこないんだ・・・？"/>
+<meta name="twitter:title" content="Drawableの色(tint)を動的に設定したい"/>
+<meta name="twitter:description" content="DBから読みだしたカラーコードをDrawableの色として設定したいな～ってシチュエーションがあったので適当に実装しました"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Raleway:wght@200;300&display=swap" rel="stylesheet">
@@ -70,39 +70,63 @@
 				
 				
 				<div class = "eyecatch">
-					<img src="/thumbnails/kotlin.webp" alt="eyecatch">
-					<div class = "eyecatch-credit"></div>
+					<img src="/thumbnails/android.webp" alt="eyecatch">
+					<div class = "eyecatch-credit">Copyright © Google</div>
 				</div>
 					
 
-				<h1 class="title">OKHttpでクエリパラメータに配列を渡す</h1>
-				<div class="meta">Posted at &mdash; 2023-03-16</div>
+				<h1 class="title">Drawableの色(tint)を動的に設定したい</h1>
+				<div class="meta">Posted at &mdash; 2023-06-30</div>
 			</div>
 
 			<div class="markdown">
-				<p>大それたことじゃないのに何で調べても出てこないんだ・・・？</p>
-<blockquote>
-<p>types[]
-Array of String. Types to include in the result.</p>
-</blockquote>
-<p><a href="https://docs.joinmastodon.org/methods/notifications/#get">MastodonのAPI</a>を叩くのにクエリで配列を渡す場面が出てきたのですが</p>
-<p>配列を<code>toString()</code>とかして直接渡しても上手くいきません</p>
-<p>キーを<code>types[0]</code>とか<code>types[1]</code>とか指定して渡しても上手くいきません</p>
-<p>正しい書き方が分からず悪戦苦闘していました</p>
-<p>試行錯誤してたらうまくいったのでとりあえず答えを載せてしまいます</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Kotlin" data-lang="Kotlin"><span style="color:#719e07">val</span> urlBuilder =url.newBuilder().apply {  
-    addQueryParameter(<span style="color:#2aa198">&#34;types[]&#34;</span>, <span style="color:#2aa198">&#34;follow&#34;</span>)  
-    addQueryParameter(<span style="color:#2aa198">&#34;types[]&#34;</span>, <span style="color:#2aa198">&#34;mention&#34;</span>)  
-}
-</code></pre></div><p>このように同じキーを使って値を複数回渡すとうまくいきます <del>気持ち悪ッ・・・</del></p>
-<p>今まで、HashMapにキーと値セットしてそれをクエリパラメータとして渡す、という方法を取っていたので同じキーを使用するという発想に辿り着くまでそれなりの時間を溶かしました 辛い</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Kotlin" data-lang="Kotlin"><span style="color:#719e07">val</span> types = arrayOf(<span style="color:#2aa198">&#34;follow&#34;</span>, <span style="color:#2aa198">&#34;mention&#34;</span>)
+				<p>DBから読みだしたカラーコードをDrawableの色として設定したいな～ってシチュエーションがあったので適当に実装しました</p>
+<p>方法は2種類思いついたので両方残しておきます</p>
+<h2 id="1-imagetintlistプロパティを使用する">(1) imageTintListプロパティを使用する</h2>
+<p>Kotlin(or Java)のコード側から設定する場合は、imageTintListプロパティを使用します</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Kotlin" data-lang="Kotlin"><span style="color:#719e07">val</span> accentColor: Int = <span style="color:#2aa198">0xFFFFFF</span>
 
-<span style="color:#719e07">val</span> urlBuilder =url.newBuilder().apply {
-	types.forEach { addQueryParameter(<span style="color:#2aa198">&#34;types[]&#34;</span>, it) } 
+imageView.imageTintList = let {  
+    <span style="color:#719e07">val</span> selectorArray = arrayOf(intArrayOf(<span style="color:#2aa198">0</span>))  
+    <span style="color:#719e07">val</span> colorArray = intArrayOf(accentColor)  
+    ColorStateList(selectorArray, colorArray)  
 }
-</code></pre></div><p>クエリが最初から配列として準備されてるならこんな感じですかね・・・</p>
-<p>あとは適当にbuild()してリクエストを投げるだけ！</p>
+</code></pre></div><p>ImageViewのプロパティには、（レイアウトファイルの）tint属性に対応するようなものが見当たりませんでした</p>
+<p>その為このようなちょっと回りくどい書き方になってしまっています</p>
+<hr>
+<h2 id="2-データバインディングで値をセットする">(2) データバインディングで値をセットする</h2>
+<p><del>何でこんな単純なことに気づかなかったのか・・・</del></p>
+<p>やってることは単純です</p>
+<p>レイアウトファイルに変数を置いておいてその値をtintに設定するだけです</p>
+<p>（データバインディングの使用方法はここでは省略します）</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-XML" data-lang="XML"><span style="color:#268bd2">&lt;layout</span>  
+    xmlns:android=<span style="color:#2aa198">&#34;http://schemas.android.com/apk/res/android&#34;</span>  
+    xmlns:app=<span style="color:#2aa198">&#34;http://schemas.android.com/apk/res-auto&#34;</span>  
+    xmlns:tools=<span style="color:#2aa198">&#34;http://schemas.android.com/tools&#34;</span><span style="color:#268bd2">&gt;</span>  
+  
+    <span style="color:#268bd2">&lt;data&gt;</span>
+        <span style="color:#268bd2">&lt;variable</span>
+	        name=<span style="color:#2aa198">&#34;accentColor&#34;</span>  
+            type=<span style="color:#2aa198">&#34;int&#34;</span> <span style="color:#268bd2">/&gt;</span>  
+    <span style="color:#268bd2">&lt;/data&gt;</span>
+
+	...
+
+		<span style="color:#268bd2">&lt;ImageView</span>  
+		    android:id=<span style="color:#2aa198">&#34;@+id/imageView&#34;</span>  
+		    android:layout_width=<span style="color:#2aa198">&#34;wrap_content&#34;</span>  
+		    android:layout_height=<span style="color:#2aa198">&#34;wrap_content&#34;</span>  
+		    app:srcCompat=<span style="color:#2aa198">&#34;@drawable/example&#34;</span>  
+			app:tint=<span style="color:#2aa198">&#34;@{accentColor}&#34;</span> <span style="color:#268bd2">/&gt;</span>
+	...
+    
+</code></pre></div><p>Activity側ではビューバインディングを使用するようにしておきます</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Kotlin" data-lang="Kotlin">
+binding = ActivityMainBinding.inflate(layoutInflator)
+...
+
+binding.accentColor = <span style="color:#2aa198">0xFFFFFF</span>
+</code></pre></div><p>こっちの方がtint以外(backgroundTintとか)に対しても設定できるので良い気がする</p>
 			</div>
 
 			<div class="post-tags">
@@ -110,6 +134,14 @@ Array of String. Types to include in the result.</p>
 					
 						<nav class="nav tags">
 							<ul class="flat">
+								
+								<li class="tag">
+									
+									
+									<img src = "/img/tags/android.webp" alt="tag's icon">
+									
+									<a href="/tags/android">Android</a>
+								</li>
 								
 								<li class="tag">
 									
@@ -129,11 +161,15 @@ Array of String. Types to include in the result.</p>
 <h2 class="section-header">関連記事</h2>
 <ul>
     
+    <li><a href="/posts/2023/06/linear-layout-manager-width/">RecyclerViewにLinearLayoutManagerを適用した際にViewの幅がおかしくなる件</a></li>
+    
+    <li><a href="/posts/2023/05/android-fragment-state-adapter-override/">FragmentStateAdapterのgetItemId()をオーバーライドするとActivity再生成時に落ちる</a></li>
+    
+    <li><a href="/posts/2023/04/recycler-view-binding/">RecyclerViewのViewHolderでバインディングオブジェクトを使う時に警告が出る件</a></li>
+    
     <li><a href="/posts/2023/03/kotlin-viewmodel-fragment/">フラグメントに対応するViewModelが新たに生成されない</a></li>
     
     <li><a href="/posts/2023/02/kotlin-okhttp-mastodon/">KotlinでOKHttpを使う(MastodonのAPIに触ってみる)</a></li>
-    
-    <li><a href="/posts/2022/06/kclass/">KClassを使ってメソッドを呼び出してみる</a></li>
     
 </ul>
 </div>
