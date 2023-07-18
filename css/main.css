@@ -391,7 +391,7 @@ posts/index.html用(記事一覧)
 .section .posts {
     margin: 0 0 2em;}
     .section .posts .post {
-        padding: 1em;}
+        padding: 1em 0;}
     .section .posts .flex {
         display: flex;}
         .section .posts .post a {
