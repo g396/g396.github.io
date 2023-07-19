@@ -18,7 +18,8 @@
       <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://g396.github.io/posts/2023/07/htmlcompat-text/</guid>
-      <description>&lt;p&gt;TextViewにHTMLテキストを表示させたいときって多分HtmlCompatを使うと思うんですけど、細かい表示が想定通りにならなかったりするのでいろいろ調整してました&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;2023/07/19 正規表現部分を修正&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;TextViewにHTMLテキストを表示させたいときって多分HtmlCompatを使うと思うんですけど、細かい表示が想定通りにならなかったりするのでいろいろ調整してました&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -54,7 +55,7 @@
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://g396.github.io/posts/2023/04/recycler-view-binding/</guid>
-      <description>&lt;p&gt;(2023/07/18 追記: アホな処理の修正について)&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;2023/07/18 追記: アホな処理の修正について&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;RecyclerViewのAdapterでビューバインディングを使いたかったので、ViewHolderの変数にバインディングオブジェクト(って言い方で合ってますか？)を持たせようとしたのですが・・・こういう警告が出る場合がありました&lt;/p&gt;</description>
     </item>
     
