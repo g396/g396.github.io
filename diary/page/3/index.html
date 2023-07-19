@@ -75,6 +75,28 @@
 					
 					<div class="post">
 						<div class="markdown">
+							<a class="title" href="/diary/2023-02-26/">2023-02-26</a>
+							<span class="content">
+								
+								<p>Android Studioでレイアウトファイルを弄っていたら変な挙動を観測しました</p>
+<p>GUIで各Viewのマージン(layout_margin)の属性が変更しても何故か反映されない・・・</p>
+<p>もう少し詳しく言うと、設定したマージンが一旦プレビュー上で反映されてから、勝手に元に戻ってしまうような挙動を取ってしまいます</p>
+<p>暫く悩んでいましたがコードの方を見てみると</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">android:layout_marginHorizontal=&#34;8dp&#34;
+android:layout_marginVertical=&#34;8dp&#34;
+android:layout_marginStart=&#34;16dp&#34;  
+android:layout_marginTop=&#34;8dp&#34;  
+android:layout_marginEnd=&#34;16dp&#34;
+</code></pre></div><p>あー・・・</p>
+<p>GUIで操作していた属性とは別の属性(<code>layout_marginHorizontal</code>と<code>layout_marginVertical</code>)が干渉していたみたいで・・・</p>
+<p>競合するならこう、大げさにエラーとか出して欲しいです</p>
+
+							</span>
+						</div>
+					</div>
+					
+					<div class="post">
+						<div class="markdown">
 							<a class="title" href="/diary/2023-02-23/">2023-02-23</a>
 							<span class="content">
 								
@@ -171,26 +193,6 @@
 <p>OSがダークモードかつWebサイト側のダークモードを無効にしている際に、何故か一瞬ダークモードが適用されて画面がちらつく事案が発生・・・</p>
 <p>chromeの拡張機能(Dark Reader)を無効化すると発生しなくなったので何かが競合している可能性が浮上</p>
 <p>対策方法は思いつきませんがDark Readerを使用するような人はそもそもダークモードを無効にしないと思うので暫くは放置でいいかなーと思っています</p>
-
-							</span>
-						</div>
-					</div>
-					
-					<div class="post">
-						<div class="markdown">
-							<a class="title" href="/diary/2023-02-05/">2023-02-05</a>
-							<span class="content">
-								
-								<p>ブルアカのスタンプラリーをやりに秋葉原へ・・・</p>
-<p>QRコード撮りつつ散財して、配布中のカードを貰ってきました</p>
-<p><img src="img/2023-02-05.webp" alt=""></p>
-<p>シークレットはアロナちゃんなのでした　やったね</p>
-<p>ちなみに生塩ノアは出ませんでした</p>
-<p>なんでおたくって好きな女をフルネームで呼ぶんでしょうか？</p>
-<p>ちなみにこのカードは1会計に付き最大4枚までしか貰えません</p>
-<p>一枚でも多くゲットするべく一部の会計を友人に代行して貰いましたが、現金をあまり持ち歩いていないので分担方法に難儀しました</p>
-<p>値段の都合で会計を上手く分割することが出来ず、コハルがダメ死刑と言いそうな本を友人に会計して貰うという悲劇が発生しました</p>
-<p>友人に羞恥プレイをさせない為にも、キャッスレス派であろうと懐に予備の万札を忍ばせておくのが賢明です</p>
 
 							</span>
 						</div>
