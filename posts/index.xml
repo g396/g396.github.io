@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io -&gt; g396.github.io</copyright>
-    <lastBuildDate>Tue, 18 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Jul 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://g396.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugoのビルド時に特定の項目をRSSから除外する</title>
+      <link>https://g396.github.io/posts/2023/07/hugo-rss-exclude/</link>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://g396.github.io/posts/2023/07/hugo-rss-exclude/</guid>
+      <description>&lt;p&gt;まずそもそもHugoで作ったサイトがRSSに対応しているのを今まで知らなかったんですけど（ぉ）&lt;/p&gt;
+&lt;p&gt;動作確認してみたら、リダイレクト用ページとかまで含まれてしまっていたのでビルド時に除外するよう細工しました&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>HtmlCompatでHTMLテキストをより正確に表示したい</title>

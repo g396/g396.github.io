@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>razl-dazl.github.io -&gt; g396.github.io</copyright>
-    <lastBuildDate>Tue, 18 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Jul 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://g396.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://g396.github.io/tags/hugo/</link>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://g396.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Android</title>
@@ -36,15 +45,6 @@
       <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://g396.github.io/tags/affinity-designer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://g396.github.io/tags/hugo/</link>
-      <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://g396.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
