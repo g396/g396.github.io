@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Razl-Dazl - g396.github.io</copyright>
-    <lastBuildDate>Sat, 22 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jul 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://g396.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DialogFragmentで出来るだけシンプルにコールバックを実装する</title>
+      <link>https://g396.github.io/posts/2023/07/dialogfragment-callback/</link>
+      <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://g396.github.io/posts/2023/07/dialogfragment-callback/</guid>
+      <description>&lt;p&gt;Fragment系は空のコンストラクタにアクセスできないとActivity生成時に詰むので、色々細工するかと思いますが、コールバックの実装って結構ややこしいですよね・・・&lt;/p&gt;
+&lt;p&gt;仕様についてうまく割り切れば比較的シンプルに実装できたのでここに残しておきます&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Hugoのビルド時に特定の項目をRSSから除外する</title>
