@@ -5,31 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>2023-02-03 - Razl-Dazl</title><link rel="icon" type="image/png" href=/favicon.png /><link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta property="og:title" content="" />
-<meta property="og:description" content="ここ3日くらいまたサイト周りを弄っています
-ダークモード切替ボタンを実装したいなと思ったので、jsをちょっと調べたりして見様見真似で実装していたのですが、色々な罠にぶつかったり原因不明の事象に当たったりして辛いです
-getElementById()の結果がnullってしまいaddEventListener()でエラってしまいました
-適当にググったら答えが出ました、jsの実行がgetElementById()で取得する所より先行していると、そんなものはないと言われてしまうみたいです window.onloadを使用して実行順を制御することでここは解決・・・
-その後はiPhoneとPCで挙動が異なる事案が発生・・・これが本当に意味不明で心が折れそうになった
-ソースをよくよく見てみると変数名を間違えて存在しないものになっていました・・・エラったときの処理の仕方がブラウザによって異なる為に起こったものと推定
-変数名を直したら動作も問題なくなりました JavaScriptに関しては素人なのでこのあたりはいい勉強になりました
-あと、JavaScriptは行末のセミコロンを省略できるみたいなので全部取っ払ってしまいました
-どうせつけ忘れるくらいなら最初から無い方が良いですね～" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://g396.github.io/diary/2023-02-03/" />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="ここ3日くらいまたサイト周りを弄っています
-ダークモード切替ボタンを実装したいなと思ったので、jsをちょっと調べたりして見様見真似で実装していたのですが、色々な罠にぶつかったり原因不明の事象に当たったりして辛いです
-getElementById()の結果がnullってしまいaddEventListener()でエラってしまいました
-適当にググったら答えが出ました、jsの実行がgetElementById()で取得する所より先行していると、そんなものはないと言われてしまうみたいです window.onloadを使用して実行順を制御することでここは解決・・・
-その後はiPhoneとPCで挙動が異なる事案が発生・・・これが本当に意味不明で心が折れそうになった
-ソースをよくよく見てみると変数名を間違えて存在しないものになっていました・・・エラったときの処理の仕方がブラウザによって異なる為に起こったものと推定
-変数名を直したら動作も問題なくなりました JavaScriptに関しては素人なのでこのあたりはいい勉強になりました
-あと、JavaScriptは行末のセミコロンを省略できるみたいなので全部取っ払ってしまいました
-どうせつけ忘れるくらいなら最初から無い方が良いですね～"/>
-<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Raleway:wght@200;300&display=swap" rel="stylesheet">
 
