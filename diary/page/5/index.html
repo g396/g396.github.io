@@ -75,6 +75,38 @@
 					
 					<div class="post">
 						<div class="markdown">
+							<a class="title" href="/diary/2023-01-27/">2023-01-27</a>
+							<span class="content">
+								
+								<p>CSSを一日中弄くり回していたら、iPhoneで見た場合とPCやAndroidで見た場合で挙動が異なる事に気が付きました・・・</p>
+<p>競合した場合のCSSの適用順序が、どうやらwebkitの時だけ違うみたいで・・・</p>
+<p>FirefoxとVivaldi(Chromiumベース)は同じ挙動だったのでどう考えてもApple様のせいですありがとうございました</p>
+<p>webkitの変な挙動は以下を修正した時に発見しました</p>
+<p>修正前</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">a {
+	...
+}
+
+.foo a {
+	...
+}
+</code></pre></div><p>修正後</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">a {
+	...
+}
+
+h1.foo a {
+	...
+}
+</code></pre></div><p>更に厄介なのは、ダークモード時(dark.css適用時)のみ変な挙動になってて、非適用時は特に問題無かったこと・・・</p>
+<p>結果修正は行わずそのままにしました</p>
+
+							</span>
+						</div>
+					</div>
+					
+					<div class="post">
+						<div class="markdown">
 							<a class="title" href="/diary/2023-01-20/">2023-01-20</a>
 							<span class="content">
 								

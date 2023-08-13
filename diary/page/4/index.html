@@ -75,6 +75,21 @@
 					
 					<div class="post">
 						<div class="markdown">
+							<a class="title" href="/diary/2023-02-14/">2023-02-14</a>
+							<span class="content">
+								
+								<p>Android StudioでSwipeRefreshLayoutを導入しようとしたら、GUIのプレビュー(あれ何て呼ぶんだ)が表示されなくなってしまい・・・</p>
+<p>XMLの書き方が悪いのかなと思ったけど、そのままビルドしたら普通に動作しちゃったんですよね</p>
+<p>なんか昔も似たようなこと起きてあんスタ(Android Studioの略)再起動したら直ったよな～と思ったので、<code>File &gt; Invalidate Caches &gt; Invalidate and Restart</code> したらあっさり直りました</p>
+<p>gradle書き換えたので新規に追加したライブラリがプレビューに反映されてなかっただけっぽい</p>
+<p>再起動は大事！</p>
+
+							</span>
+						</div>
+					</div>
+					
+					<div class="post">
+						<div class="markdown">
 							<a class="title" href="/diary/2023-02-13/">2023-02-13</a>
 							<span class="content">
 								
@@ -179,38 +194,6 @@ JavaScriptに関しては素人なのでこのあたりはいい勉強になり�
 </ul>
 <p>衣装に合わせて白髪にしたら統一感が出ていい感じに・・・</p>
 <p>普通の服とか着せてるとあまり気づかないけど、VRoidの太ももの造形へのこだわりが凄い・・・</p>
-
-							</span>
-						</div>
-					</div>
-					
-					<div class="post">
-						<div class="markdown">
-							<a class="title" href="/diary/2023-01-27/">2023-01-27</a>
-							<span class="content">
-								
-								<p>CSSを一日中弄くり回していたら、iPhoneで見た場合とPCやAndroidで見た場合で挙動が異なる事に気が付きました・・・</p>
-<p>競合した場合のCSSの適用順序が、どうやらwebkitの時だけ違うみたいで・・・</p>
-<p>FirefoxとVivaldi(Chromiumベース)は同じ挙動だったのでどう考えてもApple様のせいですありがとうございました</p>
-<p>webkitの変な挙動は以下を修正した時に発見しました</p>
-<p>修正前</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">a {
-	...
-}
-
-.foo a {
-	...
-}
-</code></pre></div><p>修正後</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">a {
-	...
-}
-
-h1.foo a {
-	...
-}
-</code></pre></div><p>更に厄介なのは、ダークモード時(dark.css適用時)のみ変な挙動になってて、非適用時は特に問題無かったこと・・・</p>
-<p>結果修正は行わずそのままにしました</p>
 
 							</span>
 						</div>
