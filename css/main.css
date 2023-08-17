@@ -352,17 +352,6 @@ PC用レイアウト
 
 /*
 ページ別
-index.html用
-*/
-.background {
-    background-image: url("/img/back.webp");
-    background-attachment: fixed;
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;}
-
-/*
-ページ別
 single.html用
 */
 .markdown img {
@@ -407,6 +396,27 @@ posts/index.html用(記事一覧)
                 width: 75%;
                 margin-left: 1em;
                 margin-bottom: 0.5em;}
+
+/*
+ページ別
+トップページ
+*/              
+.profile img {
+    margin: auto;
+    border-radius: 50%;
+    max-height: 128px;
+    object-fit: contain;
+}
+
+@media (min-width:512px){
+    .profile img {
+        margin: unset;
+        max-height: 128px;
+        border-radius: 50%;
+        object-fit: contain;
+    }
+}
+
 
 /*js用(多分)*/
 .align-center {
