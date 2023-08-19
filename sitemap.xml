@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://g396.github.io/tags/develop/</loc>
+    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://g396.github.io/tags/github/</loc>
+    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://g396.github.io/posts/2023/08/github-workflow-push/</loc>
+    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://g396.github.io/posts/</loc>
+    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://g396.github.io/</loc>
+    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://g396.github.io/tags/</loc>
+    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://g396.github.io/tags/android/</loc>
     <lastmod>2023-07-26T00:00:00+00:00</lastmod>
   </url>
@@ -14,21 +44,6 @@
   
   <url>
     <loc>https://g396.github.io/tags/kotlin/</loc>
-    <lastmod>2023-07-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://g396.github.io/posts/</loc>
-    <lastmod>2023-07-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://g396.github.io/</loc>
-    <lastmod>2023-07-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://g396.github.io/tags/</loc>
     <lastmod>2023-07-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -225,11 +240,6 @@
   <url>
     <loc>https://g396.github.io/posts/2022/07/mac-mini/</loc>
     <lastmod>2022-07-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://g396.github.io/tags/develop/</loc>
-    <lastmod>2022-06-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>

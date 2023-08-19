@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Razl-Dazl - g396.github.io</copyright>
-    <lastBuildDate>Wed, 26 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Aug 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://g396.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GitHub Actions用のworkflowファイルのPushに失敗する時</title>
+      <link>https://g396.github.io/posts/2023/08/github-workflow-push/</link>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://g396.github.io/posts/2023/08/github-workflow-push/</guid>
+      <description>&lt;p&gt;Hugoでのビルド作業を自動化するためにworkflowファイルを作ったんですけど、なんかリモートへのプッシュがうまくいかなかったんですよね&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>DialogFragmentで出来るだけシンプルにコールバックを実装する</title>
