@@ -5,25 +5,16 @@
 </span></span><span style=display:flex><span>{{- $pages = where $pctx.RegularPages &#34;Type&#34; &#34;not in&#34; $list -}}
 </span></span></code></pre></div><p>1行目はsliceを利用して除外するタイプのリストを作成しています</p><p>ここの項目を増やしていけば条件を増やすことが出来ます</p><p><code>slice "dog" "cat" "human"</code>みたいに増やして書くだけでおｋです</p><p>2行目で、ページ一覧に対し除外項目でフィルターをかけてます</p><p>ここで<code>not in</code>を<code>in</code>にしたりすると、その条件に一致するタイプのものだけをRSSの候補として上げることが出来ます</p><p>ちなみにタイプ（Type）についてですが</p><p>（記事のフロントマターに定義されている)）layout属性が"single"の場合は<code>page</code>となります
 通常の記事であればセクション名（example.com/hoge/1970-01-01/の"hoge"のとこ）になります</p><p>あとは普通にいつものようにビルドすれば、カスタムしたrss.xmlが自動的に適用されて、先程指定した条件のものが除外された状態でXMLファイルが出力されるようになります！めでたしめでたし</p><hr><h2 id=参考>参考</h2><p>whereの使い方は公式が結構分かりやすいです</p><ul><li><a href=https://gohugo.io/functions/where/>https://gohugo.io/functions/where/</a></li></ul></div><div class=post-tags><nav class="nav tags"><ul class=flat><li class=tag><img src=/img/tags/hugo.webp alt="tag's icon">
-<a href=/tags/hugo>Hugo</a></li></ul></nav></div><div class="related section"><h2 class=section-header>関連記事</h2><ul><li><a href=/posts/2023/hugo-video-wikilink/>Hugoビルド時にWikiLink形式の動画リンクを変換する</a></li><li><a href=/posts/2023/hugo-wsl2-lan/>WSL上のHugoサーバにLAN内の端末からアクセスする</a></li><li><a href=/posts/2023/windows-codeblock/>Windows環境の時だけコードブロックのフォントが汚いので直した</a></li><li><a href=/posts/2023/hugo-eyecatch/>Hugoでタグ毎にアイキャッチ画像を設定する</a></li><li><a href=/posts/2022/obsidian-hugo-plugin/>ObsidianをHugoの為に最適化</a></li></ul></div></div><div class="side section"><div class="author section"><h2 class=section-header>Author@zakuro</h2><div class=content-wrapper><p><img src=/author/avatar.jpg alt></p><p>mastodon: <a href=https://social.vivaldi.net/@396>396@vivaldi.net</a></p></div></div><div class="related section"><h2 class=section-header>Tags</h2><div class=tag-cloud><nav class="nav tags"><ul><li class=tag><img src=/img/tags/tag.webp alt="tag's icon">
-<a href=/tags/affinity/>Affinity (1)</a></li><li class=tag><img src=/img/tags/android.webp alt="tag's icon">
+<a href=/tags/hugo>Hugo</a></li></ul></nav></div><div class="related section"><h2 class=section-header>関連記事</h2><ul><li><a href=/posts/2023/hugo-video-wikilink/>Hugoビルド時にWikiLink形式の動画リンクを変換する</a></li><li><a href=/posts/2023/hugo-wsl2-lan/>WSL上のHugoサーバにLAN内の端末からアクセスする</a></li><li><a href=/posts/2023/windows-codeblock/>Windows環境の時だけコードブロックのフォントが汚いので直した</a></li><li><a href=/posts/2023/hugo-eyecatch/>Hugoでタグ毎にアイキャッチ画像を設定する</a></li><li><a href=/posts/2022/obsidian-hugo-plugin/>ObsidianをHugoの為に最適化</a></li></ul></div></div><div class="side section"><div class="author section"><h2 class=section-header>Author@zakuro</h2><div class=content-wrapper><p><img src=/author/avatar.jpg alt></p><p>mastodon: <a href=https://social.vivaldi.net/@396>396@vivaldi.net</a></p></div></div><div class="related section"><h2 class=section-header>Tags</h2><div class=tag-cloud><nav class="nav tags"><ul><li class=tag><img src=/img/tags/android.webp alt="tag's icon">
 <a href=/tags/android/>Android (17)</a></li><li class=tag><img src=/img/tags/css.webp alt="tag's icon">
-<a href=/tags/css/>CSS (1)</a></li><li class=tag><img src=/img/tags/tag.webp alt="tag's icon">
-<a href=/tags/designer/>Designer (1)</a></li><li class=tag><img src=/img/tags/tag.webp alt="tag's icon">
-<a href=/tags/develop/>Develop (6)</a></li><li class=tag><img src=/img/tags/tag.webp alt="tag's icon">
-<a href=/tags/docker/>Docker (1)</a></li><li class=tag><img src=/img/tags/gitbook.webp alt="tag's icon">
-<a href=/tags/gitbook/>GitBook (2)</a></li><li class=tag><img src=/img/tags/tag.webp alt="tag's icon">
-<a href=/tags/github/>GitHub (1)</a></li><li class=tag><img src=/img/tags/hugo.webp alt="tag's icon">
+<a href=/tags/css/>CSS (1)</a></li><li class=tag><img src=/img/tags/gitbook.webp alt="tag's icon">
+<a href=/tags/gitbook/>GitBook (2)</a></li><li class=tag><img src=/img/tags/hugo.webp alt="tag's icon">
 <a href=/tags/hugo/>Hugo (13)</a></li><li class=tag><img src=/img/tags/tag.webp alt="tag's icon">
-<a href=/tags/ipad/>iPad (1)</a></li><li class=tag><img src=/img/tags/tag.webp alt="tag's icon">
-<a href=/tags/iphone/>iPhone (2)</a></li><li class=tag><img src=/img/tags/tag.webp alt="tag's icon">
 <a href=/tags/javascript/>JavaScript (1)</a></li><li class=tag><img src=/img/tags/kotlin.webp alt="tag's icon">
 <a href=/tags/kotlin/>Kotlin (12)</a></li><li class=tag><img src=/img/tags/mac.webp alt="tag's icon">
 <a href=/tags/mac/>Mac (7)</a></li><li class=tag><img src=/img/tags/obsidian.webp alt="tag's icon">
 <a href=/tags/obsidian/>Obsidian (4)</a></li><li class=tag><img src=/img/tags/python.webp alt="tag's icon">
 <a href=/tags/python/>Python (1)</a></li><li class=tag><img src=/img/tags/tag.webp alt="tag's icon">
 <a href=/tags/rom%E7%84%BC%E3%81%8D/>ROM焼き (6)</a></li><li class=tag><img src=/img/tags/tag.webp alt="tag's icon">
-<a href=/tags/vrchat/>VRChat (1)</a></li><li class=tag><img src=/img/tags/tag.webp alt="tag's icon">
-<a href=/tags/vroid/>VRoid (1)</a></li><li class=tag><img src=/img/tags/tag.webp alt="tag's icon">
-<a href=/tags/wsl/>WSL (1)</a></li><li class=tag><img src=/img/tags/tag.webp alt="tag's icon">
+<a href=/tags/%E3%81%9D%E3%81%AE%E4%BB%96/>その他 (8)</a></li><li class=tag><img src=/img/tags/tag.webp alt="tag's icon">
 <a href=/tags/%E9%9F%B3%E3%82%B2%E3%83%BC/>音ゲー (2)</a></li></ul></nav></div><h2 class=section-header>Archive</h2><a href=/all/>All posts</a></div></div></div><div class="footer wrapper"><nav class=nav><div>Razl-Dazl - g396.github.io | <a href=https://github.com/vividvilla/ezhil>Ezhil theme</a> | Built with <a href=https://gohugo.io>Hugo</a></div></nav></div></body></html>
