@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数学 on Razl-Dazl</title><link>/tags/%E6%95%B0%E5%AD%A6/</link><description>Recent content in 数学 on Razl-Dazl</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><copyright>Razl-Dazl - g396.github.io</copyright><lastBuildDate>Fri, 12 Apr 2024 00:00:00 +0900</lastBuildDate><atom:link href="/tags/%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml"/><item><title>フリーWifiのパスワード</title><link>/math/free-wifi/</link><pubDate>Fri, 12 Apr 2024 00:00:00 +0900</pubDate><guid>/math/free-wifi/</guid><description>&lt;p>懐かしい問題のメモを発掘するシリーズ&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数学 on Razl-Dazl</title><link>/tags/%E6%95%B0%E5%AD%A6/</link><description>Recent content in 数学 on Razl-Dazl</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><copyright>Razl-Dazl - g396.github.io</copyright><lastBuildDate>Fri, 12 Apr 2024 00:00:00 +0900</lastBuildDate><atom:link href="/tags/%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml"/><item><title>フリーWifiのパスワード</title><link>/posts/2024/free-wifi/</link><pubDate>Fri, 12 Apr 2024 00:00:00 +0900</pubDate><guid>/posts/2024/free-wifi/</guid><description>&lt;p>懐かしい問題のメモを発掘するシリーズ&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;strong>FREE Wi-Fi&lt;/strong>&lt;/p>
 &lt;p>$$ \int_{-2}^{2} \biggl(x^3 \cos{\frac{x}{2} + \frac{1}{2}} \biggr) \sqrt{4-x^2} dx $$&lt;/p>
 &lt;p>&lt;strong>The Wi-Fi password is the first 10 digits of the answer.&lt;/strong>&lt;/p>
-&lt;/blockquote></description></item><item><title>オイラーの等式は美しくない</title><link>/math/euler-equation/</link><pubDate>Wed, 27 Mar 2024 00:00:00 +0900</pubDate><guid>/math/euler-equation/</guid><description>&lt;p>$$
+&lt;/blockquote></description></item><item><title>オイラーの等式は美しくない</title><link>/posts/2024/euler-equation/</link><pubDate>Wed, 27 Mar 2024 00:00:00 +0900</pubDate><guid>/posts/2024/euler-equation/</guid><description>&lt;p>$$
 e^{πi} + 1 = 0
 $$
-で表されるオイラーの等式は, プラス1して0になっている所が美しくない.&lt;/p></description></item><item><title>フーリエ級数展開を用いてバーゼル問題を解く(途中式付き)</title><link>/math/zeta2/</link><pubDate>Mon, 25 Mar 2024 00:00:00 +0900</pubDate><guid>/math/zeta2/</guid><description>&lt;p>リーマンゼータ関数ζ(s)は, 以下の式で定義される.&lt;/p>
+で表されるオイラーの等式は, プラス1して0になっている所が美しくない.&lt;/p></description></item><item><title>フーリエ級数展開を用いてバーゼル問題を解く(途中式付き)</title><link>/posts/2024/zeta2/</link><pubDate>Mon, 25 Mar 2024 00:00:00 +0900</pubDate><guid>/posts/2024/zeta2/</guid><description>&lt;p>リーマンゼータ関数ζ(s)は, 以下の式で定義される.&lt;/p>
 &lt;p>$$
 ζ(s)= \sum_{n=1}^∞ \frac{1}{n^s}
-$$&lt;/p></description></item><item><title>いつかの灘の入試</title><link>/math/nada/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/math/nada/</guid><description>&lt;p>$$
+$$&lt;/p></description></item><item><title>いつかの灘の入試</title><link>/posts/1/nada/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/posts/1/nada/</guid><description>&lt;p>$$
 2 \sqrt{100 + \sqrt{9991}} - \sqrt{206}
 $$&lt;/p>
-&lt;p>を解け.&lt;/p></description></item><item><title>んこダイスで「アレ」が出る確率</title><link>/math/nko-dice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/math/nko-dice/</guid><description>&lt;p>んこダイスで「アレ」, つまるとこの「お⚫︎ん⚫︎ん」, すなわちOCHINCHINが出る確率を求めてみる.&lt;/p></description></item><item><title>全ての素数の積</title><link>/math/prime-product/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/math/prime-product/</guid><description>&lt;p>むかしクイズマジックアカデミーで炎上したやつ&lt;/p>
+&lt;p>を解け.&lt;/p></description></item><item><title>んこダイスで「アレ」が出る確率</title><link>/posts/1/nko-dice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/posts/1/nko-dice/</guid><description>&lt;p>んこダイスで「アレ」, つまるとこの「お⚫︎ん⚫︎ん」, すなわちOCHINCHINが出る確率を求めてみる.&lt;/p></description></item><item><title>全ての素数の積</title><link>/posts/1/prime-product/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/posts/1/prime-product/</guid><description>&lt;p>むかしクイズマジックアカデミーで炎上したやつ&lt;/p>
 &lt;p>&lt;strong>全ての素数の積は奇数か？偶数か？&lt;/strong>&lt;/p></description></item></channel></rss>
