@@ -40,19 +40,20 @@
 &lt;p>メイン機を601SOに変え、サブの端末も7月に新調したので、SO-02Fはお役御免&amp;hellip;となっていたのですが、たまには昔みたいにROM焼きするのもありかなと思い、ブートローダがロック(LB)されていても使えるカスタムROMを探し、焼いてみました。&lt;/p></description></item><item><title>国内版XZにF8331のOreoを焼く</title><link>/posts/2018/f8331/</link><pubDate>Tue, 06 Feb 2018 00:00:00 +0900</pubDate><guid>/posts/2018/f8331/</guid><description>&lt;span style="font-size: 50%">移行記事の為レイアウトが崩れる可能性有り&lt;/span>
 &lt;p>というわけで。
 Softbank版Xperia XZ(601SO)にF8331のAndroid 8.0(Oreo)を入れてみたのでその時のメモを残しておきます。
-保証外の行為は自己責任で。ちなみにこちらの環境ではSoftbank版のftfを焼いて戻すことにまだ成功していませんので注意。&lt;/p></description></item><item><title>いつかの灘の入試</title><link>/posts/1/nada/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/posts/1/nada/</guid><description>&lt;p>$$
+保証外の行為は自己責任で。ちなみにこちらの環境ではSoftbank版のftfを焼いて戻すことにまだ成功していませんので注意。&lt;/p></description></item><item><title>いつかの灘の入試</title><link>/posts/1/nada/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/posts/1/nada/</guid><description>$$
 2 \sqrt{100 + \sqrt{9991}} - \sqrt{206}
-$$&lt;/p>
-&lt;p>を解け.&lt;/p></description></item><item><title>オイラーの等式は美しくない</title><link>/posts/1/euler-equation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/posts/1/euler-equation/</guid><description>&lt;p>$$
+$$
+&lt;p>を解け.&lt;/p></description></item><item><title>オイラーの等式は美しくない</title><link>/posts/1/euler-equation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/posts/1/euler-equation/</guid><description>$$
 e^{πi} + 1 = 0
 $$
+&lt;p>
 で表されるオイラーの等式は, プラス1して0になっている所が美しくない.&lt;/p></description></item><item><title>フーリエ級数展開を用いてバーゼル問題を解く(途中式付き)</title><link>/posts/1/zeta2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/posts/1/zeta2/</guid><description>&lt;p>リーマンゼータ関数ζ(s)は, 以下の式で定義される.&lt;/p>
-&lt;p>$$
+$$
 ζ(s)= \sum_{n=1}^∞ \frac{1}{n^s}
-$$&lt;/p></description></item><item><title>フリーWifiのパスワード</title><link>/posts/1/free-wifi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/posts/1/free-wifi/</guid><description>&lt;p>懐かしい問題のメモを発掘するシリーズ&lt;/p>
+$$</description></item><item><title>フリーWifiのパスワード</title><link>/posts/1/free-wifi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/posts/1/free-wifi/</guid><description>&lt;p>懐かしい問題のメモを発掘するシリーズ&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;strong>FREE Wi-Fi&lt;/strong>&lt;/p>
-&lt;p>$$ \int_{-2}^{2} \biggl(x^3 \cos{\frac{x}{2} + \frac{1}{2}} \biggr) \sqrt{4-x^2} dx $$&lt;/p>
+$$ \int_{-2}^{2} \biggl(x^3 \cos{\frac{x}{2} + \frac{1}{2}} \biggr) \sqrt{4-x^2} dx $$
 &lt;p>&lt;strong>The Wi-Fi password is the first 10 digits of the answer.&lt;/strong>&lt;/p>
 &lt;/blockquote></description></item><item><title>んこダイスで「アレ」が出る確率</title><link>/posts/1/nko-dice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/posts/1/nko-dice/</guid><description>&lt;p>んこダイスで「アレ」, つまるとこの「お⚫︎ん⚫︎ん」, すなわちOCHINCHINが出る確率を求めてみる.&lt;/p></description></item><item><title>全ての素数の積</title><link>/posts/1/prime-product/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/posts/1/prime-product/</guid><description>&lt;p>むかしクイズマジックアカデミーで炎上したやつ&lt;/p>
 &lt;p>&lt;strong>全ての素数の積は奇数か？偶数か？&lt;/strong>&lt;/p></description></item></channel></rss>
