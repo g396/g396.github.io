@@ -2,22 +2,22 @@
 :root{
     --background-color: #fafafa;
     --text-color: #333;
-    --primary-color: #a00;
+    --primary-color: #60a;
     --border-color: #ddd;
     --codeblock-color: #f0f0f0; 
     --tag-background-color: #fafafa;
-    --tag-border-color: #a00;
+    --tag-border-color: #333;
     --selection-background-color: #b3d4fc;
-    --blockquote-border-color: #a00;
+    --blockquote-border-color: #60a;
 }
 :root[theme = "dark"] {
     --background-color: #111;
     --text-color: #ddd;
-    --primary-color: #ff7979;
+    --primary-color: #9f7ac5;
     --border-color: #333;
     --codeblock-color: #333;
-    --tag-background-color: #333;
-    --tag-border-color: #333;
+    --tag-background-color: #222;
+    --tag-border-color: #222;
     --selection-background-color: #666;
     --blockquote-border-color: #ddd;
 }
