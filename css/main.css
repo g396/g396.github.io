@@ -185,7 +185,6 @@ pre code {
         margin: 0;}
     .header .menu-bar {
         display: flex;
-        margin-top: 20px;
         justify-content: space-between;}
     .header .toggle {
         margin-top: 10px;
