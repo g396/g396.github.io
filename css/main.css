@@ -186,7 +186,6 @@ pre code {
     .header .menu-bar {
         display: flex;
         margin-top: 20px;
-        border-top: 1px solid var(--border-color);
         justify-content: space-between;}
     .header .toggle {
         margin-top: 10px;
