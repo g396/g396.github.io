@@ -235,7 +235,7 @@ li.tag {
         border-radius: 50%;}
     li.tag a {
         font-size: 1em;
-        margin: 0.25em 0.5em 0.25em 0em;}
+        margin: 0.25em 0.5em 0.375em 0em;}
 
 /*
 共通の要素
@@ -376,6 +376,8 @@ single.html用
     width: 3.5em;
     height: 3.5em;
     margin: 0.5em;
+    background-color: var(--tag-background-color);
+    border: 1px solid var(--tag-border-color);
     border-radius: 50%;
     object-fit: contain;
 }
