@@ -375,7 +375,7 @@ single.html用
 .icon-and-title img {
     width: 3.5em;
     height: 3.5em;
-    margin: 0.5em;
+    margin: 0.5em 1em 0.5em 0;
     background-color: var(--tag-background-color);
     border: 1px solid var(--tag-border-color);
     border-radius: 50%;
