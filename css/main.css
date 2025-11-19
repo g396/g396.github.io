@@ -369,6 +369,16 @@ single.html用
     .post-tags .tags li {
         margin-bottom: 0;
         margin-top: 20px;}
+.icon-and-title {
+    display: flex;
+}
+.icon-and-title img {
+    width: 3.5em;
+    height: 3.5em;
+    margin: 0.5em;
+    border-radius: 50%;
+    object-fit: contain;
+}
 
 /*
 ページ別
