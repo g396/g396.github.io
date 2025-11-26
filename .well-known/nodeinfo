@@ -1,0 +1,9 @@
+
+{
+  "links":[
+    {
+      "rel": "http://nodeinfo.diaspora.software/ns/schema/2.1",
+      "href": "https://g396.github.io/nodeinfo/2.1"
+    }
+  ]
+}
