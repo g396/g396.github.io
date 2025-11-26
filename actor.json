@@ -1,0 +1,24 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://w3id.org/security/v1"
+  ],
+  "id": "https://g396.github.io/actor.json",
+  "type": "Person",
+  "preferredUsername": "{{ .Site.Params.activityPub.username }}",
+  "name": "Razl-Dazl",
+  "summary": "This is a static blog via ActivityPub.",
+  "inbox": "https://g396.github.io/inbox",
+  "outbox": "https://g396.github.io/outbox",
+  "manuallyApprovesFollowers": true,
+  "publicKey": {
+    "id": "https://g396.github.io/actor.json#main-key",
+    "owner": "https://g396.github.io/actor.json",
+    "publicKeyPem": "..."
+  },
+  "icon": {
+    "type": "Image",
+    "mediaType": "image/jpeg",
+    "url": "https://g396.github.io/avatar.jpg"
+  }
+}

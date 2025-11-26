@@ -1,0 +1,10 @@
+{
+  "subject": "acct:blog@g396.github.io",
+  "links": [
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://g396.github.io/actor.json"
+    }
+  ]
+}
