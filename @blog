@@ -3,7 +3,7 @@
     "https://www.w3.org/ns/activitystreams",
     "https://w3id.org/security/v1"
   ],
-  "id": "https://g396.github.io/actor.json",
+  "id": "https://g396.github.io/@blog",
   "type": "Person",
   "preferredUsername": "blog",
   "name": "Razl-Dazl",
@@ -12,8 +12,8 @@
   "outbox": "https://g396.github.io/empty-ordered-collection.json",
   "manuallyApprovesFollowers": true,
   "publicKey": {
-    "id": "https://g396.github.io/actor.json#main-key",
-    "owner": "https://g396.github.io/actor.json",
+    "id": "https://g396.github.io/@blog#main-key",
+    "owner": "https://g396.github.io/@blog",
     "publicKeyPem": "-----BEGIN PUBLIC KEY-----MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtFkIMVsTkqd6D469n8qoUrXGKiA8Su+H6Equm22nsmcLqNBLc367GvI7p+NNeynJHtS+YRsLIXjSAer4tCy9m8e9Vlne2MXw4OnbjTKgQlQpl1z4q4TMomlbi92/zb0ikC8B9pQ35KB8Ved9qTqZHKrMcI6sy+vNnzWgQe2uvCGEfO6LVggd6xPgM7pGvsUgEsDMoZECeCrL49P4DZu6M21ZUmYYiq/AW+M9Qo39cJAiSkvam/rarenf/iOoj+Lw1GynmVKViR25rfbNuO7+OCk1VO4QCp82KmAk6dH9L3I1qUB0AW+1q+K1cbYrfaBqykYSe6qnZQFx++N+0FD2PwIDAQAB-----END PUBLIC KEY-----"
   },
   "icon": {
