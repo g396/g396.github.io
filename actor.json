@@ -9,7 +9,7 @@
   "name": "Razl-Dazl",
   "summary": "This is a static blog via ActivityPub.",
   "inbox": "https://g396.github.io/inbox",
-  "outbox": "https://g396.github.io/outbox",
+  "outbox": "https://g396.github.io/empty-ordered-collection.json",
   "manuallyApprovesFollowers": true,
   "publicKey": {
     "id": "https://g396.github.io/actor.json#main-key",
@@ -20,5 +20,16 @@
     "type": "Image",
     "mediaType": "image/jpeg",
     "url": "https://g396.github.io/avatar.jpg"
-  }
+  },
+  "following": "https://g396.github.io/empty-ordered-collection.json",
+  "followers": "https://g396.github.io/empty-ordered-collection.json",
+  "featured": "https://g396.github.io/empty-ordered-collection.json",
+  "featuredTags": "https://g396.github.io/empty-collection.json",
+  "url": "https://g396.github.io/",
+  "discoverable": true,
+  "published": "2025-11-27T00:00:00Z",
+  "devices": "https://g396.github.io/empty-collection.json",
+  "tag": [],
+  "attachment": []
 }
+
