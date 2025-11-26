@@ -5,7 +5,7 @@
   ],
   "id": "https://g396.github.io/actor.json",
   "type": "Person",
-  "preferredUsername": "{{ .Site.Params.activityPub.username }}",
+  "preferredUsername": "blog",
   "name": "Razl-Dazl",
   "summary": "This is a static blog via ActivityPub.",
   "inbox": "https://g396.github.io/inbox",
