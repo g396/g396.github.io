@@ -1,7 +1,0 @@
-{
-    "@context": "https://www.w3.org/ns/activitystreams",
-    "id": "https://g396.github.io/empty-collection.json",
-    "type": "Collection",
-    "totalItems": 0,
-    "items": []
-}
